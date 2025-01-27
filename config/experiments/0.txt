@@ -1,0 +1,13 @@
+baselines.rouge1 test none
+baselines.rougeL test none
+baselines.bleu test none
+
+baselines.langchain_evaluation test gpt-4o-mini-2024-07-18
+baselines.llama_index_evaluation test gpt-4o-mini-2024-07-18
+baselines.quest_eval test gpt-4o-mini-2024-07-18
+baselines.g_eval test gpt-4o-mini-2024-07-18
+baselines.ragas test gpt-4o-mini-2024-07-18
+
+baselines.fact_score test gpt-4o-mini-2024-07-18
+baselines.ref_checker test gpt-4o-mini-2024-07-18
+tseval test gpt-4o-mini-2024-07-18

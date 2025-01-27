@@ -1,0 +1,3 @@
+tqdm==4.67.1
+pebble==5.0.7
+python_dotenv==1.0.1

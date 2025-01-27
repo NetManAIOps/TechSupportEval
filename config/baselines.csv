@@ -1,0 +1,13 @@
+id,name,type,env
+baselines.rouge1,ROUGE-1,Lexical,base
+baselines.rougeL,ROUGE-L,Lexical,base
+baselines.bleu,BLEU,Lexical,base
+baselines.bert_score,BERTScore,Semantic,bertscore
+baselines.quest_eval,RAGQuestEval,LLM,base
+baselines.g_eval,G-Eval,LLM,deepeval
+baselines.langchain_evaluation,LangChain Eval.,LLM,langchain
+baselines.llama_index_evaluation,LlamaIndex Eval.,LLM,llamaindex
+baselines.ragas,RAGAS,LLM,deepeval
+baselines.fact_score,FActScore,LLM,factscore
+baselines.ref_checker,RefChecker,LLM,refchecker
+tseval,\ours,LLM,default

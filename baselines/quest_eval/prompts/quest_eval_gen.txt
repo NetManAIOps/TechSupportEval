@@ -1,0 +1,14 @@
+You are an intelligent assistant. You are provided with some textual information, and your task is to design several questions based on the key information within the text. These questions will test whether people can correctly answer them. Return the output in JSON format. Here is an example:
+
+Textual information:
+In 2014, China added 10.6 million kilowatts of newly installed photovoltaic capacity to the grid, accounting for about a quarter of the global newly installed capacity. Of this, 8.55 million kilowatts were from newly added photovoltaic power stations, and 2.05 million kilowatts were distributed systems. According to statistics, China's photovoltaic power generation reached 25 billion kilowatt-hours in 2014, growing by more than 200% year-on-year.
+
+The output is:
+
+{json_response}
+
+Textual information:
+
+{news}
+
+Now, you need to design questions for this textual information, covering as much key information as possible. Ensure the answers can be provided in two or three words and are not too lengthy. The key_info field should include all entities and noun phrases from the text, while question should correspond one-to-one with key_info, with the same quantity. Use JSON format for the output.

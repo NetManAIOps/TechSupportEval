@@ -1,0 +1,19 @@
+Based on the provided text, identify and arrange the mentioned steps in the correct logical execution order. Only include steps explicitly stated in the text, and ignore any steps not mentioned, as they are misleading options. Only use the steps listed in the given options.
+
+Text:
+{context}
+
+Steps:
+{task}
+
+Output format:
+Provide the answer as a JSON object where the key "answer" contains a list of step identifiers (e.g., "A", "B", "C") in the correct order based on the given text. Each identifier should correspond to a step explicitly mentioned in the text. Ignore steps not mentioned by the text.
+
+Example:
+{{
+    "answer": []
+}}
+
+**IMPORTANT: Please make sure to only return in JSON format. No words or explanation is needed.**
+
+Output:

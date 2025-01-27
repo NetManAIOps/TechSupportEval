@@ -1,0 +1,31 @@
+You are a Q&A assistant. Given a context and several questions, you need to provide corresponding answers to the questions based on the current context. If the context does not provide enough information, output "Unanswerable" Your answers must follow a specific format, such as:
+
+Context:
+
+The sun is shining brightly today.
+
+Questions:
+
+["Did it rain today?", "Will it rain tomorrow?"],
+
+Answers:
+
+Did it rain today?
+<response>
+No
+</response>
+
+Will it rain tomorrow?
+<response>
+Unable to infer
+</response>
+
+Now, the context is:
+
+{context}
+
+Questions:
+
+{questions}
+
+Based on the context, provide answers to the questions following the format (write the answer inside the <response></response> tags). Please note to answer in one or two words or with very concise statements. Do not add unnecessary words. For questions that cannot be answered, say: "Unanswerable"

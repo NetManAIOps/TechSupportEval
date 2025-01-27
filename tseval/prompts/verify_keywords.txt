@@ -1,0 +1,24 @@
+Based on the provided text, identify and fill in the blanks formatted as "<BLANK [id]>". If the information is not available in the text, respond with "Unanswerable."
+
+Text:
+{context}
+
+Question:
+{task}
+
+Output format:
+Provide the answer as a JSON object with the key "answer", which contains a list of objects. Each object should include:
+- "blank": The blank ID (e.g., 1, 2, 3).
+- "content": The corresponding content for the blank.
+If the blank cannot be filled based on the provided text, the "content" field should be "Unanswerable".
+
+Example:
+{{
+    "answer": [
+        {{"blank": 1, "content": "xxx"}}
+    ]
+}}
+
+**IMPORTANT: Please make sure to only return in JSON format. No words or explanation is needed.**
+
+Output:

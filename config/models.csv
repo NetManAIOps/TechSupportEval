@@ -1,0 +1,11 @@
+model_id,model_name,input_cost,output_cost
+gpt-4o-mini-2024-07-18,GPT 4o Mini,0.15,0.6
+gpt-4o-2024-11-20,GPT 4o,2.5,10
+claude-3.5-haiku-20241022,Claude 3 Haiku,0.8,4
+claude-3.5-sonnet-20240620,Claude 3.5 Sonnet,3,15
+deepseek-chat,DeepSeek V3,0.14,0.28
+deepseek-r1,DeepSeek R1,0.55,2.19
+llama-3.1-8b-instruct,LLaMA 3.1 (8B),0.02,0.05
+llama-3.3-70b-instruct,LLaMA 3.3 (70B),0.12,0.3
+qwen-2.5-7b-instruct,Qwen 2.5 (7B),0.025,0.05
+qwen-2.5-72b-instruct,Qwen 2.5 (72B),0.23,0.4
