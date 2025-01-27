@@ -11,7 +11,7 @@ T = TypeVar('T')
 
 ERR_STEP_MISSING = "STEP_MISSING"
 ERR_STEP_REVERSAL = "STEP_REVERSAL"
-ERR_FACT_MISMATCH = "FACT_MISSING"
+ERR_FACT_MISMATCH = "FACT_MISMATCH"
 
 
 class TechSupportEval:
@@ -45,7 +45,7 @@ class TechSupportEval:
             random.shuffle(shuffled_steps)
 
         task = "\n".join(
-             f"{letter}. {re.sub(r'\\*\\*(.+?)\\*\\*', r'\\1', step)}" for letter, step in zip(string.ascii_uppercase, shuffled_steps)
+             str(letter) + ". " + re.sub(r"\*\*(.+?)\*\*", r"\1", step) for letter, step in zip(string.ascii_uppercase, shuffled_steps)
         )
         gt = [string.ascii_uppercase[shuffled_steps.index(step)] for step in original_order]
         return task, gt
@@ -84,7 +84,9 @@ class TechSupportEval:
 
     async def verify_keywords(self, question: str, ground_truth: str, answer: str) -> list[str]:
         task, gt = self.generate_cloze_test(ground_truth)
-
+        if len(gt) == 0:
+            return []
+        
         res = await self.call_func('verify_keywords', {
             'context': answer,
             'task': task,
@@ -102,7 +104,7 @@ class TechSupportEval:
         if len(detail) > 0:
             errors.append([ERR_FACT_MISMATCH, detail])
 
-        return detail
+        return errors
 
     def match_keyword(self, gt: str, pred: str) -> bool:
         def clean_string(s):
@@ -136,7 +138,7 @@ class TechSupportEval:
             self.verify_steps(question, ground_truth, answer)
         ]) for y in x]
 
-        score = len(errors) == 0
+        score = int(len(errors) == 0)
         return score, {'reason': errors}
 
 if __name__ == '__main__':

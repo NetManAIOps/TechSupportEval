@@ -22,6 +22,10 @@ def calc_metric(dataset_path, result_path):
         gt_score = res_df['label']
         pred_score = res_df['score']
 
+        gt_mean = gt_score.mean()
+        pred_mean = pred_score.mean()
+        err_rate = abs(gt_mean - pred_mean)
+
         try:
             auc_value = roc_auc_score(gt_score, pred_score).item()
         except:
@@ -34,6 +38,9 @@ def calc_metric(dataset_path, result_path):
 
         report = {
             'auc': round(auc_value, 4),
+            'mean': round(pred_mean, 4),
+            'gt_mean': round(gt_mean, 4),
+            'err_rate': round(err_rate, 4),
             'pearsonr': round(pearsonr_value, 4),
         }
         
@@ -43,8 +50,8 @@ if __name__ == '__main__':
     exp_name = sys.argv[1]
     dataset = exp_name.split('|')[1] + '.json'
     report = calc_metric(
-        Path(os.path.join(__file__)) / '../data' / 'final' / dataset,
-        Path(os.path.join(__file__)) / '../output' / exp_name / 'score.json',
+        Path(os.path.dirname(__file__)) / '..' / 'data' / 'final' / dataset,
+        Path(os.path.dirname(__file__)) / '..' / 'output' / exp_name / 'score.json',
     )
     for metric, val in report.items():
         print('%s: %.04f' % (metric, val))

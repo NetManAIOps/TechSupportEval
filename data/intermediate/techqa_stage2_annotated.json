@@ -61,7 +61,7 @@
       "swg21682249"
     ],
     "id": 826,
-    "ground_truth_refined": "1. Set environment variables that are needed by the application directly in the instance.\n   Use the command **streamtool setproperty** followed by the parameters **-d <domain> -i <instance>** and **--application-ev <VARIABLE NAME>=<VARIABLE VALUE>** to configure the environment variables.",
+    "ground_truth_refined": "1. Set environment variables that are needed by the application directly in the instance.\n   Use the command **streamtool setproperty** followed by the parameters '-d <domain> -i <instance>' and '--application-ev <VARIABLE NAME>=<VARIABLE VALUE>' to configure the environment variables.",
     "annotator": 1,
     "annotation_id": 362,
     "created_at": "2025-01-26T05:40:30.027058Z",
@@ -337,12 +337,12 @@
       "swg21477254"
     ],
     "id": 830,
-    "ground_truth_refined": "1. Type (copy\/paste) the following command:\n   Run the command **sudo chown -R root:admin 20** in the Terminal.\n2. Press Enter\/Return.\n   \n3. Close Terminal.\n   \n4. Launch the **License Authorization Wizard**.\n   \n5. The warning message should no longer appear.\n   \n6. License your IBM SPSS Statistics product.\n   ",
+    "ground_truth_refined": "1. If open, close the IBM SPSS Statistics product.\n2. If open, close the License Authorization Wizard.\n3. Open Finder.\n4. Select the 'Go' menu.\n5. Select the **Utilities** menu.\n6. Open the **Terminal** program.\n7. Type (copy\/paste) the following command: **cd \/Applications\/IBM\/SPSS\/Statistics\/**\n8. Press Enter\/Return.\n9. Type (copy\/paste) the following command:\n   Run the command 'sudo chown -R root:admin 25 in the Terminal.\n10. Press Enter\/Return.\n11. Close Terminal.\n12. Launch the License Authorization Wizard.\n13. The warning message should no longer appear.\n14. License your IBM SPSS Statistics product.\n   ",
     "annotator": 1,
     "annotation_id": 366,
     "created_at": "2025-01-26T05:43:34.329412Z",
-    "updated_at": "2025-01-26T05:43:34.329453Z",
-    "lead_time": 33.887
+    "updated_at": "2025-01-27T12:40:31.063178Z",
+    "lead_time": 498.651
   },
   {
     "question_id": "TECHQA_TRAIN_Q012",
@@ -475,12 +475,12 @@
       "swg21883069"
     ],
     "id": 832,
-    "ground_truth_refined": "1. Ensure the target TIP installation is at TIPCore **2.2.0** or newer.\n   \n2. Upgrade TIP 2.1 installations to TIP 2.2 using the TIP **2.2.0.1** feature pack.\n   ",
+    "ground_truth_refined": "1. Upgrade to TIP 2.2.0.1 by downloading the following items from **IBM Fix Central**:\n  - **2.2.0.1-TIV-TIP-<platform>-RP0001**\n  - 2.2.0.1-TIV-TIP-FITSuit-RP0001vx\n  - 2201-fixpack-guide-PDF.pdf\n\n2. After upgrading, you can then apply the TIP 2.2 fix packs.",
     "annotator": 1,
     "annotation_id": 368,
     "created_at": "2025-01-26T05:44:36.450351Z",
-    "updated_at": "2025-01-26T05:44:36.450393Z",
-    "lead_time": 35.025
+    "updated_at": "2025-01-27T12:42:28.412654Z",
+    "lead_time": 65.343
   },
   {
     "question_id": "TECHQA_TRAIN_Q016",
@@ -1441,12 +1441,12 @@
       "nas8N1010329"
     ],
     "id": 846,
-    "ground_truth_refined": "1. Try **DLTLICPGM 5724C04** for the Tivoli agent.\n\n2. If that does not work, run the following i5\/OS commands.\n\n3. Run command: DLTLIB QAUTOMON.\n\n4. Run command: DLTLIB QAUTOTMP.\n\n5. Run command: **DLTUSRPRF QAUTOMON** and choose to remove all objects owned by this user.\n\n6. Start **qsh**.\n\n7. Delete \/QIBM\/USERDATA\/IBM\/ITM and all subdirectories in it.\n\n8. Delete \/QIBM\/PRODDATA\/IBM\/ITM and all subdirectories in it.\n\n9. Retry the **RSTLICPGM** commands specified in the user guide.",
+    "ground_truth_refined": "1. Run command: DLTLIB QAUTOMON.\n\n2. Run command: DLTLIB QAUTOTMP.\n\n3. Run command: DLTUSRPRF QAUTOMON and choose to remove all objects owned by this user.\n\n4. Start qsh.\n\n5. Delete \/QIBM\/USERDATA\/IBM\/ITM and all subdirectories in it.\n\n6. Delete \/QIBM\/PRODDATA\/IBM\/ITM and all subdirectories in it.\n\n7. Retry the RSTLICPGM commands specified in the user guide.",
     "annotator": 1,
     "annotation_id": 382,
     "created_at": "2025-01-26T05:54:29.742065Z",
-    "updated_at": "2025-01-26T05:54:29.742109Z",
-    "lead_time": 50.498
+    "updated_at": "2025-01-27T13:07:28.560481Z",
+    "lead_time": 130.83599999999998
   },
   {
     "question_id": "TECHQA_TRAIN_Q062",
@@ -1510,12 +1510,12 @@
       "swg1IV28119"
     ],
     "id": 847,
-    "ground_truth_refined": "1. If you don't want to use the default userid and profile, you need to create your own userid.\n   Create a new userid that will replace the default userid **IBMMON_AGENT**.\n2. Provide it with a set of minimum required authorization settings.\n   Assign the new userid a minimum required set of authorization settings as specified in the system.\n3. Refer to the values specified for the **\/IBMMON\/AUTH** profile available in the transport.\n   Check the \/IBMMON\/AUTH profile in the transport to understand the necessary authorizations needed for the new userid.\n4. By looking at this profile, you can obtain the needed authorization information.\n   Use the information from the \/IBMMON\/AUTH profile to ensure that the new userid has the correct authorization settings.",
+    "ground_truth_refined": "1. If you don't want to use the default userid and profile, you need to create your own userid.\n   Create a new userid that will replace the default userid IBMMON_AGENT.\n2. Refer to the values specified for the **\/IBMMON\/AUTH** profile available in the transport.\n   Check the \/IBMMON\/AUTH profile in the transport to understand the necessary authorizations needed for the new userid.\n3. By looking at this profile, you can obtain the needed authorization information.\n   Use the information from the \/IBMMON\/AUTH profile to ensure that the new userid has the correct authorization settings.",
     "annotator": 1,
     "annotation_id": 383,
     "created_at": "2025-01-26T05:55:24.108023Z",
-    "updated_at": "2025-01-26T05:55:24.108069Z",
-    "lead_time": 53.367
+    "updated_at": "2025-01-27T13:12:05.447765Z",
+    "lead_time": 224.90499999999997
   },
   {
     "question_id": "TECHQA_TRAIN_Q065",
@@ -2752,12 +2752,12 @@
       "swg1HE11874"
     ],
     "id": 865,
-    "ground_truth_refined": "1. Navigate to **<Atlas_Install_folder>\/Atlas\/Properties folder**\n   \n2. Edit **log4.properties** file\n   \n3. Update the path Information for the following three properties\n   (1) **log4j.appender.MATTER_APPENDER.File=matter_adapter.log** (2) log4j.appender.PERSON_APPENDER.File=person_adapter.log (3) log4j.appender.ORG_UNIT_APPENDER.File=org_unit_adapter.log\n4. Save the file\n   \n5. Restart Atlas application server\n   ",
+    "ground_truth_refined": "1. Navigate to **<Atlas_Install_folder>\/Atlas\/Properties folder**\n\n2. Edit **log4j.properties** file\n\n3. Update the path Information for the following three properties\n   (1) **log4j.appender.MATTER_APPENDER.File=matter_adapter.log** (2) log4j.appender.PERSON_APPENDER.File=person_adapter.log (3) log4j.appender.ORG_UNIT_APPENDER.File=org_unit_adapter.log\n4. Save the file\n\n5. Restart Atlas application server",
     "annotator": 1,
     "annotation_id": 401,
     "created_at": "2025-01-26T06:05:16.959353Z",
-    "updated_at": "2025-01-26T06:05:16.959396Z",
-    "lead_time": 48.55
+    "updated_at": "2025-01-27T13:30:23.729811Z",
+    "lead_time": 82.865
   },
   {
     "question_id": "TECHQA_TRAIN_Q118",
@@ -3097,12 +3097,12 @@
       "swg1PM36141"
     ],
     "id": 870,
-    "ground_truth_refined": "1. Adjust the stack sizes (**Xss** and **Xmso**) options.\n   \n2. Adjust the stack sizes if the first step does not work.\n   ",
+    "ground_truth_refined": "1. Adjust the stack sizes (Xss and Xmso) options.\n   ",
     "annotator": 1,
     "annotation_id": 406,
     "created_at": "2025-01-26T06:06:58.982992Z",
-    "updated_at": "2025-01-26T06:06:58.983061Z",
-    "lead_time": 24.984
+    "updated_at": "2025-01-27T13:38:23.856634Z",
+    "lead_time": 34.249
   },
   {
     "question_id": "TECHQA_TRAIN_Q129",
@@ -3304,12 +3304,12 @@
       "swg21976520"
     ],
     "id": 873,
-    "ground_truth_refined": "1. Open command prompt\n   \n2. Navigate to the **CMOD\\9.0\\bin** directory\n   \n3. Issue ARSTFMT command\n   Use the ARSTFMT command as follows: **arstfmt -i C:\\Users\\IBM_ADMIN\\path\\to\\file -o C:\\Users\\IBM_ADMIN\\path\\to\\file\\name.txt**",
+    "ground_truth_refined": "1. Open command prompt\n\n2. Navigate to the CMOD\\9.0\\bin directory\n\n3. Issue ARSTFMT command\n   Use the ARSTFMT command as follows: **arstfmt -i C:\\Users\\IBM_ADMIN\\path\\to\\file -o C:\\Users\\IBM_ADMIN\\path\\to\\file\\name.txt**",
     "annotator": 1,
     "annotation_id": 409,
     "created_at": "2025-01-26T06:08:27.106149Z",
-    "updated_at": "2025-01-26T06:08:27.106192Z",
-    "lead_time": 36.889
+    "updated_at": "2025-01-27T13:40:11.491949Z",
+    "lead_time": 53.891000000000005
   },
   {
     "question_id": "TECHQA_TRAIN_Q134",
@@ -3442,12 +3442,12 @@
       "swg27050531"
     ],
     "id": 875,
-    "ground_truth_refined": "1. Copy the software on a local disk.\n2. Start the re-installation of the .NET API.\n3. Select all sub-components of .NET framework **45** that were not listed before.",
+    "ground_truth_refined": "1. Copy the software on a local disk.\n2. Start the re-installation of the .NET API.\n3. Select all sub-components of .NET framework **4.5** that were not listed before.",
     "annotator": 1,
     "annotation_id": 411,
     "created_at": "2025-01-26T06:09:08.191727Z",
-    "updated_at": "2025-01-26T06:09:08.191771Z",
-    "lead_time": 13.308
+    "updated_at": "2025-01-27T13:41:47.875443Z",
+    "lead_time": 24.871000000000002
   },
   {
     "question_id": "TECHQA_TRAIN_Q141",
@@ -3649,12 +3649,12 @@
       "swg21620606"
     ],
     "id": 878,
-    "ground_truth_refined": "1. Open the **WAS** admin console\n   \n2. Navigate to Resources > Resource environment providers > WP ScriptingService > Custom properties\n   \n3. Locate an entry with the name **ServerExt.applications** and value **com.ibm.wps.scripting.server.ApplicationServerExtensions**\n   \n4. Delete this entry, save and restart the server\n   ",
+    "ground_truth_refined": "1. Open the **WebSphere Application Server (WAS)** admin console\n\n2. Navigate to Resources > Resource environment providers > WP ScriptingService > Custom properties\n\n3. Locate an entry with the name **ServerExt.applications** and value **com.ibm.wps.scripting.server.ApplicationServerExtensions**\n\n4. Delete this entry, save and restart the server",
     "annotator": 1,
     "annotation_id": 414,
     "created_at": "2025-01-26T06:10:49.319988Z",
-    "updated_at": "2025-01-26T06:10:49.320033Z",
-    "lead_time": 30.908
+    "updated_at": "2025-01-27T13:43:30.762330Z",
+    "lead_time": 55.917
   },
   {
     "question_id": "TECHQA_TRAIN_Q152",
@@ -4546,12 +4546,12 @@
       "swg21568262"
     ],
     "id": 891,
-    "ground_truth_refined": "1. Place the **WASServiceCmd.exe** utility in the following directory:\n   Move the **WASServiceCmd.exe** utility file to the **install_root\\bin** directory.\n2. Launch the command from the command line.\n   \n3. The WASServiceCmd utility prompts you to select specific options and settings from a list and then calls the WASService.exe command passing all selected parameters.",
+    "ground_truth_refined": "1. Place the **WASServiceCmd.exe** utility in the following directory:\n   Move the **WASServiceCmd.exe** utility file to the **install_root\\bin** directory.\n2. Launch the command from the command line.\n   The WASServiceCmd utility prompts you to select specific options and settings from a list and then calls the WASService.exe command passing all selected parameters.",
     "annotator": 1,
     "annotation_id": 427,
     "created_at": "2025-01-26T06:17:40.975081Z",
-    "updated_at": "2025-01-26T06:17:40.975125Z",
-    "lead_time": 45.462
+    "updated_at": "2025-01-27T13:47:37.582959Z",
+    "lead_time": 62.89
   },
   {
     "question_id": "TECHQA_TRAIN_Q201",
@@ -4615,12 +4615,12 @@
       "swg21596101"
     ],
     "id": 892,
-    "ground_truth_refined": "1. Uninstall the WIMSYSTEM enterprise application from the **WebSphere_Portal** server.\n\n2. Follow the steps in Document #1358381 to install the .ear file on the **DMGR**.\n   Refer to Document #1358381 available at **http:\/\/www.ibm.com\/support\/docview.wss?rs=899&uid=swg21358381** for detailed steps.",
+    "ground_truth_refined": "1. Uninstall the WIMSYSTEM enterprise application from the **WebSphere_Portal** server.\n\n2. Follow the steps in Document **#1358381** to install the .ear file on the **DMGR**.\n",
     "annotator": 1,
     "annotation_id": 428,
     "created_at": "2025-01-26T06:18:52.170423Z",
-    "updated_at": "2025-01-26T06:18:52.170469Z",
-    "lead_time": 70.35
+    "updated_at": "2025-01-27T13:49:16.960882Z",
+    "lead_time": 98.934
   },
   {
     "question_id": "TECHQA_TRAIN_Q202",
@@ -5719,12 +5719,12 @@
       "swg21476542"
     ],
     "id": 908,
-    "ground_truth_refined": "1. Install the latest FixPack **2** for IBM SPSS Statistics **24** on Mac.",
+    "ground_truth_refined": "1. No older SPSS **Statistics** releases are supported on Sierra.",
     "annotator": 1,
     "annotation_id": 444,
     "created_at": "2025-01-26T06:34:55.079055Z",
-    "updated_at": "2025-01-26T06:34:55.079111Z",
-    "lead_time": 43.332
+    "updated_at": "2025-01-27T13:59:15.784856Z",
+    "lead_time": 148.79
   },
   {
     "question_id": "TECHQA_TRAIN_Q237",
@@ -5788,12 +5788,12 @@
       "swg1JR51510"
     ],
     "id": 909,
-    "ground_truth_refined": "1. Collect the troubleshooting data if you need help from **IBM Business Process Manager Support**.\n   ",
+    "ground_truth_refined": "1. Collect the following troubleshooting data if you need help from IBM **Business Process Manager** Support.\n   ",
     "annotator": 1,
     "annotation_id": 445,
     "created_at": "2025-01-26T06:35:43.283658Z",
-    "updated_at": "2025-01-26T06:35:43.283760Z",
-    "lead_time": 47.286
+    "updated_at": "2025-01-27T14:00:03.616258Z",
+    "lead_time": 58.5
   },
   {
     "question_id": "TECHQA_TRAIN_Q250",
@@ -5857,12 +5857,12 @@
       "swg27038767"
     ],
     "id": 910,
-    "ground_truth_refined": "1. Contact **Oracle** support\n   \n2. Apply the **Patch:17501296**\n   ",
+    "ground_truth_refined": "1. Contact **Oracle** support\n   \n2. Apply the Patch: **17501296**\n   ",
     "annotator": 1,
     "annotation_id": 446,
     "created_at": "2025-01-26T06:36:02.188846Z",
-    "updated_at": "2025-01-26T06:36:02.188889Z",
-    "lead_time": 17.937
+    "updated_at": "2025-01-27T14:00:40.508890Z",
+    "lead_time": 32.406
   },
   {
     "question_id": "TECHQA_TRAIN_Q254",
@@ -6478,12 +6478,12 @@
       "swg1IT15731"
     ],
     "id": 919,
-    "ground_truth_refined": "1. Locate the properties file for the JMSListener.\n   The properties file can be found at the following path: **$NCHOME\/impact\/etc\/[ImpactServerName]_[JMSListenerName].props**, where [ImpactServerName] is the name of the ImpactServer (for example: NCI) and [JMSListenerName] is the name of the JMSListener Service (for example: MyJMSListener).\n2. Set the autoreconnect property.\n   Add the following line to the properties file: **impact.[JMSListenerName].autoreconnect=true**, replacing [JMSListenerName] with the name of the JMSListener Service (for example: MyJMSListener).\n3. Set the autoreconnect poll interval.\n   Add the following line to the properties file: **impact.[JMSListenerName].autoreconnect.pollinterval=[TimeValue]**, where [JMSListenerName] is the name of the JMSListener Service and [TimeValue] is the desired polling interval value in milliseconds (for example: 30000 which is equivalent to 30 seconds). Note that the properties should not include the additional .jms bit.",
+    "ground_truth_refined": "1. Locate the properties file for the **JMSListener**.\n   The properties file can be found at the following path: $NCHOME\/impact\/etc\/[ImpactServerName]_[JMSListenerName].props, where [ImpactServerName] is the name of the ImpactServer (for example: NCI) and [JMSListenerName] is the name of the JMSListener Service (for example: MyJMSListener).\n2. Set the **autoreconnect** property.\n   Add the following line to the properties file: impact.[JMSListenerName].autoreconnect=true, replacing [JMSListenerName] with the name of the JMSListener Service (for example: MyJMSListener).\n3. Set the autoreconnect poll interval.\n   Add the following line to the properties file: impact.[JMSListenerName].autoreconnect.pollinterval=[TimeValue], where [JMSListenerName] is the name of the **JMSListener Service** and [TimeValue] is the desired polling interval value in milliseconds (for example: 30000 which is equivalent to 30 seconds). Note that the properties should not include the additional .jms bit.",
     "annotator": 1,
     "annotation_id": 455,
     "created_at": "2025-01-26T06:40:22.122544Z",
-    "updated_at": "2025-01-26T06:40:22.122595Z",
-    "lead_time": 34.594
+    "updated_at": "2025-01-27T14:03:58.685198Z",
+    "lead_time": 110.65299999999999
   },
   {
     "question_id": "TECHQA_TRAIN_Q277",
@@ -6547,12 +6547,12 @@
       "swg21421178"
     ],
     "id": 920,
-    "ground_truth_refined": "1. Use the **show_compatibility_56** system variable.\n   This system variable affects whether MySQL 5.6 compatibility is enabled concerning how system and status variable information is provided by the INFORMATION_SCHEMA. It should be used when running the agent on MySQL server versions **5.7.6** and above.",
+    "ground_truth_refined": "1. Enable the 'show_compatibility_56' system variable.\n   This system variable affects whether MySQL 5.6 compatibility is enabled concerning how system and status variable information is provided by the INFORMATION_SCHEMA. It should be used when running the agent on MySQL server versions 5.7.6 and above.",
     "annotator": 1,
     "annotation_id": 456,
     "created_at": "2025-01-26T06:40:51.913505Z",
-    "updated_at": "2025-01-26T06:40:51.913552Z",
-    "lead_time": 28.847
+    "updated_at": "2025-01-27T14:04:59.016081Z",
+    "lead_time": 38.297
   },
   {
     "question_id": "TECHQA_TRAIN_Q278",
@@ -6685,12 +6685,12 @@
       "swg1PM44388"
     ],
     "id": 922,
-    "ground_truth_refined": "1. Set a Custom Property in the datasource.\n   In the datasource, configure a Custom Property with the Name set to **connectionProperties** and the Value set to **propertyA=valueA;propertyB=valueB**.",
+    "ground_truth_refined": "1. Set a Custom Property in the datasource.\n   In the datasource, configure a Custom Property with the Name set to **connectionProperties** and the Value set to 'propertyA=valueA;propertyB=valueB'.",
     "annotator": 1,
     "annotation_id": 458,
     "created_at": "2025-01-26T06:41:33.399041Z",
-    "updated_at": "2025-01-26T06:41:33.399091Z",
-    "lead_time": 19.635
+    "updated_at": "2025-01-27T14:06:20.642655Z",
+    "lead_time": 37.142
   },
   {
     "question_id": "TECHQA_TRAIN_Q283",
@@ -7099,12 +7099,12 @@
       "swg21618872"
     ],
     "id": 928,
-    "ground_truth_refined": "1. Log into the Websphere Application server and navigate to:\n   SSL certificate and key management > SSL configurations > NodeDefaultSSLSettings > Quality of protection (QoP)\n2. Select the **RC4** ciphers from the **Selected ciphers** list, and then click the **<<Remove** button.\n   \n3. Click the 'Apply' button, and then the 'Save (to the master configuration)' link.\n   \n4. Restart **TIP**.\n   ",
+    "ground_truth_refined": "1. Log into the Websphere Application server and navigate to:\n   SSL certificate and key management > SSL configurations > NodeDefaultSSLSettings > Quality of protection (QoP)\n2. Select the **RC4** ciphers from the **Selected ciphers** list, and then click the **<<Remove** button.\n\n3. Click the 'Apply' button, and then the 'Save (to the master configuration)' link.\n\n4. Restart **Tivoli Integrated Portal (TIP)**.",
     "annotator": 1,
     "annotation_id": 464,
     "created_at": "2025-01-26T06:51:39.525831Z",
-    "updated_at": "2025-01-26T06:51:39.525883Z",
-    "lead_time": 40.848
+    "updated_at": "2025-01-27T14:10:41.811433Z",
+    "lead_time": 75.807
   },
   {
     "question_id": "TECHQA_TRAIN_Q297",
@@ -7306,12 +7306,12 @@
       "swg22001297"
     ],
     "id": 931,
-    "ground_truth_refined": "1. SSH into the Data Server(s) and enter the following command at the prompt;\n   Use SSH to connect to the Data Server(s). Once connected, input the command: **psql -U dfuser dfdata -c \"insert into adminknobs (name,value,description,valuetype,use) VALUES ('read_sparse_files','1','Read sprase data objects','int','1')\"**.\n2. Verify that the output of the command is **INSERT 0 1**.\n\n3. If so, enter the following command and wait for the UI to come back up: **service siqinit restart**.",
+    "ground_truth_refined": "1. SSH into the Data Server(s) and enter the following command at the prompt;\n   Use SSH to connect to the Data Server(s). Once connected, input the command: **psql -U dfuser dfdata -c \"insert into adminknobs (name,value,description,valuetype,use) VALUES ('read_sparse_files','1','Read sparse data objects','int','1')\"**.\n2. Verify that the output of the command is **INSERT 0 1**.\n\n3. If so, enter the following command and wait for the UI to come back up: **service siqinit restart**.",
     "annotator": 1,
     "annotation_id": 467,
     "created_at": "2025-01-26T06:53:34.750914Z",
-    "updated_at": "2025-01-26T06:53:34.750970Z",
-    "lead_time": 51.542
+    "updated_at": "2025-01-27T14:14:44.366989Z",
+    "lead_time": 75.163
   },
   {
     "question_id": "TECHQA_TRAIN_Q304",
@@ -7513,12 +7513,12 @@
       "swg21516190"
     ],
     "id": 934,
-    "ground_truth_refined": "1. Type (copy\/paste) the following command:\n   Run the command **sudo chown -R root:admin 20** in the Terminal.\n2. Press Enter\/Return.\n   \n3. Close Terminal.\n   \n4. Launch the **License Authorization Wizard**.\n   ",
+    "ground_truth_refined": "1. Type (copy\/paste) the following command:\n   Run the command 'sudo chown -R root:admin 24' in the Terminal.\n2. Press Enter\/Return.\n\n3. Close Terminal.\n\n4. Launch the **License Authorization Wizard**.",
     "annotator": 1,
     "annotation_id": 470,
     "created_at": "2025-01-26T06:54:23.468118Z",
-    "updated_at": "2025-01-26T06:54:23.468180Z",
-    "lead_time": 14.92
+    "updated_at": "2025-01-27T14:16:24.715336Z",
+    "lead_time": 50.440000000000005
   },
   {
     "question_id": "TECHQA_TRAIN_Q307",
@@ -7582,12 +7582,12 @@
       "swg21439183"
     ],
     "id": 935,
-    "ground_truth_refined": "1. Make sure the current upgrade is using the same version of **JVM** as the original install.\n  ",
+    "ground_truth_refined": "1. Removing the newly created **Deployment Engine (DE)**, which shouldn't have been created, then creating a link to the existing DE is the best work around in this case. The Product upgrade will see the link and add the information to the valid DE install.",
     "annotator": 1,
     "annotation_id": 471,
     "created_at": "2025-01-26T06:54:33.173002Z",
-    "updated_at": "2025-01-26T06:54:33.173128Z",
-    "lead_time": 9.835
+    "updated_at": "2025-01-27T14:17:49.047582Z",
+    "lead_time": 46.17
   },
   {
     "question_id": "TECHQA_TRAIN_Q310",
@@ -7720,12 +7720,12 @@
       "swg21986621"
     ],
     "id": 937,
-    "ground_truth_refined": "1. Add the following directive to the **httpd.conf** file to disable SSLv3 and SSLv2:\n# Disable SSLv3 for CVE-2014-3566\n# SSLv2 is disabled in V8R0 and later by default, and in typical V7\n# and earlier configurations disabled implicitly when SSLv3 ciphers\n# are configured with SSLCipherSpec.\nSSLProtocolDisable SSLv3 SSLv2\n\n2. Stop and restart **IHS** for the changes to take effect.",
+    "ground_truth_refined": "1. Add the following directive to the **httpd.conf** file to disable SSLv3 and SSLv2:\n   '# Disable SSLv3 for CVE-2014-3566'\n   '# SSLv2 is disabled in V8R0 and later by default, and in typical V7'\n   '# and earlier configurations disabled implicitly when SSLv3 ciphers'\n   '# are configured with SSLCipherSpec.'\n   **SSLProtocolDisable SSLv3 SSLv2**\n\n2. Stop and restart **IBM HTTP Server (IHS)** for the changes to take effect.",
     "annotator": 1,
     "annotation_id": 473,
     "created_at": "2025-01-26T06:56:03.368086Z",
-    "updated_at": "2025-01-26T06:56:03.368128Z",
-    "lead_time": 59.189
+    "updated_at": "2025-01-27T14:19:45.043807Z",
+    "lead_time": 120.131
   },
   {
     "question_id": "TECHQA_TRAIN_Q318",
@@ -7927,12 +7927,12 @@
       "swg22012422"
     ],
     "id": 940,
-    "ground_truth_refined": "1. Add the parameter-value pair in the Additional Settings section of the **Daeja ViewONE** panel.\n\n2. Click **New** in the Additional Settings section.\n\n3. Save the changes.\n\n4. Re-launch the viewer.",
+    "ground_truth_refined": "1. Click **New** in the **Additional Settings** section.\n\n2. Add the parameter-value pair.\n\n3. Save the changes.\n\n4. Re-launch the viewer.",
     "annotator": 1,
     "annotation_id": 476,
     "created_at": "2025-01-26T06:59:10.169789Z",
-    "updated_at": "2025-01-26T06:59:10.169835Z",
-    "lead_time": 65.846
+    "updated_at": "2025-01-27T14:22:30.725766Z",
+    "lead_time": 102.92500000000001
   },
   {
     "question_id": "TECHQA_TRAIN_Q331",
@@ -8065,12 +8065,12 @@
       "swg21572905"
     ],
     "id": 942,
-    "ground_truth_refined": "1. Modify the date\/time value into proper GMT\/UTC format of **YYYY-MM-DDTHH:MM[:SS]**\n\n2. Add a time offset to account for the GMT time difference, e.g. YYYY-MM-DDTHH:MM:SS-HH:MM",
+    "ground_truth_refined": "1. Modify the date\/time value into proper GMT\/UTC format of YYYY-MM-DDTHH:MM[:SS]\n\n2. Add a time offset to account for the GMT time difference, e.g. YYYY-MM-DDTHH:MM:SS-HH:MM",
     "annotator": 1,
     "annotation_id": 478,
     "created_at": "2025-01-26T06:59:47.749652Z",
-    "updated_at": "2025-01-26T06:59:47.749702Z",
-    "lead_time": 33.79
+    "updated_at": "2025-01-27T14:25:11.849802Z",
+    "lead_time": 87.571
   },
   {
     "question_id": "TECHQA_TRAIN_Q336",
@@ -8272,12 +8272,12 @@
       "swg1IO24703"
     ],
     "id": 945,
-    "ground_truth_refined": "1. Ensure the DCO name matches as it appears in **Datacap Studio**.\n   Check the DCO name for both correct spelling and **case-sensitivity**.",
+    "ground_truth_refined": "1. Ensure the DCO name matches as it appears in **Datacap Studio**.\n   Check the DCO name for both correct spelling and case-sensitivity.",
     "annotator": 1,
     "annotation_id": 481,
     "created_at": "2025-01-26T07:02:48.921677Z",
-    "updated_at": "2025-01-26T07:02:48.921720Z",
-    "lead_time": 66.162
+    "updated_at": "2025-01-27T14:26:39.289649Z",
+    "lead_time": 91.193
   },
   {
     "question_id": "TECHQA_TRAIN_Q339",
@@ -8410,12 +8410,12 @@
       "swg21580000"
     ],
     "id": 947,
-    "ground_truth_refined": "1. Use a unique value for **wp.ac.impl.PDServerName**",
+    "ground_truth_refined": "1. Use a unique value for **wp.ac.impl.PDServerName** parameter.\n   ",
     "annotator": 1,
     "annotation_id": 483,
     "created_at": "2025-01-26T07:03:13.223144Z",
-    "updated_at": "2025-01-26T07:03:13.223187Z",
-    "lead_time": 12.287
+    "updated_at": "2025-01-27T14:27:52.911471Z",
+    "lead_time": 29.849000000000004
   },
   {
     "question_id": "TECHQA_TRAIN_Q341",
@@ -8686,12 +8686,12 @@
       "swg21125616"
     ],
     "id": 951,
-    "ground_truth_refined": "1. Run **cqreg initialize**.\n2. Run the command as the root user if the same error persists.\n3. Ensure the **CQ_DATABASES** environment variable is set to the desired registry path.\n4. Set the variable accordingly if it is not set correctly.\n5. Run the previously mentioned commands again.",
+    "ground_truth_refined": "1. Run **cqreg initialize**.\n2. Ensure the **CQ_DATABASES** environment variable is set to the desired registry path.\n3. Run the previously mentioned commands again.",
     "annotator": 1,
     "annotation_id": 487,
     "created_at": "2025-01-26T07:04:36.719018Z",
-    "updated_at": "2025-01-26T07:04:36.719082Z",
-    "lead_time": 31.12
+    "updated_at": "2025-01-27T14:30:17.546616Z",
+    "lead_time": 54.228
   },
   {
     "question_id": "TECHQA_TRAIN_Q358",
@@ -9031,12 +9031,12 @@
       "swg27048598"
     ],
     "id": 956,
-    "ground_truth_refined": "1. Use the runmqsc display connection command to find the process id (PID) and application name.\n   \n2. Invoke the command under runmqsc.\n   Using the above example of the queue Q1, the complete command is: **display conn(*) where(objname eq Q1) all**.",
+    "ground_truth_refined": "1. Invoke the command under runmqsc.\n   The complete command is: display conn(*) where(objname eq Q1) all.",
     "annotator": 1,
     "annotation_id": 492,
     "created_at": "2025-01-26T07:10:04.583722Z",
-    "updated_at": "2025-01-26T07:10:04.583769Z",
-    "lead_time": 70.754
+    "updated_at": "2025-01-27T14:33:40.297816Z",
+    "lead_time": 173.228
   },
   {
     "question_id": "TECHQA_TRAIN_Q372",
@@ -9307,12 +9307,12 @@
       "swg21487607"
     ],
     "id": 960,
-    "ground_truth_refined": "1. Log in as a local administrator.\n2. Download the Fix Pack to a temporary location on your hard drive.\n3. Ensure that no versions of Statistics are running.\n4. Run the Statistics **24.0.0.2** Fix Pack executable.\n   Remember to use **Run as Administrator** by first right-clicking on the executable file.\n5. Statistics 24.0.0.2 is ready to run.\n   Navigate to the Help -> About menu to confirm that version 24.0.0.2 is the installed version.",
+    "ground_truth_refined": "1. Log in as a local administrator.\n2. Ensure that no versions of Statistics are running.\n3. Download the Fix Pack to a temporary location on your hard drive.\n4. Run the Statistics 24.0.0.2 Fix Pack executable.\n   Remember to use Run as Administrator by first right-clicking on the executable file.\n5. Statistics 24.0.0.2 is ready to run.\n   Navigate to the **Help -> About** menu to confirm that version 24.0.0.2 is the installed version.",
     "annotator": 1,
     "annotation_id": 496,
     "created_at": "2025-01-26T07:13:48.060611Z",
-    "updated_at": "2025-01-26T07:13:48.060658Z",
-    "lead_time": 48.395
+    "updated_at": "2025-01-27T14:36:29.949568Z",
+    "lead_time": 110.062
   },
   {
     "question_id": "TECHQA_TRAIN_Q384",
@@ -9445,12 +9445,12 @@
       "swg21498877"
     ],
     "id": 962,
-    "ground_truth_refined": "1. Load the property into a **Properties** object.\n2. Call **getConnection** with the **Properties** object.",
+    "ground_truth_refined": "1. Load the property into a Properties object.\n2. Call **getConnection** with the Properties object.",
     "annotator": 1,
     "annotation_id": 498,
     "created_at": "2025-01-26T07:15:00.433563Z",
-    "updated_at": "2025-01-26T07:15:00.433606Z",
-    "lead_time": 44.977
+    "updated_at": "2025-01-27T14:38:35.994377Z",
+    "lead_time": 106.235
   },
   {
     "question_id": "TECHQA_TRAIN_Q389",
@@ -9583,12 +9583,12 @@
       "swg1IZ85085"
     ],
     "id": 964,
-    "ground_truth_refined": "1. Add the property to **$NCHOME\/impact\/etc\/<SERVERNAME>_server.props** file\n   The property must be added to the specified server properties file where the size limit can be set to values such as 8192, 16384, 32768, etc.\n2. Restart the ImpactServer to enable the new property\n3. Ensure the ImpactServer started as **Primary** has the correct, uncorrupted **.type** file\n4. Ensure there are no trailing white-space characters on the property\n   Make sure that there are no trailing white-space characters in the property being added, as these can invalidate properties in lower versions of Impact.",
+    "ground_truth_refined": "1. Add the property to a file, the file is typically found at **$NCHOME\/impact\/etc\/<SERVERNAME>_server.props**.\n   The property must be added to the specified server properties file where the size limit can be set to values such as 8192, 16384, 32768, etc.\n2. Restart the ImpactServer to enable the new property\n3. Ensure the ImpactServer started as **Primary** has the correct, uncorrupted **.type** file\n4. Ensure there are no trailing white-space characters on the property\n   Make sure that there are no trailing white-space characters in the property being added, as these can invalidate properties in lower versions of Impact.",
     "annotator": 1,
     "annotation_id": 500,
     "created_at": "2025-01-26T07:16:12.194387Z",
-    "updated_at": "2025-01-26T07:16:12.194430Z",
-    "lead_time": 46.46
+    "updated_at": "2025-01-27T14:42:09.037131Z",
+    "lead_time": 101.30199999999999
   },
   {
     "question_id": "TECHQA_TRAIN_Q391",
@@ -10066,12 +10066,12 @@
       "swg21678925"
     ],
     "id": 971,
-    "ground_truth_refined": "1. Stop the **Cognos Service**\n   \n2. Take a physical backup of the Content Store or Notification database\n   \n3. Select the appropriate folder for your content store or notification database type under **<install>\/configuration\/schemas\/delivery\/<dbtype>\/**\n   \n4. Run **NC_DROP_<dbtype>.sql** against the content store or notification database\n   \n5. Restart **Cognos Services**\n   \n6. Restore the content or notification store from the last backup version if dropping the NC* tables does not resolve the issue\n   ",
+    "ground_truth_refined": "1. Stop the **Cognos Service**\n\n2. Take a physical backup of the Content Store or Notification database\n\n3. Select the appropriate folder for your content store or notification database type under **<install>\/configuration\/schemas\/delivery\/<dbtype>\/**\n\n4. Run **NC_DROP_<dbtype>.sql** against the content store or notification database\n\n5. Restart **Cognos Services**",
     "annotator": 1,
     "annotation_id": 507,
     "created_at": "2025-01-26T07:19:59.040241Z",
-    "updated_at": "2025-01-26T07:19:59.040288Z",
-    "lead_time": 52.952
+    "updated_at": "2025-01-27T14:43:27.338301Z",
+    "lead_time": 63.3
   },
   {
     "question_id": "TECHQA_TRAIN_Q424",
@@ -10342,12 +10342,12 @@
       "swg1IV85353"
     ],
     "id": 975,
-    "ground_truth_refined": "1. Use the attached script to initiate the upgrade.\n   The attached script is required to start the upgrade process. The script provides the **non-root** user, who originally installed the Jazz for **Service Management** instance, with the necessary permissions for the upgrade.",
+    "ground_truth_refined": "1. Use the upgrade script to initiate the upgrade.\n   The script is required to start the upgrade process. The script provides the non-root user, who originally installed the Jazz for Service Management instance, with the necessary permissions for the upgrade.",
     "annotator": 1,
     "annotation_id": 511,
     "created_at": "2025-01-26T07:22:48.999777Z",
-    "updated_at": "2025-01-26T07:22:48.999821Z",
-    "lead_time": 27.872
+    "updated_at": "2025-01-27T14:46:01.222931Z",
+    "lead_time": 47.778
   },
   {
     "question_id": "TECHQA_TRAIN_Q431",
@@ -10756,12 +10756,12 @@
       "swg21389808"
     ],
     "id": 981,
-    "ground_truth_refined": "1. Shutdown the IBM Content Collector Configuration Store Service if it is running.\n\n2. Make a backup copy of all files under the directory: **C:\\ProgramData\\IBM\\ContentCollector\\ConfigurationStore**\n3. Show hidden folders by changing the configuration in Folder and Search options > View tab > Hidden files and folders > Show hidden files, folders, and drives.\n\n4. Free up disk space on the drive.\n\n5. Delete the following files:\n- **C:\\ProgramData\\IBM\\ContentCollector\\ConfigurationStore\\logs\\* **\n- **C:\\ProgramData\\IBM\\ContentCollector\\ConfigurationStore\\solmsg.out**\n- **C:\\ProgramData\\IBM\\ContentCollector\\ConfigurationStore\\solerror.out**\n\n6. If restoring the configuration store to a previously backed up copy is required, run **afuConfigStoreTool -backup**. See production documentation for more information on running this tool. Otherwise, proceed to the next step.\n\n7. Restart IBM Content Collector services.",
+    "ground_truth_refined": "1. Shutdown the IBM Content Collector Configuration Store Service if it is running.\n\n2. Make a backup copy of all files under the directory: **C:\\ProgramData\\IBM\\ContentCollector\\ConfigurationStore**\n\n3. Free up disk space on the drive.\n\n4. Delete the following files:\n   - **C:\\ProgramData\\IBM\\ContentCollector\\ConfigurationStore\\logs\\* **\n   - **C:\\ProgramData\\IBM\\ContentCollector\\ConfigurationStore\\solmsg.out**\n   - **C:\\ProgramData\\IBM\\ContentCollector\\ConfigurationStore\\solerror.out**\n\n5. If restoring the configuration store to a previously backed up copy is required, run **afuConfigStoreTool -backup**. See production documentation for more information on running this tool. Otherwise, proceed to the next step.\n\n6. Restart IBM Content Collector services.",
     "annotator": 1,
     "annotation_id": 517,
     "created_at": "2025-01-26T07:30:06.978675Z",
-    "updated_at": "2025-01-26T07:30:06.978728Z",
-    "lead_time": 190.477
+    "updated_at": "2025-01-27T14:49:42.939090Z",
+    "lead_time": 308.535
   },
   {
     "question_id": "TECHQA_TRAIN_Q454",
@@ -11239,12 +11239,12 @@
       "isg3T1011826"
     ],
     "id": 988,
-    "ground_truth_refined": "1. Follow a coordinated update procedure when needing to change the user account and\/or password.\n   This coordinated update procedure should be applied specifically to FileNet Content Engine versions **4.x** and above.",
+    "ground_truth_refined": "1. Follow a coordinated update procedure when needing to change the user account and\/or password.\n",
     "annotator": 1,
     "annotation_id": 524,
     "created_at": "2025-01-26T07:34:26.579832Z",
-    "updated_at": "2025-01-26T07:34:26.579891Z",
-    "lead_time": 20.905
+    "updated_at": "2025-01-27T14:52:36.739053Z",
+    "lead_time": 31.267000000000003
   },
   {
     "question_id": "TECHQA_TRAIN_Q470",
@@ -11584,12 +11584,12 @@
       "swg1IV72474"
     ],
     "id": 993,
-    "ground_truth_refined": "1. Go to the JDBC Provider and enable **isolate the resource provider**.\n   Enabling **isolate this resource provider** ensures that only the jar specified in the classpath will be used for all the datasources under that particular **JDBC** provider.",
+    "ground_truth_refined": "1. Go to the **JDBC Provider** and enable 'isolate the resource provider'.\n   Enabling 'Isolate this resource provider' ensures that only the jar specified in the classpath will be used for all the datasources under that particular JDBC provider.",
     "annotator": 1,
     "annotation_id": 529,
     "created_at": "2025-01-26T07:37:29.270656Z",
-    "updated_at": "2025-01-26T07:37:29.270701Z",
-    "lead_time": 58.115
+    "updated_at": "2025-01-27T14:54:04.719367Z",
+    "lead_time": 95.221
   },
   {
     "question_id": "TECHQA_TRAIN_Q483",
@@ -11929,12 +11929,12 @@
       "swg1PI68105"
     ],
     "id": 998,
-    "ground_truth_refined": "1. Change the directory to **<JazzSM Home>\/ui\/bin**\n   \n2. Run the following command: **.\/consoleLogCollector.sh or .bat**\n   \n3. Send us the console_logs.zip file located in **<JazzSM Home>\/ui** directory\n   \n4. Attach the console_logs.zip file to the associated Problem Management Record (PMR)\n   \n5. Include the time the issue was reproduced in the PMR update\n   \n6. Provide the DASH version info using the command: **<JazzSM Home>\/ui\/bin\/consolecli.sh Version**\n   \n7. Upload the resulting output file to the PMR\n   ",
+    "ground_truth_refined": "1. Change the directory to **<JazzSM Home>\/ui\/bin**\n\n2. Run the following command: .\/consoleLogCollector.sh or .bat\n\n3. Send us the console_logs.zip file located in **<JazzSM Home>\/ui** directory\n\n4. Attach the console_logs.zip file to the associated Problem Management Record (PMR)\n\n5. Include the time the issue was reproduced in the PMR update\n\n6. Provide the DASH version info using the command: **<JazzSM Home>\/ui\/bin\/consolecli.sh Version**\n\n7. Upload the resulting output file to the PMR",
     "annotator": 1,
     "annotation_id": 534,
     "created_at": "2025-01-26T07:41:13.572462Z",
-    "updated_at": "2025-01-26T07:41:13.572681Z",
-    "lead_time": 62.645
+    "updated_at": "2025-01-27T14:56:36.680698Z",
+    "lead_time": 149.77700000000002
   },
   {
     "question_id": "TECHQA_TRAIN_Q503",
@@ -11998,12 +11998,12 @@
       "swg21580032"
     ],
     "id": 999,
-    "ground_truth_refined": "1. Remove world **writable** permissions from **DE** directories.",
+    "ground_truth_refined": "1. Remove world **writable** permissions from DE directories.",
     "annotator": 1,
     "annotation_id": 535,
     "created_at": "2025-01-26T07:41:34.593941Z",
-    "updated_at": "2025-01-26T07:41:34.593983Z",
-    "lead_time": 25.613
+    "updated_at": "2025-01-27T14:57:27.484585Z",
+    "lead_time": 37.614
   },
   {
     "question_id": "TECHQA_TRAIN_Q504",
@@ -12274,12 +12274,12 @@
       "swg24034622"
     ],
     "id": 1003,
-    "ground_truth_refined": "1. Find the jar files by opening the **RAAiInstallRepository.zip** file and looking in thepluginsfolder for these two files: **com.ibm.dmh.raai_*.jar**, **com.ibm.raa.integrate.doc_*.jar**\n\n2. Find the dropinssubdirectory.\n   \n3. Right click on the properties to find the shortcut used to start RDz.\n   \n4. Look at the Target property to see where **eclipse.exe** resides.\n   For example: C:\\Program Files\\IBM\\SDP.\n5. Create a dropinssubdirectory if one does not exist.\n   \n6. Copy the two jar files above to thedropinssubdirectory.\n   \n7. Restart RDz (Run as administrator).\n   \n8. Verify you have an **Asset Analyzer** entry in the left pane after RDz restarts by clicking on Window > Preferences from the menu.",
+    "ground_truth_refined": "1. Find the jar files by opening the **RAAiInstallRepository.zip** file and looking in thepluginsfolder for these two files: **com.ibm.dmh.raai_*.jar**, **com.ibm.raa.integrate.doc_*.jar**\n\n2. Right click on the properties to find the shortcut used to start RDz.\n\n3. Look at the Target property to see where **eclipse.exe** resides.\n   For example: C:\\Program Files\\IBM\\SDP.\n\n4. Find the dropinssubdirectory.\n\n5. Create a dropinssubdirectory if one does not exist.\n\n6. Copy the two jar files above to thedropinssubdirectory.\n\n7. Restart RDz (Run as administrator).\n\n8. Verify you have an **Asset Analyzer** entry in the left pane after RDz restarts by clicking on Window > Preferences from the menu.",
     "annotator": 1,
     "annotation_id": 539,
     "created_at": "2025-01-26T07:45:22.529402Z",
-    "updated_at": "2025-01-26T07:45:22.529462Z",
-    "lead_time": 91.521
+    "updated_at": "2025-01-27T14:59:33.081427Z",
+    "lead_time": 132.192
   },
   {
     "question_id": "TECHQA_TRAIN_Q514",
@@ -12481,12 +12481,12 @@
       "swg21499953"
     ],
     "id": 1006,
-    "ground_truth_refined": "1. Set the **c_cr** variable to **USA** prior to the call to recognition.",
+    "ground_truth_refined": "1. Set the **c_cr** variable to USA prior to the call to recognition.",
     "annotator": 1,
     "annotation_id": 542,
     "created_at": "2025-01-26T07:46:41.846397Z",
-    "updated_at": "2025-01-26T07:46:41.846441Z",
-    "lead_time": 42.213
+    "updated_at": "2025-01-27T15:00:34.224852Z",
+    "lead_time": 55.468
   },
   {
     "question_id": "TECHQA_TRAIN_Q517",
@@ -12757,12 +12757,12 @@
       "swg1PM43633"
     ],
     "id": 1010,
-    "ground_truth_refined": "1. Correct the **STEPLIB** for the batch job to point to the **V7.1.0** libraries.\n   ",
+    "ground_truth_refined": "1. Correct the **STEPLIB** for the batch job to point to the V7.1.0 libraries.",
     "annotator": 1,
     "annotation_id": 546,
     "created_at": "2025-01-26T08:05:01.377723Z",
-    "updated_at": "2025-01-26T08:05:01.377776Z",
-    "lead_time": 19.889
+    "updated_at": "2025-01-27T15:01:40.656218Z",
+    "lead_time": 30.381999999999998
   },
   {
     "question_id": "TECHQA_TRAIN_Q525",
@@ -12964,12 +12964,12 @@
       "swg1IV53320"
     ],
     "id": 1013,
-    "ground_truth_refined": "1. Run command: **SET PASSWORD <password>;**",
+    "ground_truth_refined": "1. Run command: **SET PASSWORD <password>;** Replace `<password>` with your desired password.",
     "annotator": 1,
     "annotation_id": 549,
     "created_at": "2025-01-26T08:07:04.728475Z",
-    "updated_at": "2025-01-26T08:07:04.728516Z",
-    "lead_time": 13.851
+    "updated_at": "2025-01-27T15:11:22.179670Z",
+    "lead_time": 49.416
   },
   {
     "question_id": "TECHQA_TRAIN_Q538",
@@ -13930,12 +13930,12 @@
       "swg21648458"
     ],
     "id": 1027,
-    "ground_truth_refined": "1. Make a backup of the config.sh file.\n\n2. Edit the config.sh file.\n\n3. Search for the following line **JAVA_OPTS** in the config.sh file.\n\n4. Change the **JAVA_OPTS=\"-Xms256m -Xmx256m\"** to a higher value.\n\n5. Save the file.\n\n6. Restart the config.",
+    "ground_truth_refined": "1. Make a backup of the config.sh file.\n\n2. Edit the config.sh file.\n\n3. Search for the following line **JAVA_OPTS** in the config.sh file.\n\n4. Change the JAVA_OPTS=\"-Xms256m -Xmx256m\" to a higher value.\n\n5. Save the file.\n\n6. Restart the config.",
     "annotator": 1,
     "annotation_id": 563,
     "created_at": "2025-01-26T08:16:43.319542Z",
-    "updated_at": "2025-01-26T08:16:43.319609Z",
-    "lead_time": 41.458
+    "updated_at": "2025-01-27T15:14:49.618902Z",
+    "lead_time": 68.134
   },
   {
     "question_id": "TECHQA_TRAIN_Q582",
@@ -14068,12 +14068,12 @@
       "swg22014520"
     ],
     "id": 1029,
-    "ground_truth_refined": "1. Upgrade to a minimal fix pack levels as required by interim fix and then apply Interim Fix **PI89498**.\n   Visit the link **http:\/\/www-01.ibm.com\/support\/docview.wss?uid=swg24044512** to find the necessary information.",
+    "ground_truth_refined": "1. Upgrade to a minimal fix pack levels as required by interim fix and then apply Interim Fix **PI89498**.\n",
     "annotator": 1,
     "annotation_id": 565,
     "created_at": "2025-01-26T08:17:22.765385Z",
-    "updated_at": "2025-01-26T08:17:22.765435Z",
-    "lead_time": 27.767
+    "updated_at": "2025-01-27T15:16:34.977936Z",
+    "lead_time": 35.781
   },
   {
     "question_id": "TECHQA_TRAIN_Q585",
@@ -14275,12 +14275,12 @@
       "swg21132156"
     ],
     "id": 1032,
-    "ground_truth_refined": "1. Make sure the LoadModule line for mod_rewrite is uncommented in the httpd.conf\n   Check the httpd.conf file and ensure that the following line is not commented out: **LoadModule rewrite_module modules\/mod_rewrite.so**\n2. Add the specified lines to the global scope or any port 80 VirtualHost stanzas in the httpd.conf\n   Include the following lines in the global scope or in any defined port 80 VirtualHost sections of the httpd.conf:\n   - **RewriteEngine on**\n   - **RewriteCond %{SERVER_PORT} =80**\n   - **RewriteRule ^(.*) https:\/\/%{SERVER_NAME}%{REQUEST_URI} [R,L]**\n3. Restart the IBM HTTP Server after making the preceding changes\n   ",
+    "ground_truth_refined": "1. Make sure the LoadModule line for mod_rewrite is uncommented in the httpd.conf\n   Check the httpd.conf file and ensure that the following line is not commented out: **LoadModule rewrite_module modules\/mod_rewrite.so**\n2. Add the specified lines to the global scope or any port 80 VirtualHost stanzas in the httpd.conf\nInclude the following lines in the global scope or in any defined port 80 VirtualHost sections of the httpd.conf:\n   - **RewriteEngine on**\n   - **RewriteCond %{SERVER_PORT} =80**\n   - **RewriteRule ^(.*) https:\/\/%{SERVER_NAME}%{REQUEST_URI} [R,L]**\n3. Restart the IBM HTTP Server after making the preceding changes",
     "annotator": 1,
     "annotation_id": 568,
     "created_at": "2025-01-26T08:22:27.502764Z",
-    "updated_at": "2025-01-26T08:22:27.502823Z",
-    "lead_time": 75.696
+    "updated_at": "2025-01-27T15:19:45.823414Z",
+    "lead_time": 99.482
   },
   {
     "question_id": "TECHQA_TRAIN_Q595",
@@ -14482,12 +14482,12 @@
       "swg1PK80022"
     ],
     "id": 1035,
-    "ground_truth_refined": "1. Install the missing libraries **adwaita-gtk2-theme** (32 and 64 bit) and **adwaita-gtk3-theme** 64 bit.\n\n2. Please contact **RedHat** to obtain the missing libraries.",
+    "ground_truth_refined": "1. Please contact **RedHat** to obtain the missing libraries.\n\n2. Install the missing libraries **adwaita-gtk2-theme** (32 and 64 bit) and **adwaita-gtk3-theme** 64 bit.\n\n",
     "annotator": 1,
     "annotation_id": 571,
     "created_at": "2025-01-26T08:24:46.443255Z",
-    "updated_at": "2025-01-26T08:24:46.443301Z",
-    "lead_time": 30.132
+    "updated_at": "2025-01-27T15:20:54.947793Z",
+    "lead_time": 49.652
   },
   {
     "question_id": "TECHQA_DEV_Q008",
@@ -14758,12 +14758,12 @@
       "nas8N1012999"
     ],
     "id": 1039,
-    "ground_truth_refined": "1. Pack all your XOMs into the **ssp.war**.\n\n2. Deploy the SSP on each server.\n   Ensure that the ssp.war is deployed on each server along with a **XU** connection factory and the appropriate datasource definition.\n\n3. Create your own SSP resolver and add it to the **teamserver.war** file and set the teamserver.defaultSSPResolver.class property to this class.\n\n4. Implement the method **IlrSSPResolver.getSSPURL(String serverName,URL url)**.",
+    "ground_truth_refined": "1. Implement the method **IlrSSPResolver.getSSPURL(String serverName,URL url)**.\n\n2. Create your own SSP resolver and add it to the **teamserver.war** file and set the teamserver.defaultSSPResolver.class property to this class.\n\n3. Deploy the SSP on each server.\n   Ensure that the ssp.war is deployed on each server along with a **XU** connection factory and the appropriate datasource definition.",
     "annotator": 1,
     "annotation_id": 575,
     "created_at": "2025-01-26T08:27:11.080373Z",
-    "updated_at": "2025-01-26T08:27:11.080424Z",
-    "lead_time": 63.67
+    "updated_at": "2025-01-27T15:24:48.641015Z",
+    "lead_time": 92.532
   },
   {
     "question_id": "TECHQA_DEV_Q021",
@@ -14827,12 +14827,12 @@
       "swg21500384"
     ],
     "id": 1040,
-    "ground_truth_refined": "1. Disable and re-enable the service.\n   To refresh a **WSDL** in the **local:\/\/\/** directory, you need to disable the service and then re-enable it.",
+    "ground_truth_refined": "1. Disable and re-enable the service.\n",
     "annotator": 1,
     "annotation_id": 576,
     "created_at": "2025-01-26T08:27:47.355379Z",
-    "updated_at": "2025-01-26T08:27:47.355433Z",
-    "lead_time": 34.975
+    "updated_at": "2025-01-27T15:25:50.550646Z",
+    "lead_time": 43.302
   },
   {
     "question_id": "TECHQA_DEV_Q025",
@@ -15172,12 +15172,12 @@
       "isg3T1013865"
     ],
     "id": 1045,
-    "ground_truth_refined": "1. Configure a server daemon to listen and capture the **DataPower** devices events.\n   ",
+    "ground_truth_refined": "1. Configure a server daemon to listen and capture the DataPower devices events.",
     "annotator": 1,
     "annotation_id": 581,
     "created_at": "2025-01-26T08:33:12.847759Z",
-    "updated_at": "2025-01-26T08:33:12.847836Z",
-    "lead_time": 11.49
+    "updated_at": "2025-01-27T15:27:17.310620Z",
+    "lead_time": 22.208
   },
   {
     "question_id": "TECHQA_DEV_Q038",
@@ -15517,12 +15517,12 @@
       "swg21495285"
     ],
     "id": 1050,
-    "ground_truth_refined": "1. Renew your software **Subscription and Maintenance**.\n   You can order the Media CD copy of the software that your company purchased. The software version on the Media CD will be the version available up to the time your subscription has expired.",
+    "ground_truth_refined": "1. **Renew** your software Subscription and Maintenance.\nYou can order the Media CD copy of the software that your company purchased. The software version on the Media CD will be the version available up to the time your subscription has expired.",
     "annotator": 1,
     "annotation_id": 586,
     "created_at": "2025-01-26T08:35:41.714553Z",
-    "updated_at": "2025-01-26T08:35:41.714595Z",
-    "lead_time": 28.594
+    "updated_at": "2025-01-27T15:28:55.138715Z",
+    "lead_time": 43.547
   },
   {
     "question_id": "TECHQA_DEV_Q048",
@@ -15793,12 +15793,12 @@
       "swg21616612"
     ],
     "id": 1054,
-    "ground_truth_refined": "1. Navigate to the **AppServer** folder and remove the following files.\n   - **lib\/ext\/commons-codec-1.3.jar**\n   - lib\/ext\/commons-httpclient-3.0.1.jar\n   - lib\/ext\/openid4java-full-0.9.5.jar\n   - lib\/ext\/wp.auth.base.sua_RedirectServletFilter.jar\n   - lib\/ext\/wp.auth.base.sua_loginmodule.jar\n   - lib\/ext\/wp.auth.tai.jar\n   - lib\/wp.user.connections.jar\n   - lib\/wp.wire.jar\n   - **plugins\/com.ibm.patch.was.plugin.jar**\n   - plugins\/com.ibm.wp.was.plugin.jar\n   - plugins\/wp.ext.jar\n   - properties\/jndi.properties",
+    "ground_truth_refined": "1. Navigate to the **AppServer** folder and remove the following files.\n   - **lib\/ext\/commons-codec-1.3.jar**\n   - lib\/ext\/commons-httpclient-3.0.1.jar\n   - lib\/ext\/openid4java-full-0.9.5.jar\n   - lib\/ext\/wp.auth.base.sua_RedirectServletFilter.jar\n   - lib\/ext\/wp.auth.base.sua_loginmodule.jar\n   - lib\/ext\/wp.auth.tai.jar\n   - lib\/wp.user.connections.jar\n   - lib\/wp.wire.jar\n   - **plugins\/com.ibm.patch.was.plugin.jar**\n- plugins\/com.ibm.wp.was.plugin.jar\n- plugins\/wp.ext.jar\n- properties\/jndi.properties",
     "annotator": 1,
     "annotation_id": 590,
     "created_at": "2025-01-26T08:37:48.009756Z",
-    "updated_at": "2025-01-26T08:37:48.009799Z",
-    "lead_time": 28.992
+    "updated_at": "2025-01-27T15:30:23.309277Z",
+    "lead_time": 52.089
   },
   {
     "question_id": "TECHQA_DEV_Q055",
@@ -15931,12 +15931,12 @@
       "swg27045038"
     ],
     "id": 1056,
-    "ground_truth_refined": "1. Use the **DeleteChildType** from the **Validations** library.\n   Run it from the parent of the object to be deleted and specifying the specific child.",
+    "ground_truth_refined": "1. Create a special page type attached at the batch level called something like DeleteMe.",
     "annotator": 1,
     "annotation_id": 592,
     "created_at": "2025-01-26T08:39:08.489213Z",
-    "updated_at": "2025-01-26T08:39:08.489257Z",
-    "lead_time": 19.094
+    "updated_at": "2025-01-27T15:32:11.197612Z",
+    "lead_time": 27.647000000000002
   },
   {
     "question_id": "TECHQA_DEV_Q067",
@@ -16138,12 +16138,12 @@
       "swg21969672"
     ],
     "id": 1059,
-    "ground_truth_refined": "1. Evaluate your code to determine whether the complete list of vulnerabilities are applicable to your code.\n\n2. Refer to the **IBM Java SDK Security Bulletin** for a complete list of vulnerabilities.",
+    "ground_truth_refined": "1. Refer to the IBM Java SDK Security Bulletin for a complete list of vulnerabilities.\n\n2. Evaluate your code to determine whether the complete list of vulnerabilities are applicable to your code.",
     "annotator": 1,
     "annotation_id": 595,
     "created_at": "2025-01-26T08:42:30.560376Z",
-    "updated_at": "2025-01-26T08:42:30.560431Z",
-    "lead_time": 19.032
+    "updated_at": "2025-01-27T15:33:11.774994Z",
+    "lead_time": 46.818
   },
   {
     "question_id": "TECHQA_DEV_Q077",
@@ -17035,12 +17035,12 @@
       "swg1LO61624"
     ],
     "id": 1072,
-    "ground_truth_refined": "1. Add the property to **$NCHOME\/impact\/etc\/<SERVERNAME>_server.props** file\n   This property should be set with a size limit that can be 8192, 16384, 32768, etc.\n2. Add the property to all ImpactServers in the Cluster\n\n3. Restart the ImpactServer to enable the property\n   Ensure that the ImpactServer started as **Primary** has the correct, uncorrupted **.type** file to be replicated across the Cluster.",
+    "ground_truth_refined": "1. Add the property to $NCHOME\/impact\/etc\/<SERVERNAME>_server.props file\n   This property should be set with a size limit that can be 8192, 16384, 32768, etc.\n2. Add the property to all ImpactServers in the Cluster\n\n3. Restart the ImpactServer to enable the property\n   Ensure that the ImpactServer started as **Primary** has the correct, uncorrupted **.type** file to be replicated across the Cluster.",
     "annotator": 1,
     "annotation_id": 608,
     "created_at": "2025-01-26T09:09:12.293325Z",
-    "updated_at": "2025-01-26T09:09:12.293353Z",
-    "lead_time": 41.886
+    "updated_at": "2025-01-27T15:37:09.694214Z",
+    "lead_time": 111.838
   },
   {
     "question_id": "TECHQA_DEV_Q161",
@@ -17449,12 +17449,12 @@
       "swg1IZ80800"
     ],
     "id": 1078,
-    "ground_truth_refined": "1. Specify the complete path to the **silent response file** while launching the silent install.",
+    "ground_truth_refined": "1. Specify the complete path to the silent response file while launching the silent install.",
     "annotator": 1,
     "annotation_id": 614,
     "created_at": "2025-01-26T09:14:09.501539Z",
-    "updated_at": "2025-01-26T09:14:09.501566Z",
-    "lead_time": 24.307
+    "updated_at": "2025-01-27T15:39:16.551441Z",
+    "lead_time": 41.393
   },
   {
     "question_id": "TECHQA_DEV_Q196",
@@ -18070,12 +18070,12 @@
       "swg1IC79539"
     ],
     "id": 1087,
-    "ground_truth_refined": "1. Double check the **permission bit** for the involved directory tree.\n\n2. In case, temporarily set them to give **write** authorization to the user account.\n\n3. Run again the installation program.\n   ",
+    "ground_truth_refined": "1. Double check the permission bit for the involved directory tree.\n\n2. In case, temporarily set them to give **write** authorization to the user account.\n\n3. Run again the installation program.",
     "annotator": 1,
     "annotation_id": 623,
     "created_at": "2025-01-26T09:19:25.806842Z",
-    "updated_at": "2025-01-26T09:19:25.806872Z",
-    "lead_time": 18.969
+    "updated_at": "2025-01-27T15:41:04.435954Z",
+    "lead_time": 30.801000000000002
   },
   {
     "question_id": "TECHQA_DEV_Q239",
@@ -18139,12 +18139,12 @@
       "swg1PI71616"
     ],
     "id": 1088,
-    "ground_truth_refined": "1. Delete the user's **.eclipse\/ibm.software.delivery.platform_7.5.0_????** directory.\n   For example, run command **rm -rf \/home\/joe\/.eclipse\/ibm.software.delivery.platform_7.5.0_1529064711** to delete the specified directory.\n2. Relaunch the package.\n   ",
+    "ground_truth_refined": "1. Delete the user's .eclipse\/ibm.software.delivery.platform_7.5.0_???? directory.\nFor example, run command rm -rf \/home\/joe\/.eclipse\/ibm.software.delivery.platform_7.5.0_1529064711 to delete the specified directory.\n2. Relaunch the package.",
     "annotator": 1,
     "annotation_id": 624,
     "created_at": "2025-01-26T09:20:45.220932Z",
-    "updated_at": "2025-01-26T09:20:45.220958Z",
-    "lead_time": 71.829
+    "updated_at": "2025-01-27T15:41:52.429312Z",
+    "lead_time": 90.404
   },
   {
     "question_id": "TECHQA_DEV_Q240",
@@ -18277,12 +18277,12 @@
       "swg21973856"
     ],
     "id": 1090,
-    "ground_truth_refined": "1. Run the **cib_tools.pl** script.\n   Execute the command **\/opt\/nz-hwsupport\/pts\/cib_tools.pl** in the terminal.",
+    "ground_truth_refined": "1. Run the cib_tools.pl script.\n   Execute the command **\/opt\/nz-hwsupport\/pts\/cib_tools.pl** in the terminal.",
     "annotator": 1,
     "annotation_id": 626,
     "created_at": "2025-01-26T09:21:12.486849Z",
-    "updated_at": "2025-01-26T09:21:12.486900Z",
-    "lead_time": 22.635
+    "updated_at": "2025-01-27T15:42:52.033419Z",
+    "lead_time": 38.244
   },
   {
     "question_id": "TECHQA_DEV_Q245",
@@ -18760,12 +18760,12 @@
       "swg21002646"
     ],
     "id": 1097,
-    "ground_truth_refined": "1. Obtain refreshed data from **Passport Advantage** on a regular schedule so that you avoid issues that are associated with disabled address information.",
+    "ground_truth_refined": "1. Obtain refreshed data from Passport Advantage on a regular schedule so that you avoid issues that are associated with disabled address information.",
     "annotator": 1,
     "annotation_id": 632,
     "created_at": "2025-01-26T09:24:20.382525Z",
-    "updated_at": "2025-01-26T09:24:20.382556Z",
-    "lead_time": 33.937
+    "updated_at": "2025-01-27T15:45:31.871144Z",
+    "lead_time": 64.553
   },
   {
     "question_id": "TECHQA_DEV_Q275",
@@ -19105,12 +19105,12 @@
       "swg1PJ36426"
     ],
     "id": 1102,
-    "ground_truth_refined": "1. License NovoDynamics NovoVarus separately.\n\n2. Install it on the **Rulerunner** machine where the Datacap Studio actions for Arabic (**Datacap.Libraries.NovoDynamics**) will be running.",
+    "ground_truth_refined": "1. License NovoDynamics NovoVarus separately.\n\n2. Install it on the **Rulerunner** machine where the \n   Datacap Studio actions for Arabic (Datacap.Libraries.NovoDynamics) will be running.",
     "annotator": 1,
     "annotation_id": 637,
     "created_at": "2025-01-26T09:26:59.413059Z",
-    "updated_at": "2025-01-26T09:26:59.413106Z",
-    "lead_time": 44.96
+    "updated_at": "2025-01-27T15:46:17.496765Z",
+    "lead_time": 62.509
   },
   {
     "question_id": "TECHQA_DEV_Q299",

@@ -7,7 +7,7 @@ baselines.quest_eval,RAGQuestEval,LLM,base
 baselines.g_eval,G-Eval,LLM,deepeval
 baselines.langchain_evaluation,LangChain Eval.,LLM,langchain
 baselines.llama_index_evaluation,LlamaIndex Eval.,LLM,llamaindex
-baselines.ragas,RAGAS,LLM,deepeval
+baselines.ragas,RAGAS,LLM,ragas
 baselines.fact_score,FActScore,LLM,factscore
 baselines.ref_checker,RefChecker,LLM,refchecker
 tseval,\ours,LLM,default

@@ -13,3 +13,7 @@ scikit-learn==1.5.1
 
 # Manage experiment envs
 virtualenv==20.29.1
+
+# Generate answers
+langchain==0.3.15
+langchain-openai==0.3.2

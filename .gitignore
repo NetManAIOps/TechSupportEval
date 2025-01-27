@@ -180,3 +180,6 @@ cython_debug/
 # Temp files
 /tmp/
 /output/
+
+# Local scripts
+/scripts/local*
