@@ -5,10 +5,10 @@ from langchain_core.runnables import RunnablePassthrough
 from langchain_openai.chat_models import ChatOpenAI
 from .utils import langchain_create_vectorstore, get_test_question
 
-ID = 1
-NAME = 'gpt_langchain'
-TITLE = 'GPT 4o Mini'
-MODEL = 'gpt-4o-mini-2024-07-18'
+ID = 3
+NAME = 'llama_70b_langchain'
+TITLE = 'LLaMA 3 (70B)'
+MODEL = 'llama-3.3-70b-instruct'
 TOP_K = 5
 CHUNK_SIZE = 1000
 CHUNK_OVERLAP = 200

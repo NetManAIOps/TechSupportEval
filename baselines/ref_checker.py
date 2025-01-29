@@ -1,3 +1,4 @@
+import os
 import warnings
 
 warnings.filterwarnings("ignore")
@@ -8,8 +9,13 @@ def init_config(model, args):
     from refchecker import LLMExtractor, LLMChecker
 
     global extractor, checker
-    extractor = LLMExtractor(model=model, batch_size=8)
-    checker = LLMChecker(model=model, batch_size=8)
+    
+    kwargs = {'batch_size': 8}
+    if not model.startswith('gpt'):
+        model = 'openai/' + model
+        kwargs['api_base'] = os.environ['OPENAI_API_BASE']
+    extractor = LLMExtractor(model=model, **kwargs)
+    checker = LLMChecker(model=model, **kwargs)
 
 def evaluate(question, ground_truth, answer):
     from refchecker.aggregator import soft_agg
