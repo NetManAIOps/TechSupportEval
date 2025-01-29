@@ -1,0 +1,37 @@
+
+baselines.ragas techqa1 gpt-4o-2024-11-20
+baselines.quest_eval techqa1 gpt-4o-2024-11-20
+baselines.g_eval techqa1 gpt-4o-2024-11-20
+baselines.ref_checker techqa1 gpt-4o-2024-11-20
+tseval techqa1 gpt-4o-2024-11-20
+
+baselines.ragas techqa2 gpt-4o-2024-11-20
+baselines.quest_eval techqa2 gpt-4o-2024-11-20
+baselines.g_eval techqa2 gpt-4o-2024-11-20
+baselines.ref_checker techqa2 gpt-4o-2024-11-20
+tseval techqa2 gpt-4o-2024-11-20
+
+baselines.ragas techqa3 gpt-4o-2024-11-20
+baselines.quest_eval techqa3 gpt-4o-2024-11-20
+baselines.g_eval techqa3 gpt-4o-2024-11-20
+baselines.ref_checker techqa3 gpt-4o-2024-11-20
+tseval techqa3 gpt-4o-2024-11-20
+
+
+baselines.ragas techqa1 claude-3.5-haiku-20241022
+baselines.quest_eval techqa1 claude-3.5-haiku-20241022
+baselines.g_eval techqa1 claude-3.5-haiku-20241022
+baselines.ref_checker techqa1 claude-3.5-haiku-20241022
+tseval techqa1 claude-3.5-haiku-20241022
+
+baselines.ragas techqa2 claude-3.5-haiku-20241022
+baselines.quest_eval techqa2 claude-3.5-haiku-20241022
+baselines.g_eval techqa2 claude-3.5-haiku-20241022
+baselines.ref_checker techqa2 claude-3.5-haiku-20241022
+tseval techqa2 claude-3.5-haiku-20241022
+
+baselines.ragas techqa3 claude-3.5-haiku-20241022
+baselines.quest_eval techqa3 claude-3.5-haiku-20241022
+baselines.g_eval techqa3 claude-3.5-haiku-20241022
+baselines.ref_checker techqa3 claude-3.5-haiku-20241022
+tseval techqa3 claude-3.5-haiku-20241022

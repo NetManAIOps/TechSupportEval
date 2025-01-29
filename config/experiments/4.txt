@@ -1,0 +1,54 @@
+
+baselines.ragas techqa1 gpt-4o-mini-2024-07-18
+baselines.quest_eval techqa1 gpt-4o-mini-2024-07-18
+baselines.g_eval techqa1 gpt-4o-mini-2024-07-18
+baselines.ref_checker techqa1 gpt-4o-mini-2024-07-18
+tseval techqa1 gpt-4o-mini-2024-07-18
+
+baselines.ragas techqa2 gpt-4o-mini-2024-07-18
+baselines.quest_eval techqa2 gpt-4o-mini-2024-07-18
+baselines.g_eval techqa2 gpt-4o-mini-2024-07-18
+baselines.ref_checker techqa2 gpt-4o-mini-2024-07-18
+tseval techqa2 gpt-4o-mini-2024-07-18
+
+baselines.ragas techqa3 gpt-4o-mini-2024-07-18
+baselines.quest_eval techqa3 gpt-4o-mini-2024-07-18
+baselines.g_eval techqa3 gpt-4o-mini-2024-07-18
+baselines.ref_checker techqa3 gpt-4o-mini-2024-07-18
+tseval techqa3 gpt-4o-mini-2024-07-18
+
+baselines.ragas techqa1 qwen-2.5-72b-instruct
+baselines.quest_eval techqa1 qwen-2.5-72b-instruct
+baselines.g_eval techqa1 qwen-2.5-72b-instruct
+baselines.ref_checker techqa1 qwen-2.5-72b-instruct
+tseval techqa1 qwen-2.5-72b-instruct
+
+baselines.ragas techqa2 qwen-2.5-72b-instruct
+baselines.quest_eval techqa2 qwen-2.5-72b-instruct
+baselines.g_eval techqa2 qwen-2.5-72b-instruct
+baselines.ref_checker techqa2 qwen-2.5-72b-instruct
+tseval techqa2 qwen-2.5-72b-instruct
+
+baselines.ragas techqa3 qwen-2.5-72b-instruct
+baselines.quest_eval techqa3 qwen-2.5-72b-instruct
+baselines.g_eval techqa3 qwen-2.5-72b-instruct
+baselines.ref_checker techqa3 qwen-2.5-72b-instruct
+tseval techqa3 qwen-2.5-72b-instruct
+
+baselines.ragas techqa1 llama-3.3-70b-instruct
+baselines.quest_eval techqa1 llama-3.3-70b-instruct
+baselines.g_eval techqa1 llama-3.3-70b-instruct
+baselines.ref_checker techqa1 llama-3.3-70b-instruct
+tseval techqa1 llama-3.3-70b-instruct
+
+baselines.ragas techqa2 llama-3.3-70b-instruct
+baselines.quest_eval techqa2 llama-3.3-70b-instruct
+baselines.g_eval techqa2 llama-3.3-70b-instruct
+baselines.ref_checker techqa2 llama-3.3-70b-instruct
+tseval techqa2 llama-3.3-70b-instruct
+
+baselines.ragas techqa3 llama-3.3-70b-instruct
+baselines.quest_eval techqa3 llama-3.3-70b-instruct
+baselines.g_eval techqa3 llama-3.3-70b-instruct
+baselines.ref_checker techqa3 llama-3.3-70b-instruct
+tseval techqa3 llama-3.3-70b-instruct

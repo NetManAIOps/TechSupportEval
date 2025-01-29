@@ -9,3 +9,5 @@ baselines.g_eval techqa1 gpt-4o-mini-2024-07-18
 baselines.ragas techqa1 gpt-4o-mini-2024-07-18
 baselines.ref_checker techqa1 gpt-4o-mini-2024-07-18
 tseval techqa1 gpt-4o-mini-2024-07-18
+tseval.variants.no_step_check techqa1 gpt-4o-mini-2024-07-18
+tseval.variants.no_fact_check techqa1 gpt-4o-mini-2024-07-18

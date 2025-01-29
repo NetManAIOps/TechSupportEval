@@ -11,3 +11,5 @@ baselines.ragas,RAGAS,LLM,ragas
 baselines.fact_score,FActScore,LLM,factscore
 baselines.ref_checker,RefChecker,LLM,refchecker
 tseval,\ours,LLM,default
+tseval.variants.no_fact_check,\;\; w/o \compa,LLM,refchecker
+tseval.variants.no_step_check,\;\; w/o \compb,LLM,refchecker

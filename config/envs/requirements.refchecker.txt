@@ -1,3 +1,4 @@
 refchecker==0.2.14
 torch==2.3.1+cu118
 -f https://mirrors.aliyun.com/pytorch-wheels/cu118
+pandas==2.2.3

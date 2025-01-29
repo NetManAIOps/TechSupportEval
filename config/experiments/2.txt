@@ -1,0 +1,13 @@
+baselines.rouge1 techqa2 none
+baselines.rougeL techqa2 none
+baselines.bleu techqa2 none
+baselines.bert_score techqa2 none -j 2
+baselines.langchain_evaluation techqa2 gpt-4o-mini-2024-07-18
+baselines.llama_index_evaluation techqa2 gpt-4o-mini-2024-07-18
+baselines.quest_eval techqa2 gpt-4o-mini-2024-07-18
+baselines.g_eval techqa2 gpt-4o-mini-2024-07-18
+baselines.ragas techqa2 gpt-4o-mini-2024-07-18
+baselines.ref_checker techqa2 gpt-4o-mini-2024-07-18
+tseval techqa2 gpt-4o-mini-2024-07-18
+tseval.variants.no_step_check techqa2 gpt-4o-mini-2024-07-18
+tseval.variants.no_fact_check techqa2 gpt-4o-mini-2024-07-18

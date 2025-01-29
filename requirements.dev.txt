@@ -16,4 +16,6 @@ virtualenv==20.29.1
 
 # Generate answers
 langchain==0.3.15
+langchain-community==0.3.15
 langchain-openai==0.3.2
+faiss-cpu==1.9.0.post1
