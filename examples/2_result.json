@@ -1,0 +1,21 @@
+{
+  "score": 0,
+  "errors": [
+    [
+      "FACT_MISMATCH",
+      [
+        [
+          1,
+          "SSL directives",
+          "SSL module"
+        ]
+      ]
+    ],
+    [
+      "STEP_MISSING",
+      [
+        4
+      ]
+    ]
+  ]
+}

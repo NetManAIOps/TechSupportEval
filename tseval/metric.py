@@ -143,12 +143,25 @@ class TechSupportEval:
 
 if __name__ == '__main__':
     import os
+    import sys
     import json
     from pprint import pprint
     from pathlib import Path
-    techqa_path = Path(os.path.dirname(__file__)) / '..' / 'data' / 'final' / 'test.json'
-    with open(techqa_path, 'r') as f:
-        item = json.load(f)[3]
+
+    if len(sys.argv) <= 1:
+        print(f'Usage: python -m tseval.metric <input_path> [output_path]\n', file=sys.stderr)
+        sys.exit(1)
+
+    input_path = sys.argv[1]
+    
+    output_path = None
+    if len(sys.argv) > 2:
+        output_path = sys.argv[2]
+    
+    base_path = Path(os.path.dirname(__file__)) / '..' 
+    input_path = base_path / input_path
+    with open(input_path, 'r') as f:
+        item = json.load(f)
 
     question = item['question']
     ground_truth = item['ground_truth']
@@ -157,11 +170,34 @@ if __name__ == '__main__':
     llm = load_llms()['gpt-4o-mini-2024-07-18']
     model = TechSupportEval(llm)
     res = asyncio.run(model.evaluate(question, ground_truth, answer))
-
+    print('Question:')
+    print(question)
+    print('\n==========\n')
     print('Ground Truth:')
     print(ground_truth)
-    print('\n\n')
-    print('Answer')
+    print('\n==========\n')
+    print('Answer:')
     print(answer)
-    print('\n\n')
-    pprint(res)
+    print('\n==========\n')
+    score, extra = res
+    errors = extra['reason']
+
+    print(f'Score: {int(score)}')
+
+    if errors:
+        print('Errors:')
+        for err in errors:
+            name, detail = err
+            print(f'- {name}: {str(detail)}')
+
+    if output_path is not None:
+        output_path = base_path / output_path
+        report = {
+            'score': score,
+            'errors': errors
+        }
+
+        with open(output_path, 'w') as f:
+            json.dump(report, f, indent=2, ensure_ascii=False)
+
+        print(f'\nResult write to {output_path.resolve()}')
