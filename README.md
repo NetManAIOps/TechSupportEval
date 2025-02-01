@@ -6,9 +6,9 @@ TechSupportEval is an automated evaluation framework for technical support QA.
 
 TechSupportEval introduces two novel techniques:
 
-* **ClozeFact**: This method formulates fact verification as a cloze test, utilizing an LLM to fill in missing key terms, ensuring precise matching of key information.
+* **ClozeFact** formulates fact verification as a cloze test, utilizing an LLM to fill in missing key terms, ensuring precise matching of key information.
 
-* **StepRestore**: This technique shuffles the ground truth steps and uses an LLM to reconstruct the steps in the correct order, verifying both the step sequence and completeness.
+* **StepRestore** shuffles the ground truth steps and uses an LLM to reconstruct the steps in the correct order, verifying both the step sequence and completeness.
 
 As shown in the illustrative example below:
 
