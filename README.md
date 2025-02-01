@@ -68,9 +68,9 @@ If `<output_path>` is specified, a JSON report will be saved to that location.
 
 ### Example outputs
 
-The evaluation results for `examples/1.json` and `examples/2.json` are available in:
-- `examples/1_result.json`
-- `examples/2_result.json`
+The evaluation results for [examples/1.json](examples/1.json) and [examples/2.json](examples/2.json) are available in:
+- [examples/1_result.json](examples/1_result.json)
+- [examples/2_result.json](examples/2_result.json)
 
 ## Datasets
 
@@ -84,4 +84,70 @@ We implemented three RAG-based QA systems using LangChain, each leveraging a dif
 
 Each QA system was used to generate responses for all **282** filtered questions. We then conducted a human evaluation with **5** domain experts, who annotated each response for accuracy.
 
-The implementations of these three models can be found in the `rag` directory. The generated answers and human evaluation data correspond to `data/final/techqa{1,2,3}.json`, which collectively form the dataset used in this work.
+The implementations of these 3 models can be found in the [rag](rag/) directory. The generated answers and human evaluation data correspond to `data/final/techqa{1,2,3}.json`, which collectively form the dataset used in this work.
+
+## Experiments
+
+We provide all **experiment configurations**, **raw results**, and **evaluation reports**:
+
+- Experiment configurations: [config/experiments/](config/experiments/)
+- Raw experiment results: [output/](output/)
+- Evaluation reports: [output/reports/](output/reports)
+
+The experiment files related to the 3 research questions are:
+
+- **RQ1 (Effectiveness)**
+    - Experiment configurations: [1.txt](config/experiments/1.txt), [2.txt](config/experiments/2.txt), [3.txt](config/experiments/3.txt)
+    - Evaluation reports: [1.csv](output/reports/1.csv), [2.csv](output/reports/2.csv), [3.csv](output/reports/3.csv)
+- **RQ2 (Impact of LLM_eval)**
+    - Experiment configurations: [4.txt](config/experiments/4.txt)
+    - Evaluation reports: [4.csv](output/reports/4.csv)
+- **RQ3 (Efficiency and Cost)**
+    - Experiment configurations: [5.txt](config/experiments/5.txt)
+    - Evaluation reports: [5.csv](output/reports/5.csv)
+
+You can find the raw experiment results in the [output](output/) directory under their respective subdirectories.
+
+### Reproducing Experiments
+
+To reproduce experiments, install the development dependencies:
+
+```bash
+pip install -r requirements.dev.txt
+```
+
+#### Generate reports from existing results
+
+```bash
+python -m scripts.auto_run --schema <id> --metric_only
+```
+
+where `<id>` corresponds to the experiment configuration file `config/experiments/{id}.txt`.
+
+#### Generating LaTeX table for RQ1
+
+```bash
+python -m scripts.gen_table1
+```
+
+#### Running experiments from scratch
+
+First, remove existing output files:
+
+```bash
+rm -rf outputs/*
+```
+
+Then, execute:
+
+```bash
+python -m scripts.auto_run --schema <id>
+```
+
+This will run all experiments specified in `config/experiments/{id}.txt` and automatically configure environments and dependencies. Various environment configurations can be found in [config/envs/](config/envs/). Virtual environments will be created in the `venv` directory.
+
+**Note**: Due to the stochastic nature of LLMs, results may vary slightly from those in the paper. If failures occur, the script will retry up to **3** times. If issues persist, rerun the command to complete unfinished or failed test cases.
+
+#### Running RQ2 (Impact of LLM_eval) experiments
+
+To run [RQ2 experiments](config/experiments/4.txt), ensure your `OPENAI_API_BASE` supports multiple models. We recommend using [one-api](https://github.com/songquanpeng/one-api).
