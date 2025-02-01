@@ -1,37 +1,23 @@
+baselines.langchain_evaluation techqa1 gpt-4o-mini-2024-07-18 --stat 
+baselines.llama_index_evaluation techqa1 gpt-4o-mini-2024-07-18 --stat 
+baselines.quest_eval techqa1 gpt-4o-mini-2024-07-18 --stat 
+baselines.g_eval techqa1 gpt-4o-mini-2024-07-18 --stat 
+baselines.ragas techqa1 gpt-4o-mini-2024-07-18 --stat 
+baselines.ref_checker techqa1 gpt-4o-mini-2024-07-18 --stat 
+tseval techqa1 gpt-4o-mini-2024-07-18 --stat 
 
+baselines.langchain_evaluation techqa2 gpt-4o-mini-2024-07-18 --stat 
+baselines.llama_index_evaluation techqa2 gpt-4o-mini-2024-07-18 --stat  
+baselines.quest_eval techqa2 gpt-4o-mini-2024-07-18 --stat 
+baselines.g_eval techqa2 gpt-4o-mini-2024-07-18 --stat 
+baselines.ragas techqa2 gpt-4o-mini-2024-07-18 --stat 
+baselines.ref_checker techqa2 gpt-4o-mini-2024-07-18 --stat 
+tseval techqa2 gpt-4o-mini-2024-07-18 --stat 
 
-baselines.ragas techqa1 claude-3.5-haiku-20241022
-baselines.quest_eval techqa1 claude-3.5-haiku-20241022
-baselines.g_eval techqa1 claude-3.5-haiku-20241022
-baselines.ref_checker techqa1 claude-3.5-haiku-20241022
-tseval techqa1 claude-3.5-haiku-20241022
-
-baselines.ragas techqa2 claude-3.5-haiku-20241022
-baselines.quest_eval techqa2 claude-3.5-haiku-20241022
-baselines.g_eval techqa2 claude-3.5-haiku-20241022
-baselines.ref_checker techqa2 claude-3.5-haiku-20241022
-tseval techqa2 claude-3.5-haiku-20241022
-
-baselines.ragas techqa3 claude-3.5-haiku-20241022
-baselines.quest_eval techqa3 claude-3.5-haiku-20241022
-baselines.g_eval techqa3 claude-3.5-haiku-20241022
-baselines.ref_checker techqa3 claude-3.5-haiku-20241022
-tseval techqa3 claude-3.5-haiku-20241022
-
-baselines.ragas techqa1 llama-3.1-405b-instruct
-baselines.quest_eval techqa1 llama-3.1-405b-instruct
-baselines.g_eval techqa1 llama-3.1-405b-instruct
-baselines.ref_checker techqa1 llama-3.1-405b-instruct
-tseval techqa1 llama-3.1-405b-instruct
-
-baselines.ragas techqa2 llama-3.1-405b-instruct
-baselines.quest_eval techqa2 llama-3.1-405b-instruct
-baselines.g_eval techqa2 llama-3.1-405b-instruct
-baselines.ref_checker techqa2 llama-3.1-405b-instruct
-tseval techqa2 llama-3.1-405b-instruct
-
-baselines.ragas techqa3 llama-3.1-405b-instruct
-baselines.quest_eval techqa3 llama-3.1-405b-instruct
-baselines.g_eval techqa3 llama-3.1-405b-instruct
-baselines.ref_checker techqa3 llama-3.1-405b-instruct
-tseval techqa3 llama-3.1-405b-instruct
+baselines.langchain_evaluation techqa3 gpt-4o-mini-2024-07-18 --stat 
+baselines.llama_index_evaluation techqa3 gpt-4o-mini-2024-07-18 --stat 
+baselines.quest_eval techqa3 gpt-4o-mini-2024-07-18 --stat 
+baselines.g_eval techqa3 gpt-4o-mini-2024-07-18 --stat 
+baselines.ragas techqa3 gpt-4o-mini-2024-07-18 --stat 
+baselines.ref_checker techqa3 gpt-4o-mini-2024-07-18 --stat 
+tseval techqa3 gpt-4o-mini-2024-07-18 --stat 

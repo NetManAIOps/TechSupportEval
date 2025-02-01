@@ -33,8 +33,6 @@ CONFIG_DIR = Path(os.path.dirname(__file__)) / '..' / 'config'
 
 OUTPUT_DIR = Path(os.path.dirname(__file__)) / '..' / 'output'
 
-TMP_DIR = Path(os.path.dirname(__file__)) / '..' / 'tmp'
-
 def run_command(command: list[str]) -> str:
     subprocess.run(command, shell=True)
 
@@ -165,7 +163,7 @@ def generate_latex_from_df(df, models, metrics, methods):
 def main():
     df = prepare_data()
     latex_table = generate_latex_from_df(df, RAG_SYSTEMS, METRICS, METHODS)
-    with open(TMP_DIR / 'table1.tex', 'w') as f:
+    with open(OUTPUT_DIR / 'table1.tex', 'w') as f:
         f.write(latex_table)
 
 
