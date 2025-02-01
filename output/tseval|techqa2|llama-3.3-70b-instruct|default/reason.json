@@ -1,0 +1,3542 @@
+[
+  {
+    "id": "TECHQA_TRAIN_Q016_2",
+    "score": 0.0,
+    "reason": [
+      [
+        "FACT_MISMATCH",
+        [
+          [
+            0,
+            "ulimit -Xa",
+            "Unanswerable"
+          ]
+        ]
+      ],
+      [
+        "STEP_MISSING",
+        [
+          1
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "TECHQA_TRAIN_Q039_2",
+    "score": 0.0,
+    "reason": [
+      [
+        "FACT_MISMATCH",
+        [
+          [
+            0,
+            "-Xgc:preferredHeapBase=<address>",
+            "-Xnocompressedrefs"
+          ]
+        ]
+      ],
+      [
+        "STEP_MISSING",
+        [
+          1
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "TECHQA_TRAIN_Q024_2",
+    "score": 1.0,
+    "reason": []
+  },
+  {
+    "id": "TECHQA_TRAIN_Q001_2",
+    "score": 0.0,
+    "reason": [
+      [
+        "FACT_MISMATCH",
+        [
+          [
+            0,
+            "User Defined Function call",
+            "Custom Function call"
+          ]
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "TECHQA_TRAIN_Q012_2",
+    "score": 0.0,
+    "reason": [
+      [
+        "FACT_MISMATCH",
+        [
+          [
+            0,
+            "131072",
+            "Unanswerable"
+          ]
+        ]
+      ],
+      [
+        "STEP_MISSING",
+        [
+          1
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "TECHQA_TRAIN_Q031_2",
+    "score": 0.0,
+    "reason": [
+      [
+        "STEP_MISSING",
+        [
+          1
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "TECHQA_TRAIN_Q000_2",
+    "score": 1.0,
+    "reason": []
+  },
+  {
+    "id": "TECHQA_TRAIN_Q042_2",
+    "score": 0.0,
+    "reason": [
+      [
+        "STEP_MISSING",
+        [
+          1
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "TECHQA_TRAIN_Q019_2",
+    "score": 0.0,
+    "reason": [
+      [
+        "STEP_MISSING",
+        [
+          2,
+          1
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "TECHQA_TRAIN_Q013_2",
+    "score": 0.0,
+    "reason": [
+      [
+        "FACT_MISMATCH",
+        [
+          [
+            1,
+            "2.2.0.1-TIV-TIP-<platform>-RP0001",
+            "Unanswerable"
+          ]
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "TECHQA_TRAIN_Q020_2",
+    "score": 0.0,
+    "reason": [
+      [
+        "FACT_MISMATCH",
+        [
+          [
+            0,
+            "Rational Host Access Transformation Services (HATS) V9.0 Information Center",
+            "Unanswerable"
+          ],
+          [
+            1,
+            "http://pic.dhe.ibm.com/infocenter/hatshelp/v90/topic/com.ibm.hats.doc/doc/gsinstal.htm",
+            "Unanswerable"
+          ]
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "TECHQA_TRAIN_Q003_2",
+    "score": 0.0,
+    "reason": [
+      [
+        "FACT_MISMATCH",
+        [
+          [
+            0,
+            "Global Security Kit (GSKit)",
+            "Unanswerable"
+          ]
+        ]
+      ],
+      [
+        "STEP_REVERSAL",
+        [
+          3,
+          2,
+          4,
+          1
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "TECHQA_TRAIN_Q044_2",
+    "score": 1.0,
+    "reason": []
+  },
+  {
+    "id": "TECHQA_TRAIN_Q009_2",
+    "score": 0.0,
+    "reason": [
+      [
+        "STEP_MISSING",
+        [
+          7
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "TECHQA_TRAIN_Q011_2",
+    "score": 0.0,
+    "reason": [
+      [
+        "FACT_MISMATCH",
+        [
+          [
+            2,
+            "cd /Applications/IBM/SPSS/Statistics/",
+            "sudo chown -R root:admin 25"
+          ]
+        ]
+      ],
+      [
+        "STEP_MISSING",
+        [
+          5,
+          4,
+          7,
+          3,
+          13
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "TECHQA_TRAIN_Q049_2",
+    "score": 0.0,
+    "reason": [
+      [
+        "FACT_MISMATCH",
+        [
+          [
+            0,
+            "PI89498",
+            "Unanswerable"
+          ]
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "TECHQA_TRAIN_Q062_2",
+    "score": 0.0,
+    "reason": [
+      [
+        "STEP_REVERSAL",
+        [
+          2,
+          3,
+          1
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "TECHQA_TRAIN_Q059_2",
+    "score": 1.0,
+    "reason": []
+  },
+  {
+    "id": "TECHQA_TRAIN_Q037_2",
+    "score": 1.0,
+    "reason": []
+  },
+  {
+    "id": "TECHQA_TRAIN_Q080_2",
+    "score": 1.0,
+    "reason": []
+  },
+  {
+    "id": "TECHQA_TRAIN_Q070_2",
+    "score": 1.0,
+    "reason": []
+  },
+  {
+    "id": "TECHQA_TRAIN_Q038_2",
+    "score": 0.0,
+    "reason": [
+      [
+        "FACT_MISMATCH",
+        [
+          [
+            1,
+            "<cognos_install>/uninstall/backup",
+            "Unanswerable"
+          ],
+          [
+            2,
+            "10.2.1 FP1",
+            "Unanswerable"
+          ],
+          [
+            3,
+            "<cognos_install>/bkp",
+            "Unanswerable"
+          ]
+        ]
+      ],
+      [
+        "STEP_MISSING",
+        [
+          4,
+          8,
+          9,
+          5,
+          6,
+          2
+        ]
+      ],
+      [
+        "STEP_REVERSAL",
+        [
+          1,
+          7,
+          3
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "TECHQA_TRAIN_Q055_2",
+    "score": 0.0,
+    "reason": [
+      [
+        "FACT_MISMATCH",
+        [
+          [
+            0,
+            "WebSphere",
+            "Unanswerable"
+          ],
+          [
+            1,
+            "setCenteraLibPath.sh",
+            "Unanswerable"
+          ],
+          [
+            2,
+            "setCenteraLibPath.bat",
+            "Unanswerable"
+          ]
+        ]
+      ],
+      [
+        "STEP_MISSING",
+        [
+          1
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "TECHQA_TRAIN_Q082_2",
+    "score": 1.0,
+    "reason": []
+  },
+  {
+    "id": "TECHQA_TRAIN_Q071_2",
+    "score": 1.0,
+    "reason": []
+  },
+  {
+    "id": "TECHQA_TRAIN_Q081_2",
+    "score": 0.0,
+    "reason": [
+      [
+        "FACT_MISMATCH",
+        [
+          [
+            0,
+            "3",
+            "Unanswerable"
+          ],
+          [
+            1,
+            "V4.0.1.3",
+            "Unanswerable"
+          ]
+        ]
+      ],
+      [
+        "STEP_MISSING",
+        [
+          1
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "TECHQA_TRAIN_Q065_2",
+    "score": 1.0,
+    "reason": []
+  },
+  {
+    "id": "TECHQA_TRAIN_Q101_2",
+    "score": 1.0,
+    "reason": []
+  },
+  {
+    "id": "TECHQA_TRAIN_Q092_2",
+    "score": 1.0,
+    "reason": []
+  },
+  {
+    "id": "TECHQA_TRAIN_Q087_2",
+    "score": 0.0,
+    "reason": [
+      [
+        "FACT_MISMATCH",
+        [
+          [
+            0,
+            "gtk+",
+            "Unanswerable"
+          ],
+          [
+            1,
+            "AIX",
+            "Unanswerable"
+          ]
+        ]
+      ],
+      [
+        "STEP_MISSING",
+        [
+          1
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "TECHQA_TRAIN_Q109_2",
+    "score": 1.0,
+    "reason": []
+  },
+  {
+    "id": "TECHQA_TRAIN_Q085_2",
+    "score": 1.0,
+    "reason": []
+  },
+  {
+    "id": "TECHQA_TRAIN_Q112_2",
+    "score": 0.0,
+    "reason": [
+      [
+        "FACT_MISMATCH",
+        [
+          [
+            0,
+            "SystemOut.log",
+            "Unanswerable"
+          ]
+        ]
+      ],
+      [
+        "STEP_MISSING",
+        [
+          1,
+          2
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "TECHQA_TRAIN_Q110_2",
+    "score": 1.0,
+    "reason": []
+  },
+  {
+    "id": "TECHQA_TRAIN_Q067_2",
+    "score": 0.0,
+    "reason": [
+      [
+        "STEP_MISSING",
+        [
+          1
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "TECHQA_TRAIN_Q104_2",
+    "score": 1.0,
+    "reason": []
+  },
+  {
+    "id": "TECHQA_TRAIN_Q120_2",
+    "score": 1.0,
+    "reason": []
+  },
+  {
+    "id": "TECHQA_TRAIN_Q125_2",
+    "score": 0.0,
+    "reason": [
+      [
+        "STEP_MISSING",
+        [
+          1
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "TECHQA_TRAIN_Q118_2",
+    "score": 0.0,
+    "reason": [
+      [
+        "FACT_MISMATCH",
+        [
+          [
+            0,
+            "AutoUpdateMultipleProfiles",
+            "the context"
+          ]
+        ]
+      ],
+      [
+        "STEP_MISSING",
+        [
+          2
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "TECHQA_TRAIN_Q123_2",
+    "score": 0.0,
+    "reason": [
+      [
+        "STEP_MISSING",
+        [
+          1
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "TECHQA_TRAIN_Q131_2",
+    "score": 0.0,
+    "reason": [
+      [
+        "STEP_MISSING",
+        [
+          1
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "TECHQA_TRAIN_Q121_2",
+    "score": 0.0,
+    "reason": [
+      [
+        "STEP_MISSING",
+        [
+          1
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "TECHQA_TRAIN_Q132_2",
+    "score": 0.0,
+    "reason": [
+      [
+        "FACT_MISMATCH",
+        [
+          [
+            0,
+            "arstfmt -i C:\\Users\\IBM_ADMIN\\path\\to\\file -o C:\\Users\\IBM_ADMIN\\path\\to\\file\\name.txt",
+            "arstfmt -i <path_to_unreadable_trace_file> -o <path_to_formatted_trace_file>"
+          ]
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "TECHQA_TRAIN_Q113_2",
+    "score": 1.0,
+    "reason": []
+  },
+  {
+    "id": "TECHQA_TRAIN_Q140_2",
+    "score": 1.0,
+    "reason": []
+  },
+  {
+    "id": "TECHQA_TRAIN_Q134_2",
+    "score": 1.0,
+    "reason": []
+  },
+  {
+    "id": "TECHQA_TRAIN_Q141_2",
+    "score": 0.0,
+    "reason": [
+      [
+        "FACT_MISMATCH",
+        [
+          [
+            0,
+            "reinit",
+            "Unanswerable"
+          ]
+        ]
+      ],
+      [
+        "STEP_MISSING",
+        [
+          1
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "TECHQA_TRAIN_Q162_2",
+    "score": 1.0,
+    "reason": []
+  },
+  {
+    "id": "TECHQA_TRAIN_Q159_2",
+    "score": 1.0,
+    "reason": []
+  },
+  {
+    "id": "TECHQA_TRAIN_Q098_2",
+    "score": 0.0,
+    "reason": [
+      [
+        "STEP_MISSING",
+        [
+          2
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "TECHQA_TRAIN_Q187_2",
+    "score": 0.0,
+    "reason": [
+      [
+        "FACT_MISMATCH",
+        [
+          [
+            0,
+            "Override Session Management",
+            "Enterprise Application"
+          ]
+        ]
+      ],
+      [
+        "STEP_REVERSAL",
+        [
+          2,
+          1
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "TECHQA_TRAIN_Q166_2",
+    "score": 0.0,
+    "reason": [
+      [
+        "STEP_MISSING",
+        [
+          2
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "TECHQA_TRAIN_Q165_2",
+    "score": 1.0,
+    "reason": []
+  },
+  {
+    "id": "TECHQA_TRAIN_Q154_2",
+    "score": 0.0,
+    "reason": [
+      [
+        "FACT_MISMATCH",
+        [
+          [
+            1,
+            "22",
+            "23 or later versions"
+          ]
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "TECHQA_TRAIN_Q152_2",
+    "score": 0.0,
+    "reason": [
+      [
+        "FACT_MISMATCH",
+        [
+          [
+            0,
+            "connection_mode",
+            "ConnectionMode"
+          ]
+        ]
+      ],
+      [
+        "STEP_MISSING",
+        [
+          1
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "TECHQA_TRAIN_Q184_2",
+    "score": 1.0,
+    "reason": []
+  },
+  {
+    "id": "TECHQA_TRAIN_Q129_2",
+    "score": 1.0,
+    "reason": []
+  },
+  {
+    "id": "TECHQA_TRAIN_Q145_2",
+    "score": 0.0,
+    "reason": [
+      [
+        "FACT_MISMATCH",
+        [
+          [
+            0,
+            "mqsichangeproperties <Int.Node> -e <Int.Server> -o ComIbmInternalSupportManager/Java/JVM -n dump -v <dump_type>",
+            "mqsichangeproperties <Int.Node> -e <Int.Server> -o ComIbmInternalSupportManager/Java/JVM -n dump -v thread"
+          ]
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "TECHQA_TRAIN_Q150_2",
+    "score": 1.0,
+    "reason": []
+  },
+  {
+    "id": "TECHQA_TRAIN_Q178_2",
+    "score": 0.0,
+    "reason": [
+      [
+        "FACT_MISMATCH",
+        [
+          [
+            0,
+            "UPDATE dbo.DATASOURCE_SEQUENCES set LAST_SEQUENCE = blob(x'0000000000000000');",
+            "Unanswerable"
+          ],
+          [
+            1,
+            "UPDATE dbo.datasource_sequences set last_sequence = 0x0000000000000000;",
+            "Unanswerable"
+          ]
+        ]
+      ],
+      [
+        "STEP_MISSING",
+        [
+          1,
+          2,
+          3,
+          4
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "TECHQA_TRAIN_Q174_2",
+    "score": 0.0,
+    "reason": [
+      [
+        "FACT_MISMATCH",
+        [
+          [
+            0,
+            "Page Builder",
+            "Unanswerable"
+          ],
+          [
+            1,
+            "wp_profile_root",
+            "Unanswerable"
+          ]
+        ]
+      ],
+      [
+        "STEP_MISSING",
+        [
+          1,
+          3,
+          2
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "TECHQA_TRAIN_Q207_2",
+    "score": 1.0,
+    "reason": []
+  },
+  {
+    "id": "TECHQA_TRAIN_Q203_2",
+    "score": 0.0,
+    "reason": [
+      [
+        "FACT_MISMATCH",
+        [
+          [
+            0,
+            "DataPower",
+            "Unanswerable"
+          ]
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "TECHQA_TRAIN_Q195_2",
+    "score": 1.0,
+    "reason": []
+  },
+  {
+    "id": "TECHQA_TRAIN_Q217_2",
+    "score": 0.0,
+    "reason": [
+      [
+        "FACT_MISMATCH",
+        [
+          [
+            0,
+            "ftp://public.dhe.ibm.com/software/tivoli_support/misc/PandA/tools_agent/tools/appsupt/LCD7-3513-09.zip",
+            "Unanswerable"
+          ]
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "TECHQA_TRAIN_Q210_2",
+    "score": 1.0,
+    "reason": []
+  },
+  {
+    "id": "TECHQA_TRAIN_Q224_2",
+    "score": 1.0,
+    "reason": []
+  },
+  {
+    "id": "TECHQA_TRAIN_Q190_2",
+    "score": 0.0,
+    "reason": [
+      [
+        "STEP_MISSING",
+        [
+          2,
+          4
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "TECHQA_TRAIN_Q215_2",
+    "score": 1.0,
+    "reason": []
+  },
+  {
+    "id": "TECHQA_TRAIN_Q201_2",
+    "score": 1.0,
+    "reason": []
+  },
+  {
+    "id": "TECHQA_TRAIN_Q227_2",
+    "score": 1.0,
+    "reason": []
+  },
+  {
+    "id": "TECHQA_TRAIN_Q199_2",
+    "score": 0.0,
+    "reason": [
+      [
+        "FACT_MISMATCH",
+        [
+          [
+            0,
+            "WASServiceCmd.exe",
+            "WASServiceHelper"
+          ],
+          [
+            1,
+            "WASServiceCmd.exe",
+            "WASServiceHelper"
+          ],
+          [
+            2,
+            "install_root\\bin",
+            "bin directory of your WebSphere Application Server installation"
+          ]
+        ]
+      ],
+      [
+        "STEP_MISSING",
+        [
+          1
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "TECHQA_TRAIN_Q225_2",
+    "score": 0.0,
+    "reason": [
+      [
+        "FACT_MISMATCH",
+        [
+          [
+            0,
+            "was.notification.timeout",
+            "Unanswerable"
+          ],
+          [
+            1,
+            "1200",
+            "Unanswerable"
+          ],
+          [
+            2,
+            "upgrade-profile",
+            "Unanswerable"
+          ]
+        ]
+      ],
+      [
+        "STEP_MISSING",
+        [
+          2,
+          1
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "TECHQA_TRAIN_Q202_2",
+    "score": 1.0,
+    "reason": []
+  },
+  {
+    "id": "TECHQA_TRAIN_Q221_2",
+    "score": 1.0,
+    "reason": []
+  },
+  {
+    "id": "TECHQA_TRAIN_Q226_2",
+    "score": 1.0,
+    "reason": []
+  },
+  {
+    "id": "TECHQA_TRAIN_Q236_2",
+    "score": 0.0,
+    "reason": [
+      [
+        "FACT_MISMATCH",
+        [
+          [
+            0,
+            "Statistics",
+            "19"
+          ]
+        ]
+      ],
+      [
+        "STEP_MISSING",
+        [
+          1
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "TECHQA_TRAIN_Q228_2",
+    "score": 1.0,
+    "reason": []
+  },
+  {
+    "id": "TECHQA_TRAIN_Q234_2",
+    "score": 1.0,
+    "reason": []
+  },
+  {
+    "id": "TECHQA_TRAIN_Q237_2",
+    "score": 0.0,
+    "reason": [
+      [
+        "FACT_MISMATCH",
+        [
+          [
+            0,
+            "Business Process Manager",
+            "Technical"
+          ]
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "TECHQA_TRAIN_Q263_2",
+    "score": 0.0,
+    "reason": [
+      [
+        "FACT_MISMATCH",
+        [
+          [
+            0,
+            "http://www.ibm.com/support/fixcentral/swg/quickorder?parent=ibm%7ETivoli&product=ibm/Tivoli/IBM+Tivoli+Monitoring&release=All&platform=All&function=fixId&fixids=6.3.0-TIV-ITM-FP0006&source=fc",
+            "https://www.ibm.com/support/fixcentral/"
+          ]
+        ]
+      ],
+      [
+        "STEP_MISSING",
+        [
+          1
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "TECHQA_TRAIN_Q270_2",
+    "score": 1.0,
+    "reason": []
+  },
+  {
+    "id": "TECHQA_TRAIN_Q258_2",
+    "score": 1.0,
+    "reason": []
+  },
+  {
+    "id": "TECHQA_TRAIN_Q262_2",
+    "score": 0.0,
+    "reason": [
+      [
+        "FACT_MISMATCH",
+        [
+          [
+            0,
+            "Microsoft Edge",
+            "Unanswerable"
+          ]
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "TECHQA_TRAIN_Q231_2",
+    "score": 0.0,
+    "reason": [
+      [
+        "STEP_MISSING",
+        [
+          3
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "TECHQA_TRAIN_Q274_2",
+    "score": 0.0,
+    "reason": [
+      [
+        "FACT_MISMATCH",
+        [
+          [
+            0,
+            "profilePath",
+            "directory"
+          ]
+        ]
+      ],
+      [
+        "STEP_MISSING",
+        [
+          1
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "TECHQA_TRAIN_Q256_2",
+    "score": 1.0,
+    "reason": []
+  },
+  {
+    "id": "TECHQA_TRAIN_Q235_2",
+    "score": 0.0,
+    "reason": [
+      [
+        "FACT_MISMATCH",
+        [
+          [
+            1,
+            "update maximo.maxpropvalue set propvalue='COALESCE' where propname='mxe.db.format.nullvalue';",
+            "update maximo.maxpropvalue set propvalue='ISNULL' where propname='mxe.db.format.nullvalue';"
+          ]
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "TECHQA_TRAIN_Q276_2",
+    "score": 0.0,
+    "reason": [
+      [
+        "FACT_MISMATCH",
+        [
+          [
+            0,
+            "JMSListener",
+            "ImpactServer"
+          ]
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "TECHQA_TRAIN_Q280_2",
+    "score": 0.0,
+    "reason": [
+      [
+        "STEP_MISSING",
+        [
+          1
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "TECHQA_TRAIN_Q278_2",
+    "score": 1.0,
+    "reason": []
+  },
+  {
+    "id": "TECHQA_TRAIN_Q277_2",
+    "score": 1.0,
+    "reason": []
+  },
+  {
+    "id": "TECHQA_TRAIN_Q283_2",
+    "score": 0.0,
+    "reason": [
+      [
+        "FACT_MISMATCH",
+        [
+          [
+            0,
+            "www-01.ibm.com/support/knowledgecenter/SSSHTQ/omnibus/probes/nokia_nfmp/wip/concept/nknfmp_intro.html",
+            "www.ibm.com/support/knowledgecenter"
+          ]
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "TECHQA_TRAIN_Q285_2",
+    "score": 1.0,
+    "reason": []
+  },
+  {
+    "id": "TECHQA_TRAIN_Q294_2",
+    "score": 1.0,
+    "reason": []
+  },
+  {
+    "id": "TECHQA_TRAIN_Q286_2",
+    "score": 1.0,
+    "reason": []
+  },
+  {
+    "id": "TECHQA_TRAIN_Q295_2",
+    "score": 0.0,
+    "reason": [
+      [
+        "FACT_MISMATCH",
+        [
+          [
+            0,
+            "<TIP HOME>/profiles/TIPProfile/bin/ha",
+            "Unanswerable"
+          ],
+          [
+            1,
+            "HATool.{bat|sh} modules <db2 username> <db2 password>",
+            "Unanswerable"
+          ]
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "TECHQA_TRAIN_Q297_2",
+    "score": 1.0,
+    "reason": []
+  },
+  {
+    "id": "TECHQA_TRAIN_Q300_2",
+    "score": 1.0,
+    "reason": []
+  },
+  {
+    "id": "TECHQA_TRAIN_Q304_2",
+    "score": 1.0,
+    "reason": []
+  },
+  {
+    "id": "TECHQA_TRAIN_Q305_2",
+    "score": 1.0,
+    "reason": []
+  },
+  {
+    "id": "TECHQA_TRAIN_Q296_2",
+    "score": 0.0,
+    "reason": [
+      [
+        "FACT_MISMATCH",
+        [
+          [
+            0,
+            "RC4",
+            "ciphers you want to remove"
+          ]
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "TECHQA_TRAIN_Q306_2",
+    "score": 0.0,
+    "reason": [
+      [
+        "STEP_REVERSAL",
+        [
+          1,
+          2,
+          1,
+          2,
+          3,
+          4
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "TECHQA_TRAIN_Q307_2",
+    "score": 0.0,
+    "reason": [
+      [
+        "FACT_MISMATCH",
+        [
+          [
+            0,
+            "Deployment Engine (DE)",
+            "DE instance"
+          ]
+        ]
+      ],
+      [
+        "STEP_MISSING",
+        [
+          1
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "TECHQA_TRAIN_Q318_2",
+    "score": 0.0,
+    "reason": [
+      [
+        "FACT_MISMATCH",
+        [
+          [
+            0,
+            "BES",
+            "BigFix"
+          ],
+          [
+            1,
+            "Internet Explorer Enhanced Security Configuration",
+            "IPS or firewall"
+          ]
+        ]
+      ],
+      [
+        "STEP_REVERSAL",
+        [
+          1,
+          3,
+          2
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "TECHQA_TRAIN_Q301_2",
+    "score": 0.0,
+    "reason": [
+      [
+        "FACT_MISMATCH",
+        [
+          [
+            0,
+            "psql -U dfuser dfdata -c \"insert into adminknobs (name,value,description,valuetype,use) VALUES ('read_sparse_files','1','Read sparse data objects','int','1')\"",
+            "service siqinit restart"
+          ],
+          [
+            2,
+            "service siqinit restart",
+            "Unanswerable"
+          ]
+        ]
+      ],
+      [
+        "STEP_REVERSAL",
+        [
+          1,
+          3,
+          2,
+          3
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "TECHQA_TRAIN_Q310_2",
+    "score": 1.0,
+    "reason": []
+  },
+  {
+    "id": "TECHQA_TRAIN_Q336_2",
+    "score": 0.0,
+    "reason": [
+      [
+        "FACT_MISMATCH",
+        [
+          [
+            0,
+            "monitoring servers",
+            "Unanswerable"
+          ]
+        ]
+      ],
+      [
+        "STEP_MISSING",
+        [
+          1
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "TECHQA_TRAIN_Q331_2",
+    "score": 1.0,
+    "reason": []
+  },
+  {
+    "id": "TECHQA_TRAIN_Q319_2",
+    "score": 1.0,
+    "reason": []
+  },
+  {
+    "id": "TECHQA_TRAIN_Q330_2",
+    "score": 1.0,
+    "reason": []
+  },
+  {
+    "id": "TECHQA_TRAIN_Q334_2",
+    "score": 1.0,
+    "reason": []
+  },
+  {
+    "id": "TECHQA_TRAIN_Q338_2",
+    "score": 0.0,
+    "reason": [
+      [
+        "STEP_MISSING",
+        [
+          1
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "TECHQA_TRAIN_Q339_2",
+    "score": 1.0,
+    "reason": []
+  },
+  {
+    "id": "TECHQA_TRAIN_Q340_2",
+    "score": 1.0,
+    "reason": []
+  },
+  {
+    "id": "TECHQA_TRAIN_Q250_2",
+    "score": 1.0,
+    "reason": []
+  },
+  {
+    "id": "TECHQA_TRAIN_Q350_2",
+    "score": 1.0,
+    "reason": []
+  },
+  {
+    "id": "TECHQA_TRAIN_Q337_2",
+    "score": 1.0,
+    "reason": []
+  },
+  {
+    "id": "TECHQA_TRAIN_Q348_2",
+    "score": 1.0,
+    "reason": []
+  },
+  {
+    "id": "TECHQA_TRAIN_Q260_2",
+    "score": 0.0,
+    "reason": [
+      [
+        "STEP_MISSING",
+        [
+          1
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "TECHQA_TRAIN_Q341_2",
+    "score": 0.0,
+    "reason": [
+      [
+        "FACT_MISMATCH",
+        [
+          [
+            0,
+            "<washome>/java/bin/java -Xbootclasspath/p:<washome>/java/jre/lib/ext/ibmorb.jar com.ibm.rmi.util.Version",
+            "Unanswerable"
+          ]
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "TECHQA_TRAIN_Q358_2",
+    "score": 1.0,
+    "reason": []
+  },
+  {
+    "id": "TECHQA_TRAIN_Q353_2",
+    "score": 1.0,
+    "reason": []
+  },
+  {
+    "id": "TECHQA_TRAIN_Q254_2",
+    "score": 0.0,
+    "reason": [
+      [
+        "FACT_MISMATCH",
+        [
+          [
+            1,
+            "9",
+            "Unanswerable"
+          ],
+          [
+            2,
+            "WCM_WCMConfigService",
+            "Unanswerable"
+          ],
+          [
+            3,
+            "wcm.transaction.timeout",
+            "Unanswerable"
+          ],
+          [
+            4,
+            "600",
+            "Unanswerable"
+          ]
+        ]
+      ],
+      [
+        "STEP_MISSING",
+        [
+          2,
+          1
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "TECHQA_TRAIN_Q368_2",
+    "score": 1.0,
+    "reason": []
+  },
+  {
+    "id": "TECHQA_TRAIN_Q360_2",
+    "score": 0.0,
+    "reason": [
+      [
+        "FACT_MISMATCH",
+        [
+          [
+            1,
+            "KPH SERVER LPARS",
+            "Server LPARs attribute group"
+          ]
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "TECHQA_TRAIN_Q382_2",
+    "score": 0.0,
+    "reason": [
+      [
+        "STEP_REVERSAL",
+        [
+          3,
+          1,
+          2,
+          4,
+          5
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "TECHQA_TRAIN_Q380_2",
+    "score": 0.0,
+    "reason": [
+      [
+        "STEP_MISSING",
+        [
+          1
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "TECHQA_TRAIN_Q367_2",
+    "score": 1.0,
+    "reason": []
+  },
+  {
+    "id": "TECHQA_TRAIN_Q372_2",
+    "score": 0.0,
+    "reason": [
+      [
+        "FACT_MISMATCH",
+        [
+          [
+            1,
+            "./JazzSMgrpModeUpgrade.sh \"IM_Install_Location\"",
+            "script_name IM_Install_Location JazzSM_Install_Location"
+          ]
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "TECHQA_TRAIN_Q373_2",
+    "score": 1.0,
+    "reason": []
+  },
+  {
+    "id": "TECHQA_TRAIN_Q389_2",
+    "score": 0.0,
+    "reason": [
+      [
+        "FACT_MISMATCH",
+        [
+          [
+            0,
+            "http://publib.boulder.ibm.com/infocenter/prodguid/v1r0/clarity/index.jsp",
+            "Unanswerable"
+          ]
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "TECHQA_TRAIN_Q391_2",
+    "score": 1.0,
+    "reason": []
+  },
+  {
+    "id": "TECHQA_TRAIN_Q366_2",
+    "score": 0.0,
+    "reason": [
+      [
+        "FACT_MISMATCH",
+        [
+          [
+            0,
+            "mkdir /tmp/backup",
+            "mkdir /tmp/restore"
+          ],
+          [
+            2,
+            "ObjectServers",
+            "a copy of the"
+          ]
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "TECHQA_TRAIN_Q398_2",
+    "score": 1.0,
+    "reason": []
+  },
+  {
+    "id": "TECHQA_TRAIN_Q384_2",
+    "score": 1.0,
+    "reason": []
+  },
+  {
+    "id": "TECHQA_TRAIN_Q429_2",
+    "score": 0.0,
+    "reason": [
+      [
+        "FACT_MISMATCH",
+        [
+          [
+            0,
+            "z/OS support",
+            "Unanswerable"
+          ],
+          [
+            1,
+            "IBMLINK",
+            "Unanswerable"
+          ]
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "TECHQA_TRAIN_Q390_2",
+    "score": 0.0,
+    "reason": [
+      [
+        "FACT_MISMATCH",
+        [
+          [
+            1,
+            "Primary",
+            "Unanswerable"
+          ],
+          [
+            2,
+            ".type",
+            "Unanswerable"
+          ]
+        ]
+      ],
+      [
+        "STEP_MISSING",
+        [
+          3
+        ]
+      ],
+      [
+        "STEP_REVERSAL",
+        [
+          1,
+          4,
+          2
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "TECHQA_TRAIN_Q421_2",
+    "score": 1.0,
+    "reason": []
+  },
+  {
+    "id": "TECHQA_TRAIN_Q424_2",
+    "score": 1.0,
+    "reason": []
+  },
+  {
+    "id": "TECHQA_TRAIN_Q393_2",
+    "score": 1.0,
+    "reason": []
+  },
+  {
+    "id": "TECHQA_TRAIN_Q430_2",
+    "score": 1.0,
+    "reason": []
+  },
+  {
+    "id": "TECHQA_TRAIN_Q431_2",
+    "score": 1.0,
+    "reason": []
+  },
+  {
+    "id": "TECHQA_TRAIN_Q440_2",
+    "score": 1.0,
+    "reason": []
+  },
+  {
+    "id": "TECHQA_TRAIN_Q425_2",
+    "score": 0.0,
+    "reason": [
+      [
+        "FACT_MISMATCH",
+        [
+          [
+            0,
+            "cleartool chflevel -replica <new feature level> replica:<replica name>@\\<vob tag>",
+            "cleartool describe -long vob:."
+          ],
+          [
+            1,
+            "cleartool chflevel -family <new feature level> vob:\\<vob tag>",
+            "cleartool chflevel -family 8 vob:/vobstore/test_vob"
+          ]
+        ]
+      ],
+      [
+        "STEP_MISSING",
+        [
+          1
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "TECHQA_TRAIN_Q423_2",
+    "score": 0.0,
+    "reason": [
+      [
+        "FACT_MISMATCH",
+        [
+          [
+            1,
+            "<install>/configuration/schemas/delivery/<dbtype>/",
+            "Unanswerable"
+          ]
+        ]
+      ],
+      [
+        "STEP_MISSING",
+        [
+          3
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "TECHQA_TRAIN_Q441_2",
+    "score": 0.0,
+    "reason": [
+      [
+        "FACT_MISMATCH",
+        [
+          [
+            0,
+            "fileServingEnabled=\"true\"",
+            "Unanswerable"
+          ],
+          [
+            1,
+            "ibm-web-ext.xmi",
+            "Unanswerable"
+          ]
+        ]
+      ],
+      [
+        "STEP_MISSING",
+        [
+          1
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "TECHQA_TRAIN_Q401_2",
+    "score": 0.0,
+    "reason": [
+      [
+        "STEP_MISSING",
+        [
+          1
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "TECHQA_TRAIN_Q454_2",
+    "score": 1.0,
+    "reason": []
+  },
+  {
+    "id": "TECHQA_TRAIN_Q455_2",
+    "score": 0.0,
+    "reason": [
+      [
+        "FACT_MISMATCH",
+        [
+          [
+            0,
+            "dblook",
+            "Unanswerable"
+          ],
+          [
+            1,
+            "ij",
+            "Unanswerable"
+          ]
+        ]
+      ],
+      [
+        "STEP_MISSING",
+        [
+          1
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "TECHQA_TRAIN_Q460_2",
+    "score": 1.0,
+    "reason": []
+  },
+  {
+    "id": "TECHQA_TRAIN_Q443_2",
+    "score": 1.0,
+    "reason": []
+  },
+  {
+    "id": "TECHQA_TRAIN_Q388_2",
+    "score": 1.0,
+    "reason": []
+  },
+  {
+    "id": "TECHQA_TRAIN_Q449_2",
+    "score": 1.0,
+    "reason": []
+  },
+  {
+    "id": "TECHQA_TRAIN_Q467_2",
+    "score": 0.0,
+    "reason": [
+      [
+        "STEP_MISSING",
+        [
+          1
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "TECHQA_TRAIN_Q461_2",
+    "score": 1.0,
+    "reason": []
+  },
+  {
+    "id": "TECHQA_TRAIN_Q466_2",
+    "score": 1.0,
+    "reason": []
+  },
+  {
+    "id": "TECHQA_TRAIN_Q472_2",
+    "score": 1.0,
+    "reason": []
+  },
+  {
+    "id": "TECHQA_TRAIN_Q478_2",
+    "score": 1.0,
+    "reason": []
+  },
+  {
+    "id": "TECHQA_TRAIN_Q483_2",
+    "score": 0.0,
+    "reason": [
+      [
+        "FACT_MISMATCH",
+        [
+          [
+            0,
+            "mqjavalist.sh",
+            "Unanswerable"
+          ],
+          [
+            1,
+            "MQ",
+            "Unanswerable"
+          ]
+        ]
+      ],
+      [
+        "STEP_MISSING",
+        [
+          1
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "TECHQA_TRAIN_Q413_2",
+    "score": 0.0,
+    "reason": [
+      [
+        "STEP_MISSING",
+        [
+          1
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "TECHQA_TRAIN_Q452_2",
+    "score": 0.0,
+    "reason": [
+      [
+        "FACT_MISMATCH",
+        [
+          [
+            0,
+            "C:\\ProgramData\\IBM\\ContentCollector\\ConfigurationStore",
+            "C:\\\\ProgramData\\\\IBM\\\\ContentCollector\\\\ConfigurationStore"
+          ],
+          [
+            1,
+            "C:\\ProgramData\\IBM\\ContentCollector\\ConfigurationStore\\logs\\* ",
+            "C:\\\\ProgramData\\\\IBM\\\\ContentCollector\\\\ConfigurationStore\\\\logs\\\\*"
+          ],
+          [
+            2,
+            "C:\\ProgramData\\IBM\\ContentCollector\\ConfigurationStore\\solmsg.out",
+            "C:\\\\ProgramData\\\\IBM\\\\ContentCollector\\\\ConfigurationStore\\\\solmsg.out"
+          ],
+          [
+            3,
+            "C:\\ProgramData\\IBM\\ContentCollector\\ConfigurationStore\\solerror.out",
+            "C:\\\\ProgramData\\\\IBM\\\\ContentCollector\\\\ConfigurationStore\\\\solerror.out"
+          ]
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "TECHQA_TRAIN_Q475_2",
+    "score": 0.0,
+    "reason": [
+      [
+        "FACT_MISMATCH",
+        [
+          [
+            1,
+            "http://www-933.ibm.com/support/fixcentral/swg/selectFixes?parent=ibm~Tivoli&product=ibm/Tivoli/Jazz+for+Service+Management&release=1.1&platform=All&function=all",
+            "Unanswerable"
+          ]
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "TECHQA_TRAIN_Q490_2",
+    "score": 1.0,
+    "reason": []
+  },
+  {
+    "id": "TECHQA_TRAIN_Q494_2",
+    "score": 1.0,
+    "reason": []
+  },
+  {
+    "id": "TECHQA_TRAIN_Q497_2",
+    "score": 0.0,
+    "reason": [
+      [
+        "FACT_MISMATCH",
+        [
+          [
+            1,
+            "<JazzSM Home>/ui",
+            "Unanswerable"
+          ]
+        ]
+      ],
+      [
+        "STEP_MISSING",
+        [
+          5,
+          3,
+          7
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "TECHQA_TRAIN_Q489_2",
+    "score": 0.0,
+    "reason": [
+      [
+        "FACT_MISMATCH",
+        [
+          [
+            1,
+            "Unused timeout",
+            "Unanswerable"
+          ],
+          [
+            2,
+            "Reap timeout",
+            "Unanswerable"
+          ]
+        ]
+      ],
+      [
+        "STEP_MISSING",
+        [
+          2,
+          1
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "TECHQA_TRAIN_Q503_2",
+    "score": 1.0,
+    "reason": []
+  },
+  {
+    "id": "TECHQA_TRAIN_Q505_2",
+    "score": 1.0,
+    "reason": []
+  },
+  {
+    "id": "TECHQA_TRAIN_Q514_2",
+    "score": 0.0,
+    "reason": [
+      [
+        "FACT_MISMATCH",
+        [
+          [
+            0,
+            "ServerIOTimeoutRetry",
+            "Unanswerable"
+          ]
+        ]
+      ],
+      [
+        "STEP_MISSING",
+        [
+          1
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "TECHQA_TRAIN_Q507_2",
+    "score": 1.0,
+    "reason": []
+  },
+  {
+    "id": "TECHQA_TRAIN_Q515_2",
+    "score": 1.0,
+    "reason": []
+  },
+  {
+    "id": "TECHQA_TRAIN_Q517_2",
+    "score": 0.0,
+    "reason": [
+      [
+        "STEP_MISSING",
+        [
+          1
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "TECHQA_TRAIN_Q516_2",
+    "score": 0.0,
+    "reason": [
+      [
+        "STEP_MISSING",
+        [
+          1
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "TECHQA_TRAIN_Q470_2",
+    "score": 1.0,
+    "reason": []
+  },
+  {
+    "id": "TECHQA_TRAIN_Q521_2",
+    "score": 0.0,
+    "reason": [
+      [
+        "FACT_MISMATCH",
+        [
+          [
+            0,
+            "9.4.0.1",
+            "Unanswerable"
+          ]
+        ]
+      ],
+      [
+        "STEP_MISSING",
+        [
+          1
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "TECHQA_TRAIN_Q458_2",
+    "score": 0.0,
+    "reason": [
+      [
+        "STEP_MISSING",
+        [
+          3
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "TECHQA_TRAIN_Q473_2",
+    "score": 0.0,
+    "reason": [
+      [
+        "FACT_MISMATCH",
+        [
+          [
+            0,
+            "UTF-8",
+            "Unanswerable"
+          ]
+        ]
+      ],
+      [
+        "STEP_MISSING",
+        [
+          1
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "TECHQA_TRAIN_Q520_2",
+    "score": 0.0,
+    "reason": [
+      [
+        "FACT_MISMATCH",
+        [
+          [
+            0,
+            "RecognizePageOCR_S",
+            "latest recognition engine"
+          ]
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "TECHQA_TRAIN_Q524_2",
+    "score": 1.0,
+    "reason": []
+  },
+  {
+    "id": "TECHQA_TRAIN_Q528_2",
+    "score": 1.0,
+    "reason": []
+  },
+  {
+    "id": "TECHQA_TRAIN_Q504_2",
+    "score": 0.0,
+    "reason": [
+      [
+        "STEP_MISSING",
+        [
+          1
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "TECHQA_TRAIN_Q537_2",
+    "score": 0.0,
+    "reason": [
+      [
+        "FACT_MISMATCH",
+        [
+          [
+            0,
+            "SET PASSWORD <password>;",
+            "SET PASSWORD \"<new_password>\""
+          ]
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "TECHQA_TRAIN_Q538_2",
+    "score": 0.0,
+    "reason": [
+      [
+        "FACT_MISMATCH",
+        [
+          [
+            0,
+            "http://www.ibm.com/support/fixcentral/swg/quickorder?product=ibm/Tivoli/Tivoli+Composite+Application+Manager+for+Applications&release=All&platform=All&function=fixId&fixids=7.2.0.0-TIV-ITCAM_DC-IF0014&includeSupersedes=0&source=fc",
+            "Unanswerable"
+          ]
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "TECHQA_TRAIN_Q512_2",
+    "score": 0.0,
+    "reason": [
+      [
+        "FACT_MISMATCH",
+        [
+          [
+            4,
+            "Asset Analyzer",
+            "Unanswerable"
+          ]
+        ]
+      ],
+      [
+        "STEP_MISSING",
+        [
+          2,
+          5,
+          8
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "TECHQA_TRAIN_Q525_2",
+    "score": 0.0,
+    "reason": [
+      [
+        "FACT_MISMATCH",
+        [
+          [
+            1,
+            "%ITM_HOME%\\TMAITM6",
+            "$ITM_HOME/config"
+          ]
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "TECHQA_TRAIN_Q547_2",
+    "score": 0.0,
+    "reason": [
+      [
+        "FACT_MISMATCH",
+        [
+          [
+            0,
+            "7.2 FP1 ifix 5",
+            "SDA"
+          ]
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "TECHQA_TRAIN_Q555_2",
+    "score": 0.0,
+    "reason": [
+      [
+        "FACT_MISMATCH",
+        [
+          [
+            0,
+            "Fixpack 2",
+            "Unanswerable"
+          ]
+        ]
+      ],
+      [
+        "STEP_MISSING",
+        [
+          1
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "TECHQA_TRAIN_Q549_2",
+    "score": 1.0,
+    "reason": []
+  },
+  {
+    "id": "TECHQA_TRAIN_Q552_2",
+    "score": 0.0,
+    "reason": [
+      [
+        "FACT_MISMATCH",
+        [
+          [
+            0,
+            "http://www-01.ibm.com/support/docview.wss?rs=180&uid=swg24023707",
+            "Unanswerable"
+          ]
+        ]
+      ],
+      [
+        "STEP_MISSING",
+        [
+          1
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "TECHQA_TRAIN_Q569_2",
+    "score": 0.0,
+    "reason": [
+      [
+        "FACT_MISMATCH",
+        [
+          [
+            1,
+            "License Key Center",
+            "Unanswerable"
+          ]
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "TECHQA_TRAIN_Q543_2",
+    "score": 1.0,
+    "reason": []
+  },
+  {
+    "id": "TECHQA_TRAIN_Q561_2",
+    "score": 0.0,
+    "reason": [
+      [
+        "FACT_MISMATCH",
+        [
+          [
+            0,
+            "AppServer/bin",
+            "Unanswerable"
+          ],
+          [
+            1,
+            "./manageprofiles.sh|bat -listProfiles",
+            "Unanswerable"
+          ]
+        ]
+      ],
+      [
+        "STEP_MISSING",
+        [
+          2,
+          3
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "TECHQA_TRAIN_Q557_2",
+    "score": 1.0,
+    "reason": []
+  },
+  {
+    "id": "TECHQA_TRAIN_Q544_2",
+    "score": 1.0,
+    "reason": []
+  },
+  {
+    "id": "TECHQA_TRAIN_Q545_2",
+    "score": 1.0,
+    "reason": []
+  },
+  {
+    "id": "TECHQA_TRAIN_Q580_2",
+    "score": 1.0,
+    "reason": []
+  },
+  {
+    "id": "TECHQA_TRAIN_Q581_2",
+    "score": 1.0,
+    "reason": []
+  },
+  {
+    "id": "TECHQA_TRAIN_Q582_2",
+    "score": 0.0,
+    "reason": [
+      [
+        "FACT_MISMATCH",
+        [
+          [
+            0,
+            "Free Trial",
+            "24"
+          ]
+        ]
+      ],
+      [
+        "STEP_MISSING",
+        [
+          1
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "TECHQA_TRAIN_Q584_2",
+    "score": 0.0,
+    "reason": [
+      [
+        "FACT_MISMATCH",
+        [
+          [
+            0,
+            "PI89498",
+            "Unanswerable"
+          ]
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "TECHQA_TRAIN_Q577_2",
+    "score": 0.0,
+    "reason": [
+      [
+        "STEP_MISSING",
+        [
+          1
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "TECHQA_DEV_Q011_2",
+    "score": 1.0,
+    "reason": []
+  },
+  {
+    "id": "TECHQA_TRAIN_Q585_2",
+    "score": 0.0,
+    "reason": [
+      [
+        "FACT_MISMATCH",
+        [
+          [
+            0,
+            "200",
+            "Unanswerable"
+          ],
+          [
+            1,
+            "20",
+            "10"
+          ],
+          [
+            2,
+            "3.6",
+            "10"
+          ]
+        ]
+      ],
+      [
+        "STEP_REVERSAL",
+        [
+          2,
+          3,
+          1
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "TECHQA_TRAIN_Q597_2",
+    "score": 1.0,
+    "reason": []
+  },
+  {
+    "id": "TECHQA_DEV_Q002_2",
+    "score": 1.0,
+    "reason": []
+  },
+  {
+    "id": "TECHQA_TRAIN_Q587_2",
+    "score": 1.0,
+    "reason": []
+  },
+  {
+    "id": "TECHQA_DEV_Q008_2",
+    "score": 1.0,
+    "reason": []
+  },
+  {
+    "id": "TECHQA_DEV_Q010_2",
+    "score": 1.0,
+    "reason": []
+  },
+  {
+    "id": "TECHQA_DEV_Q025_2",
+    "score": 1.0,
+    "reason": []
+  },
+  {
+    "id": "TECHQA_DEV_Q021_2",
+    "score": 1.0,
+    "reason": []
+  },
+  {
+    "id": "TECHQA_TRAIN_Q595_2",
+    "score": 1.0,
+    "reason": []
+  },
+  {
+    "id": "TECHQA_DEV_Q016_2",
+    "score": 0.0,
+    "reason": [
+      [
+        "FACT_MISMATCH",
+        [
+          [
+            1,
+            "teamserver.war",
+            "Unanswerable"
+          ]
+        ]
+      ],
+      [
+        "STEP_REVERSAL",
+        [
+          1,
+          3,
+          2
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "TECHQA_DEV_Q033_2",
+    "score": 0.0,
+    "reason": [
+      [
+        "STEP_MISSING",
+        [
+          1
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "TECHQA_TRAIN_Q589_2",
+    "score": 0.0,
+    "reason": [
+      [
+        "FACT_MISMATCH",
+        [
+          [
+            3,
+            "RewriteRule ^(.*) https://%{SERVER_NAME}%{REQUEST_URI} [R,L]",
+            "RewriteRule ^(.*) http://%{SERVER_NAME}%{REQUEST_URI} [R,L]"
+          ]
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "TECHQA_DEV_Q029_2",
+    "score": 0.0,
+    "reason": [
+      [
+        "FACT_MISMATCH",
+        [
+          [
+            0,
+            "0",
+            "5 or more"
+          ],
+          [
+            1,
+            "Unused timeout",
+            "Unanswerable"
+          ],
+          [
+            2,
+            "Reap timeout",
+            "Unanswerable"
+          ]
+        ]
+      ],
+      [
+        "STEP_MISSING",
+        [
+          2,
+          1
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "TECHQA_DEV_Q052_2",
+    "score": 0.0,
+    "reason": [
+      [
+        "FACT_MISMATCH",
+        [
+          [
+            0,
+            "MUST",
+            "need to"
+          ]
+        ]
+      ],
+      [
+        "STEP_MISSING",
+        [
+          1
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "TECHQA_DEV_Q039_2",
+    "score": 1.0,
+    "reason": []
+  },
+  {
+    "id": "TECHQA_DEV_Q040_2",
+    "score": 1.0,
+    "reason": []
+  },
+  {
+    "id": "TECHQA_DEV_Q027_2",
+    "score": 0.0,
+    "reason": [
+      [
+        "FACT_MISMATCH",
+        [
+          [
+            0,
+            "Connect",
+            "Unanswerable"
+          ],
+          [
+            1,
+            "Workflow",
+            "Unanswerable"
+          ],
+          [
+            2,
+            "VScan",
+            "Unanswerable"
+          ],
+          [
+            3,
+            "1",
+            "Unanswerable"
+          ],
+          [
+            4,
+            "1",
+            "Unanswerable"
+          ]
+        ]
+      ],
+      [
+        "STEP_MISSING",
+        [
+          8,
+          7,
+          1,
+          5,
+          6,
+          2,
+          3,
+          4
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "TECHQA_DEV_Q048_2",
+    "score": 1.0,
+    "reason": []
+  },
+  {
+    "id": "TECHQA_DEV_Q030_2",
+    "score": 1.0,
+    "reason": []
+  },
+  {
+    "id": "TECHQA_DEV_Q038_2",
+    "score": 1.0,
+    "reason": []
+  },
+  {
+    "id": "TECHQA_DEV_Q043_2",
+    "score": 0.0,
+    "reason": [
+      [
+        "FACT_MISMATCH",
+        [
+          [
+            1,
+            "IBM Knowledge Center",
+            "document"
+          ]
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "TECHQA_DEV_Q055_2",
+    "score": 0.0,
+    "reason": [
+      [
+        "FACT_MISMATCH",
+        [
+          [
+            0,
+            "Reinsert",
+            "Change the locale to match the codepage of the data"
+          ]
+        ]
+      ],
+      [
+        "STEP_MISSING",
+        [
+          1
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "TECHQA_DEV_Q051_2",
+    "score": 1.0,
+    "reason": []
+  },
+  {
+    "id": "TECHQA_DEV_Q063_2",
+    "score": 1.0,
+    "reason": []
+  },
+  {
+    "id": "TECHQA_DEV_Q053_2",
+    "score": 0.0,
+    "reason": [
+      [
+        "FACT_MISMATCH",
+        [
+          [
+            0,
+            "AppServer",
+            "Unanswerable"
+          ],
+          [
+            1,
+            "lib/ext/commons-codec-1.3.jar",
+            "Unanswerable"
+          ],
+          [
+            2,
+            "plugins/com.ibm.patch.was.plugin.jar",
+            "Unanswerable"
+          ]
+        ]
+      ],
+      [
+        "STEP_MISSING",
+        [
+          1
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "TECHQA_DEV_Q077_2",
+    "score": 1.0,
+    "reason": []
+  },
+  {
+    "id": "TECHQA_DEV_Q108_2",
+    "score": 0.0,
+    "reason": [
+      [
+        "FACT_MISMATCH",
+        [
+          [
+            0,
+            "H06.23.01",
+            "J06.14.00"
+          ]
+        ]
+      ],
+      [
+        "STEP_MISSING",
+        [
+          1
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "TECHQA_DEV_Q072_2",
+    "score": 1.0,
+    "reason": []
+  },
+  {
+    "id": "TECHQA_DEV_Q099_2",
+    "score": 0.0,
+    "reason": [
+      [
+        "FACT_MISMATCH",
+        [
+          [
+            0,
+            "http://www.ibm.com/support/fixcentral/swg/quickorder?product=ibm/Tivoli/Tivoli+Composite+Application+Manager+for+Applications&release=All&platform=All&function=fixId&fixids=7.2.0.0-TIV-ITCAMAD_WS-IF0007&includeSupersedes=0&source=fc",
+            "Unanswerable"
+          ]
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "TECHQA_DEV_Q071_2",
+    "score": 1.0,
+    "reason": []
+  },
+  {
+    "id": "TECHQA_DEV_Q090_2",
+    "score": 0.0,
+    "reason": [
+      [
+        "FACT_MISMATCH",
+        [
+          [
+            0,
+            "http://www-01.ibm.com/software/rational/support/licensing/",
+            "Unanswerable"
+          ],
+          [
+            1,
+            "Rational Installation Manager",
+            "Unanswerable"
+          ]
+        ]
+      ],
+      [
+        "STEP_MISSING",
+        [
+          2,
+          6,
+          1
+        ]
+      ],
+      [
+        "STEP_REVERSAL",
+        [
+          5,
+          4,
+          3
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "TECHQA_DEV_Q047_2",
+    "score": 0.0,
+    "reason": [
+      [
+        "FACT_MISMATCH",
+        [
+          [
+            0,
+            "Renew",
+            "Since your software subscription and maintenance have expired, you won't be able to download the software from Passport Advantage Online. To move your perpetual license of SPSS v24 to your new machine, you can order a Media CD copy of the software that your company purchased. The software version will be up to the time your subscription has expired. You can contact the IBM Sales Department to see if the Media CD is available. You can find your local contact for the IBM Sales Department at: https://www.ibm.com/planetwide/."
+          ]
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "TECHQA_DEV_Q110_2",
+    "score": 0.0,
+    "reason": [
+      [
+        "FACT_MISMATCH",
+        [
+          [
+            0,
+            "$AdminControl invoke $ds purgePoolContents immediate",
+            "Unanswerable"
+          ],
+          [
+            1,
+            "AdminControl.invoke(ds, \"purgePoolContents\", \"immediate\")",
+            "Unanswerable"
+          ]
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "TECHQA_DEV_Q067_2",
+    "score": 0.0,
+    "reason": [
+      [
+        "FACT_MISMATCH",
+        [
+          [
+            0,
+            "connectTimeout=\"0\"",
+            "30000"
+          ],
+          [
+            1,
+            "IBM Business Process Manager",
+            "BPM AppTarget"
+          ]
+        ]
+      ],
+      [
+        "STEP_MISSING",
+        [
+          2,
+          1,
+          4
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "TECHQA_DEV_Q122_2",
+    "score": 1.0,
+    "reason": []
+  },
+  {
+    "id": "TECHQA_DEV_Q112_2",
+    "score": 1.0,
+    "reason": []
+  },
+  {
+    "id": "TECHQA_DEV_Q141_2",
+    "score": 0.0,
+    "reason": [
+      [
+        "STEP_MISSING",
+        [
+          1
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "TECHQA_DEV_Q106_2",
+    "score": 1.0,
+    "reason": []
+  },
+  {
+    "id": "TECHQA_DEV_Q153_2",
+    "score": 0.0,
+    "reason": [
+      [
+        "FACT_MISMATCH",
+        [
+          [
+            0,
+            "Database",
+            "Unanswerable"
+          ]
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "TECHQA_DEV_Q132_2",
+    "score": 0.0,
+    "reason": [
+      [
+        "FACT_MISMATCH",
+        [
+          [
+            0,
+            "WasAppDiscovered",
+            "WasAppDiscoverd"
+          ]
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "TECHQA_DEV_Q161_2",
+    "score": 0.0,
+    "reason": [
+      [
+        "FACT_MISMATCH",
+        [
+          [
+            0,
+            "Clear State",
+            "Unanswerable"
+          ]
+        ]
+      ],
+      [
+        "STEP_MISSING",
+        [
+          4,
+          2
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "TECHQA_DEV_Q145_2",
+    "score": 0.0,
+    "reason": [
+      [
+        "FACT_MISMATCH",
+        [
+          [
+            0,
+            "http://www.ibm.com/support/docview.wss?rs=180&uid=swg27004980",
+            "Unanswerable"
+          ]
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "TECHQA_DEV_Q162_2",
+    "score": 1.0,
+    "reason": []
+  },
+  {
+    "id": "TECHQA_DEV_Q201_2",
+    "score": 0.0,
+    "reason": [
+      [
+        "STEP_MISSING",
+        [
+          1
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "TECHQA_DEV_Q196_2",
+    "score": 0.0,
+    "reason": [
+      [
+        "STEP_MISSING",
+        [
+          1
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "TECHQA_DEV_Q181_2",
+    "score": 0.0,
+    "reason": [
+      [
+        "FACT_MISMATCH",
+        [
+          [
+            0,
+            "DB2 CURRENT DATE",
+            "Unanswerable"
+          ]
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "TECHQA_DEV_Q202_2",
+    "score": 1.0,
+    "reason": []
+  },
+  {
+    "id": "TECHQA_DEV_Q216_2",
+    "score": 1.0,
+    "reason": []
+  },
+  {
+    "id": "TECHQA_DEV_Q171_2",
+    "score": 0.0,
+    "reason": [
+      [
+        "FACT_MISMATCH",
+        [
+          [
+            0,
+            "8.5.0.0",
+            "Unanswerable"
+          ],
+          [
+            1,
+            "Fix Central",
+            "Unanswerable"
+          ]
+        ]
+      ],
+      [
+        "STEP_MISSING",
+        [
+          1
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "TECHQA_DEV_Q209_2",
+    "score": 0.0,
+    "reason": [
+      [
+        "FACT_MISMATCH",
+        [
+          [
+            0,
+            "ACCE",
+            "Unanswerable"
+          ],
+          [
+            1,
+            "Object store",
+            "Unanswerable"
+          ],
+          [
+            2,
+            "Document Class",
+            "Unanswerable"
+          ],
+          [
+            3,
+            "Property Definitions",
+            "Unanswerable"
+          ],
+          [
+            4,
+            "Class Definition",
+            "Unanswerable"
+          ]
+        ]
+      ],
+      [
+        "STEP_REVERSAL",
+        [
+          1,
+          2,
+          3,
+          4,
+          6,
+          5,
+          7
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "TECHQA_DEV_Q154_2",
+    "score": 0.0,
+    "reason": [
+      [
+        "FACT_MISMATCH",
+        [
+          [
+            0,
+            "Primary",
+            "expected"
+          ]
+        ]
+      ],
+      [
+        "STEP_REVERSAL",
+        [
+          2,
+          1,
+          3
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "TECHQA_DEV_Q221_2",
+    "score": 1.0,
+    "reason": []
+  },
+  {
+    "id": "TECHQA_DEV_Q234_2",
+    "score": 1.0,
+    "reason": []
+  },
+  {
+    "id": "TECHQA_DEV_Q186_2",
+    "score": 0.0,
+    "reason": [
+      [
+        "STEP_MISSING",
+        [
+          1
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "TECHQA_DEV_Q263_2",
+    "score": 0.0,
+    "reason": [
+      [
+        "STEP_REVERSAL",
+        [
+          2,
+          1
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "TECHQA_DEV_Q229_2",
+    "score": 1.0,
+    "reason": []
+  },
+  {
+    "id": "TECHQA_DEV_Q239_2",
+    "score": 1.0,
+    "reason": []
+  },
+  {
+    "id": "TECHQA_DEV_Q240_2",
+    "score": 1.0,
+    "reason": []
+  },
+  {
+    "id": "TECHQA_DEV_Q244_2",
+    "score": 0.0,
+    "reason": [
+      [
+        "FACT_MISMATCH",
+        [
+          [
+            0,
+            "/opt/nz-hwsupport/pts/cib_tools.pl",
+            "cib_tool.pl"
+          ]
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "TECHQA_DEV_Q266_2",
+    "score": 0.0,
+    "reason": [
+      [
+        "FACT_MISMATCH",
+        [
+          [
+            0,
+            "Installation Manager",
+            "imcl command"
+          ]
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "TECHQA_DEV_Q260_2",
+    "score": 1.0,
+    "reason": []
+  },
+  {
+    "id": "TECHQA_DEV_Q257_2",
+    "score": 1.0,
+    "reason": []
+  },
+  {
+    "id": "TECHQA_DEV_Q254_2",
+    "score": 1.0,
+    "reason": []
+  },
+  {
+    "id": "TECHQA_DEV_Q283_2",
+    "score": 0.0,
+    "reason": [
+      [
+        "FACT_MISMATCH",
+        [
+          [
+            0,
+            "vendor",
+            "Unanswerable"
+          ]
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "TECHQA_DEV_Q271_2",
+    "score": 0.0,
+    "reason": [
+      [
+        "STEP_MISSING",
+        [
+          1
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "TECHQA_DEV_Q275_2",
+    "score": 0.0,
+    "reason": [
+      [
+        "STEP_MISSING",
+        [
+          2
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "TECHQA_DEV_Q245_2",
+    "score": 1.0,
+    "reason": []
+  },
+  {
+    "id": "TECHQA_DEV_Q298_2",
+    "score": 1.0,
+    "reason": []
+  },
+  {
+    "id": "TECHQA_DEV_Q224_2",
+    "score": 1.0,
+    "reason": []
+  },
+  {
+    "id": "TECHQA_DEV_Q167_2",
+    "score": 1.0,
+    "reason": []
+  },
+  {
+    "id": "TECHQA_DEV_Q292_2",
+    "score": 0.0,
+    "reason": [
+      [
+        "FACT_MISMATCH",
+        [
+          [
+            2,
+            "All Properties",
+            "Unanswerable"
+          ]
+        ]
+      ],
+      [
+        "STEP_MISSING",
+        [
+          4,
+          5,
+          6
+        ]
+      ],
+      [
+        "STEP_REVERSAL",
+        [
+          2,
+          3,
+          7,
+          1
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "TECHQA_DEV_Q299_2",
+    "score": 1.0,
+    "reason": []
+  },
+  {
+    "id": "TECHQA_DEV_Q296_2",
+    "score": 0.0,
+    "reason": [
+      [
+        "FACT_MISMATCH",
+        [
+          [
+            0,
+            "pureScale",
+            "Unanswerable"
+          ]
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "TECHQA_DEV_Q300_2",
+    "score": 1.0,
+    "reason": []
+  },
+  {
+    "id": "TECHQA_DEV_Q306_2",
+    "score": 0.0,
+    "reason": [
+      [
+        "FACT_MISMATCH",
+        [
+          [
+            1,
+            "\\Datacap\\tmweb.net",
+            "\\\\Datacap\\\\tmweb.net"
+          ]
+        ]
+      ],
+      [
+        "STEP_MISSING",
+        [
+          2,
+          1
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "TECHQA_DEV_Q305_2",
+    "score": 0.0,
+    "reason": [
+      [
+        "STEP_MISSING",
+        [
+          6
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "TECHQA_DEV_Q303_2",
+    "score": 1.0,
+    "reason": []
+  },
+  {
+    "id": "TECHQA_TRAIN_Q314_2",
+    "score": 0.0,
+    "reason": [
+      [
+        "FACT_MISMATCH",
+        [
+          [
+            0,
+            "httpd.conf",
+            "configuration"
+          ],
+          [
+            1,
+            "SSLProtocolDisable SSLv3 SSLv2",
+            "SSLProtocolEnable TLSv1.1 TLSv1.2"
+          ],
+          [
+            2,
+            "IBM HTTP Server (IHS)",
+            "IHS server"
+          ]
+        ]
+      ],
+      [
+        "STEP_MISSING",
+        [
+          1
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "TECHQA_TRAIN_Q048_2",
+    "score": 0.0,
+    "reason": [
+      [
+        "FACT_MISMATCH",
+        [
+          [
+            1,
+            "Object store",
+            "Unanswerable"
+          ],
+          [
+            3,
+            "Class Definition",
+            "Unanswerable"
+          ]
+        ]
+      ],
+      [
+        "STEP_MISSING",
+        [
+          2
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "TECHQA_TRAIN_Q091_2",
+    "score": 1.0,
+    "reason": []
+  }
+]

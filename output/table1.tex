@@ -1,0 +1,29 @@
+
+\begin{table*}[htbp]
+\centering
+\caption{Comparison of results on different evaluation methods}
+\begin{tabular}{c|l|cc|cc|cc}
+\hline
+\multirow{3}{*}{\textbf{Type}} & \multirow{3}{*}{\textbf{Method}} & \multicolumn{6}{c}{\textbf{LLM of Evaluated RAG Systems}} \\
+\cline{3-8}
+ &  & \multicolumn{2}{c|} {GPT 4o Mini} & \multicolumn{2}{c|} {LLaMA 3 (70B)} & \multicolumn{2}{c} {LLaMA 3 (8B)} \\
+ &  & AUC & Pearsonr & AUC & Pearsonr & AUC & Pearsonr \\
+\hline
+\multirow{3}{*}{Lexical-based} & ROUGE-1 & 0.5321 & 0.0311 & 0.5420 & 0.0648 & 0.5288 & 0.0484 \\
+ & ROUGE-L & 0.5631 & 0.0872 & 0.5932 & 0.1615 & 0.5752 & 0.1554 \\
+ & BLEU & 0.6061 & 0.1138 & 0.6252 & 0.1940 & 0.6158 & 0.1959 \\
+\multirow{1}{*}{Semantic-based} & BERTScore & 0.6584 & 0.2243 & 0.6793 & 0.2892 & 0.6894 & 0.3095 \\
+\midrule
+\multirow{6}{*}{LLM-based} & LangChain Eval. & 0.6608 & 0.4034 & 0.6310 & 0.3525 & 0.7015 & 0.4431 \\
+ & LlamaIndex Eval. & 0.6651 & 0.3061 & 0.6849 & 0.4117 & 0.7899 & 0.5131 \\
+ & RAGAS & 0.6728 & 0.1934 & 0.6894 & 0.2730 & 0.6544 & 0.2531 \\
+ & RAGQuestEval & 0.7416 & 0.3546 & 0.7205 & 0.3768 & 0.6899 & 0.3380 \\
+ & G-Eval & 0.8233 & 0.5192 & 0.8169 & 0.5419 & 0.8532 & 0.6109 \\
+ & RefChecker & 0.8348 & 0.4627 & 0.8313 & 0.5493 & 0.8309 & 0.5862 \\
+\midrule
+\multirow{3}{*}{LLM-based} & \ours & 0.9109 & \textbf{0.6616} & \textbf{0.8876} & \textbf{0.7430} & \textbf{0.8970} & \textbf{0.7938} \\
+ & \;\; w/o \compa & 0.8486 & 0.4641 & 0.8463 & 0.5752 & 0.8323 & 0.5914 \\
+ & \;\; w/o \compb & \textbf{0.9129} & 0.5669 & 0.8517 & 0.5884 & 0.8693 & 0.6635 \\
+\hline
+\end{tabular}
+\label{tab:rq1_data}\end{table*}

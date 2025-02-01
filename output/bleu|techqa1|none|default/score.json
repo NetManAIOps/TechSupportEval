@@ -1,0 +1,1130 @@
+[
+  {
+    "id": "TECHQA_TRAIN_Q000_1",
+    "score": 0.23252083293295475
+  },
+  {
+    "id": "TECHQA_TRAIN_Q001_1",
+    "score": 0.08723434939325862
+  },
+  {
+    "id": "TECHQA_TRAIN_Q013_1",
+    "score": 0.3448167292392414
+  },
+  {
+    "id": "TECHQA_TRAIN_Q044_1",
+    "score": 0.09325209310256037
+  },
+  {
+    "id": "TECHQA_TRAIN_Q003_1",
+    "score": 0.23365981041949652
+  },
+  {
+    "id": "TECHQA_TRAIN_Q009_1",
+    "score": 0.5205232577313058
+  },
+  {
+    "id": "TECHQA_TRAIN_Q012_1",
+    "score": 0.1360416578416319
+  },
+  {
+    "id": "TECHQA_TRAIN_Q020_1",
+    "score": 0.1981806537771985
+  },
+  {
+    "id": "TECHQA_TRAIN_Q016_1",
+    "score": 0.03964223967765467
+  },
+  {
+    "id": "TECHQA_TRAIN_Q049_1",
+    "score": 0.08779731385119872
+  },
+  {
+    "id": "TECHQA_TRAIN_Q024_1",
+    "score": 0.054240618713202744
+  },
+  {
+    "id": "TECHQA_TRAIN_Q037_1",
+    "score": 0.4377852085297837
+  },
+  {
+    "id": "TECHQA_TRAIN_Q011_1",
+    "score": 0.37612603340862516
+  },
+  {
+    "id": "TECHQA_TRAIN_Q031_1",
+    "score": 0.06677252180962251
+  },
+  {
+    "id": "TECHQA_TRAIN_Q048_1",
+    "score": 0.5655960127920385
+  },
+  {
+    "id": "TECHQA_TRAIN_Q019_1",
+    "score": 0.2632021224562719
+  },
+  {
+    "id": "TECHQA_TRAIN_Q055_1",
+    "score": 0.13549747118974514
+  },
+  {
+    "id": "TECHQA_TRAIN_Q059_1",
+    "score": 0.34488622662315627
+  },
+  {
+    "id": "TECHQA_TRAIN_Q042_1",
+    "score": 0.0768226115923473
+  },
+  {
+    "id": "TECHQA_TRAIN_Q070_1",
+    "score": 0.07790694778406129
+  },
+  {
+    "id": "TECHQA_TRAIN_Q039_1",
+    "score": 0.06667802308398806
+  },
+  {
+    "id": "TECHQA_TRAIN_Q082_1",
+    "score": 0.04104141882586605
+  },
+  {
+    "id": "TECHQA_TRAIN_Q062_1",
+    "score": 0.43537423049394136
+  },
+  {
+    "id": "TECHQA_TRAIN_Q080_1",
+    "score": 0.10978685495719859
+  },
+  {
+    "id": "TECHQA_TRAIN_Q065_1",
+    "score": 0.1185823094515285
+  },
+  {
+    "id": "TECHQA_TRAIN_Q101_1",
+    "score": 0.0635811712192322
+  },
+  {
+    "id": "TECHQA_TRAIN_Q038_1",
+    "score": 0.48000239171389636
+  },
+  {
+    "id": "TECHQA_TRAIN_Q091_1",
+    "score": 0.2886105191701061
+  },
+  {
+    "id": "TECHQA_TRAIN_Q104_1",
+    "score": 0.1673285457823576
+  },
+  {
+    "id": "TECHQA_TRAIN_Q109_1",
+    "score": 0.11572074577410447
+  },
+  {
+    "id": "TECHQA_TRAIN_Q081_1",
+    "score": 0.05434064881093472
+  },
+  {
+    "id": "TECHQA_TRAIN_Q098_1",
+    "score": 0.45630031220105816
+  },
+  {
+    "id": "TECHQA_TRAIN_Q092_1",
+    "score": 0.05491082295903511
+  },
+  {
+    "id": "TECHQA_TRAIN_Q071_1",
+    "score": 0.15180803790355235
+  },
+  {
+    "id": "TECHQA_TRAIN_Q067_1",
+    "score": 0.1535615706072706
+  },
+  {
+    "id": "TECHQA_TRAIN_Q085_1",
+    "score": 0.09910904894340708
+  },
+  {
+    "id": "TECHQA_TRAIN_Q123_1",
+    "score": 0.3200846594251908
+  },
+  {
+    "id": "TECHQA_TRAIN_Q110_1",
+    "score": 0.04526643189891551
+  },
+  {
+    "id": "TECHQA_TRAIN_Q087_1",
+    "score": 0.013475512697894829
+  },
+  {
+    "id": "TECHQA_TRAIN_Q113_1",
+    "score": 0.5746823751878173
+  },
+  {
+    "id": "TECHQA_TRAIN_Q120_1",
+    "score": 0.05524357022266704
+  },
+  {
+    "id": "TECHQA_TRAIN_Q132_1",
+    "score": 0.2734686497016031
+  },
+  {
+    "id": "TECHQA_TRAIN_Q129_1",
+    "score": 0.43911051921034155
+  },
+  {
+    "id": "TECHQA_TRAIN_Q112_1",
+    "score": 0.2044994653681355
+  },
+  {
+    "id": "TECHQA_TRAIN_Q165_1",
+    "score": 0.32710227201404335
+  },
+  {
+    "id": "TECHQA_TRAIN_Q131_1",
+    "score": 0.0792583889217661
+  },
+  {
+    "id": "TECHQA_TRAIN_Q152_1",
+    "score": 0.28086698279923117
+  },
+  {
+    "id": "TECHQA_TRAIN_Q134_1",
+    "score": 0.12901591684208077
+  },
+  {
+    "id": "TECHQA_TRAIN_Q150_1",
+    "score": 0.5284517537487242
+  },
+  {
+    "id": "TECHQA_TRAIN_Q118_1",
+    "score": 0.16600622945006266
+  },
+  {
+    "id": "TECHQA_TRAIN_Q140_1",
+    "score": 0.1508138172702171
+  },
+  {
+    "id": "TECHQA_TRAIN_Q121_1",
+    "score": 0.09031056420954715
+  },
+  {
+    "id": "TECHQA_TRAIN_Q125_1",
+    "score": 0.022059829086163357
+  },
+  {
+    "id": "TECHQA_TRAIN_Q154_1",
+    "score": 0.07090241974228312
+  },
+  {
+    "id": "TECHQA_TRAIN_Q162_1",
+    "score": 0.12443332363130727
+  },
+  {
+    "id": "TECHQA_TRAIN_Q145_1",
+    "score": 0.17263264957749638
+  },
+  {
+    "id": "TECHQA_TRAIN_Q159_1",
+    "score": 0.08602727691641146
+  },
+  {
+    "id": "TECHQA_TRAIN_Q210_1",
+    "score": 0.1332873784259664
+  },
+  {
+    "id": "TECHQA_TRAIN_Q184_1",
+    "score": 0.09476196370436452
+  },
+  {
+    "id": "TECHQA_TRAIN_Q195_1",
+    "score": 0.07566588318943021
+  },
+  {
+    "id": "TECHQA_TRAIN_Q217_1",
+    "score": 0.3824519247504188
+  },
+  {
+    "id": "TECHQA_TRAIN_Q178_1",
+    "score": 0.2978585378609425
+  },
+  {
+    "id": "TECHQA_TRAIN_Q141_1",
+    "score": 0.09488477919390259
+  },
+  {
+    "id": "TECHQA_TRAIN_Q207_1",
+    "score": 0.07477622327967193
+  },
+  {
+    "id": "TECHQA_TRAIN_Q215_1",
+    "score": 0.4534488820666421
+  },
+  {
+    "id": "TECHQA_TRAIN_Q174_1",
+    "score": 0.20571096843488118
+  },
+  {
+    "id": "TECHQA_TRAIN_Q224_1",
+    "score": 0.06638128099003886
+  },
+  {
+    "id": "TECHQA_TRAIN_Q201_1",
+    "score": 0.12320852371178566
+  },
+  {
+    "id": "TECHQA_TRAIN_Q221_1",
+    "score": 0.2598314357745726
+  },
+  {
+    "id": "TECHQA_TRAIN_Q226_1",
+    "score": 0.5726312837793744
+  },
+  {
+    "id": "TECHQA_TRAIN_Q225_1",
+    "score": 0.1559441704834458
+  },
+  {
+    "id": "TECHQA_TRAIN_Q187_1",
+    "score": 0.09922327003598336
+  },
+  {
+    "id": "TECHQA_TRAIN_Q227_1",
+    "score": 0.04347934398559257
+  },
+  {
+    "id": "TECHQA_TRAIN_Q203_1",
+    "score": 0.03622904119238083
+  },
+  {
+    "id": "TECHQA_TRAIN_Q250_1",
+    "score": 0.08257367907756498
+  },
+  {
+    "id": "TECHQA_TRAIN_Q202_1",
+    "score": 0.2304607991169461
+  },
+  {
+    "id": "TECHQA_TRAIN_Q199_1",
+    "score": 0.1519245949938044
+  },
+  {
+    "id": "TECHQA_TRAIN_Q166_1",
+    "score": 0.0571925132529908
+  },
+  {
+    "id": "TECHQA_TRAIN_Q228_1",
+    "score": 0.07427326126195755
+  },
+  {
+    "id": "TECHQA_TRAIN_Q236_1",
+    "score": 0.032092814297943695
+  },
+  {
+    "id": "TECHQA_TRAIN_Q262_1",
+    "score": 0.06582071441828523
+  },
+  {
+    "id": "TECHQA_TRAIN_Q270_1",
+    "score": 0.09925015121154933
+  },
+  {
+    "id": "TECHQA_TRAIN_Q235_1",
+    "score": 0.32708466796518926
+  },
+  {
+    "id": "TECHQA_TRAIN_Q260_1",
+    "score": 0.08016766677011952
+  },
+  {
+    "id": "TECHQA_TRAIN_Q263_1",
+    "score": 0.4900372061510497
+  },
+  {
+    "id": "TECHQA_TRAIN_Q283_1",
+    "score": 9.075551303136425e-10
+  },
+  {
+    "id": "TECHQA_TRAIN_Q234_1",
+    "score": 0.06857856639450877
+  },
+  {
+    "id": "TECHQA_TRAIN_Q231_1",
+    "score": 0.45574351170075417
+  },
+  {
+    "id": "TECHQA_TRAIN_Q254_1",
+    "score": 0.3555901370758242
+  },
+  {
+    "id": "TECHQA_TRAIN_Q294_1",
+    "score": 0.057061115667761626
+  },
+  {
+    "id": "TECHQA_TRAIN_Q237_1",
+    "score": 0.05652399480155647
+  },
+  {
+    "id": "TECHQA_TRAIN_Q274_1",
+    "score": 0.03053090827004352
+  },
+  {
+    "id": "TECHQA_TRAIN_Q278_1",
+    "score": 0.14373364704457592
+  },
+  {
+    "id": "TECHQA_TRAIN_Q190_1",
+    "score": 0.5975732573436543
+  },
+  {
+    "id": "TECHQA_TRAIN_Q256_1",
+    "score": 0.03600184049996315
+  },
+  {
+    "id": "TECHQA_TRAIN_Q286_1",
+    "score": 0.007345057713380388
+  },
+  {
+    "id": "TECHQA_TRAIN_Q258_1",
+    "score": 0.1812252303557303
+  },
+  {
+    "id": "TECHQA_TRAIN_Q285_1",
+    "score": 0.0325218359301564
+  },
+  {
+    "id": "TECHQA_TRAIN_Q297_1",
+    "score": 0.13144346614086438
+  },
+  {
+    "id": "TECHQA_TRAIN_Q280_1",
+    "score": 0.1473486574328528
+  },
+  {
+    "id": "TECHQA_TRAIN_Q277_1",
+    "score": 0.18669804775988208
+  },
+  {
+    "id": "TECHQA_TRAIN_Q295_1",
+    "score": 0.05437977865514257
+  },
+  {
+    "id": "TECHQA_TRAIN_Q300_1",
+    "score": 0.08127588247056716
+  },
+  {
+    "id": "TECHQA_TRAIN_Q276_1",
+    "score": 0.6108761923898348
+  },
+  {
+    "id": "TECHQA_TRAIN_Q296_1",
+    "score": 0.5930757901676322
+  },
+  {
+    "id": "TECHQA_TRAIN_Q301_1",
+    "score": 0.35655864050040925
+  },
+  {
+    "id": "TECHQA_TRAIN_Q306_1",
+    "score": 0.12129052629718862
+  },
+  {
+    "id": "TECHQA_TRAIN_Q304_1",
+    "score": 0.25144473911083
+  },
+  {
+    "id": "TECHQA_TRAIN_Q337_1",
+    "score": 0.20728192572135165
+  },
+  {
+    "id": "TECHQA_TRAIN_Q331_1",
+    "score": 0.022530978057430186
+  },
+  {
+    "id": "TECHQA_TRAIN_Q310_1",
+    "score": 0.2210165907486106
+  },
+  {
+    "id": "TECHQA_TRAIN_Q305_1",
+    "score": 0.012826332603405407
+  },
+  {
+    "id": "TECHQA_TRAIN_Q314_1",
+    "score": 0.24945526439699792
+  },
+  {
+    "id": "TECHQA_TRAIN_Q350_1",
+    "score": 0.2871335393219573
+  },
+  {
+    "id": "TECHQA_TRAIN_Q330_1",
+    "score": 0.11835065991705611
+  },
+  {
+    "id": "TECHQA_TRAIN_Q319_1",
+    "score": 0.1824986948398271
+  },
+  {
+    "id": "TECHQA_TRAIN_Q336_1",
+    "score": 0.07949596194098024
+  },
+  {
+    "id": "TECHQA_TRAIN_Q341_1",
+    "score": 0.32364846760469723
+  },
+  {
+    "id": "TECHQA_TRAIN_Q339_1",
+    "score": 0.16174775367117053
+  },
+  {
+    "id": "TECHQA_TRAIN_Q340_1",
+    "score": 0.041647572304666446
+  },
+  {
+    "id": "TECHQA_TRAIN_Q338_1",
+    "score": 0.09335860147353375
+  },
+  {
+    "id": "TECHQA_TRAIN_Q360_1",
+    "score": 0.14182007623475523
+  },
+  {
+    "id": "TECHQA_TRAIN_Q307_1",
+    "score": 0.11746748424427704
+  },
+  {
+    "id": "TECHQA_TRAIN_Q334_1",
+    "score": 0.08664137876982445
+  },
+  {
+    "id": "TECHQA_TRAIN_Q318_1",
+    "score": 0.20412903413669475
+  },
+  {
+    "id": "TECHQA_TRAIN_Q384_1",
+    "score": 0.4890000201300044
+  },
+  {
+    "id": "TECHQA_TRAIN_Q380_1",
+    "score": 0.07786932251061562
+  },
+  {
+    "id": "TECHQA_TRAIN_Q348_1",
+    "score": 0.05048131426036471
+  },
+  {
+    "id": "TECHQA_TRAIN_Q366_1",
+    "score": 0.2426579343641362
+  },
+  {
+    "id": "TECHQA_TRAIN_Q391_1",
+    "score": 0.2566083693572837
+  },
+  {
+    "id": "TECHQA_TRAIN_Q373_1",
+    "score": 0.07880256995047884
+  },
+  {
+    "id": "TECHQA_TRAIN_Q358_1",
+    "score": 0.029913706569029207
+  },
+  {
+    "id": "TECHQA_TRAIN_Q367_1",
+    "score": 0.20563390102332227
+  },
+  {
+    "id": "TECHQA_TRAIN_Q353_1",
+    "score": 0.08968383058189129
+  },
+  {
+    "id": "TECHQA_TRAIN_Q389_1",
+    "score": 0.10172968293440489
+  },
+  {
+    "id": "TECHQA_TRAIN_Q388_1",
+    "score": 0.0787413794437995
+  },
+  {
+    "id": "TECHQA_TRAIN_Q368_1",
+    "score": 0.0576333346314917
+  },
+  {
+    "id": "TECHQA_TRAIN_Q429_1",
+    "score": 0.0467564846290486
+  },
+  {
+    "id": "TECHQA_TRAIN_Q372_1",
+    "score": 0.17449949671278456
+  },
+  {
+    "id": "TECHQA_TRAIN_Q398_1",
+    "score": 0.03261278426182966
+  },
+  {
+    "id": "TECHQA_TRAIN_Q401_1",
+    "score": 0.032877688531009
+  },
+  {
+    "id": "TECHQA_TRAIN_Q393_1",
+    "score": 0.20077838769766793
+  },
+  {
+    "id": "TECHQA_TRAIN_Q421_1",
+    "score": 0.01470990944333312
+  },
+  {
+    "id": "TECHQA_TRAIN_Q424_1",
+    "score": 0.06521735090856859
+  },
+  {
+    "id": "TECHQA_TRAIN_Q413_1",
+    "score": 0.09997080110278685
+  },
+  {
+    "id": "TECHQA_TRAIN_Q454_1",
+    "score": 0.17084928032669885
+  },
+  {
+    "id": "TECHQA_TRAIN_Q382_1",
+    "score": 0.12552711568120242
+  },
+  {
+    "id": "TECHQA_TRAIN_Q390_1",
+    "score": 0.40022006797085274
+  },
+  {
+    "id": "TECHQA_TRAIN_Q440_1",
+    "score": 0.09501134096787002
+  },
+  {
+    "id": "TECHQA_TRAIN_Q443_1",
+    "score": 0.1654899103672043
+  },
+  {
+    "id": "TECHQA_TRAIN_Q431_1",
+    "score": 0.04317009815463463
+  },
+  {
+    "id": "TECHQA_TRAIN_Q449_1",
+    "score": 0.3060877995812559
+  },
+  {
+    "id": "TECHQA_TRAIN_Q423_1",
+    "score": 0.31665884244116355
+  },
+  {
+    "id": "TECHQA_TRAIN_Q425_1",
+    "score": 0.1212217442169422
+  },
+  {
+    "id": "TECHQA_TRAIN_Q458_1",
+    "score": 0.29423876128848253
+  },
+  {
+    "id": "TECHQA_TRAIN_Q460_1",
+    "score": 0.013167937750130634
+  },
+  {
+    "id": "TECHQA_TRAIN_Q466_1",
+    "score": 0.09251094398024633
+  },
+  {
+    "id": "TECHQA_TRAIN_Q430_1",
+    "score": 0.1425159758263876
+  },
+  {
+    "id": "TECHQA_TRAIN_Q441_1",
+    "score": 0.07715990549559457
+  },
+  {
+    "id": "TECHQA_TRAIN_Q455_1",
+    "score": 0.04705336128361411
+  },
+  {
+    "id": "TECHQA_TRAIN_Q461_1",
+    "score": 0.13086273199063472
+  },
+  {
+    "id": "TECHQA_TRAIN_Q452_1",
+    "score": 0.4138763513042543
+  },
+  {
+    "id": "TECHQA_TRAIN_Q473_1",
+    "score": 0.03995012734226156
+  },
+  {
+    "id": "TECHQA_TRAIN_Q470_1",
+    "score": 0.07293000189125719
+  },
+  {
+    "id": "TECHQA_TRAIN_Q475_1",
+    "score": 0.2144628149873022
+  },
+  {
+    "id": "TECHQA_TRAIN_Q494_1",
+    "score": 0.0871013599740757
+  },
+  {
+    "id": "TECHQA_TRAIN_Q503_1",
+    "score": 0.06141871384182991
+  },
+  {
+    "id": "TECHQA_TRAIN_Q489_1",
+    "score": 0.116159698939624
+  },
+  {
+    "id": "TECHQA_TRAIN_Q483_1",
+    "score": 0.06046778863383239
+  },
+  {
+    "id": "TECHQA_TRAIN_Q467_1",
+    "score": 0.03239084922402936
+  },
+  {
+    "id": "TECHQA_TRAIN_Q490_1",
+    "score": 0.022574097054924663
+  },
+  {
+    "id": "TECHQA_TRAIN_Q478_1",
+    "score": 0.10921693998555612
+  },
+  {
+    "id": "TECHQA_TRAIN_Q517_1",
+    "score": 0.02378402686237294
+  },
+  {
+    "id": "TECHQA_TRAIN_Q516_1",
+    "score": 0.03868869789231251
+  },
+  {
+    "id": "TECHQA_TRAIN_Q505_1",
+    "score": 0.01309521535473148
+  },
+  {
+    "id": "TECHQA_TRAIN_Q472_1",
+    "score": 0.07653085702750646
+  },
+  {
+    "id": "TECHQA_TRAIN_Q497_1",
+    "score": 0.23287135537101622
+  },
+  {
+    "id": "TECHQA_TRAIN_Q507_1",
+    "score": 0.31821415541991027
+  },
+  {
+    "id": "TECHQA_TRAIN_Q512_1",
+    "score": 0.40152877798898423
+  },
+  {
+    "id": "TECHQA_TRAIN_Q515_1",
+    "score": 0.037819721321753305
+  },
+  {
+    "id": "TECHQA_TRAIN_Q538_1",
+    "score": 0.17336579967099314
+  },
+  {
+    "id": "TECHQA_TRAIN_Q514_1",
+    "score": 0.03540041428465952
+  },
+  {
+    "id": "TECHQA_TRAIN_Q547_1",
+    "score": 0.20889552209808507
+  },
+  {
+    "id": "TECHQA_TRAIN_Q504_1",
+    "score": 0.09635743428148323
+  },
+  {
+    "id": "TECHQA_TRAIN_Q528_1",
+    "score": 0.17682271315606152
+  },
+  {
+    "id": "TECHQA_TRAIN_Q520_1",
+    "score": 0.12163878755419978
+  },
+  {
+    "id": "TECHQA_TRAIN_Q543_1",
+    "score": 0.06009551072465116
+  },
+  {
+    "id": "TECHQA_TRAIN_Q524_1",
+    "score": 0.06624737781913524
+  },
+  {
+    "id": "TECHQA_TRAIN_Q544_1",
+    "score": 0.16613825107704838
+  },
+  {
+    "id": "TECHQA_TRAIN_Q521_1",
+    "score": 0.025516102558055257
+  },
+  {
+    "id": "TECHQA_TRAIN_Q525_1",
+    "score": 0.20680191922879232
+  },
+  {
+    "id": "TECHQA_TRAIN_Q537_1",
+    "score": 0.07661926396702287
+  },
+  {
+    "id": "TECHQA_TRAIN_Q552_1",
+    "score": 0.10120259131941553
+  },
+  {
+    "id": "TECHQA_TRAIN_Q557_1",
+    "score": 0.1583304423754076
+  },
+  {
+    "id": "TECHQA_TRAIN_Q580_1",
+    "score": 0.11005063180264398
+  },
+  {
+    "id": "TECHQA_TRAIN_Q555_1",
+    "score": 0.03114627774421754
+  },
+  {
+    "id": "TECHQA_TRAIN_Q545_1",
+    "score": 0.02212961128110796
+  },
+  {
+    "id": "TECHQA_TRAIN_Q569_1",
+    "score": 0.2846737171593023
+  },
+  {
+    "id": "TECHQA_TRAIN_Q577_1",
+    "score": 0.18518240670128297
+  },
+  {
+    "id": "TECHQA_TRAIN_Q549_1",
+    "score": 0.11347601764025296
+  },
+  {
+    "id": "TECHQA_TRAIN_Q587_1",
+    "score": 0.1095185742662175
+  },
+  {
+    "id": "TECHQA_DEV_Q002_1",
+    "score": 0.21314290834850236
+  },
+  {
+    "id": "TECHQA_TRAIN_Q561_1",
+    "score": 0.19840942419670796
+  },
+  {
+    "id": "TECHQA_TRAIN_Q597_1",
+    "score": 0.3325180403031286
+  },
+  {
+    "id": "TECHQA_TRAIN_Q582_1",
+    "score": 0.01121362595957888
+  },
+  {
+    "id": "TECHQA_TRAIN_Q584_1",
+    "score": 0.07589902190510832
+  },
+  {
+    "id": "TECHQA_TRAIN_Q585_1",
+    "score": 0.34536760848666226
+  },
+  {
+    "id": "TECHQA_TRAIN_Q581_1",
+    "score": 0.14762365861446627
+  },
+  {
+    "id": "TECHQA_TRAIN_Q589_1",
+    "score": 0.42308059436227324
+  },
+  {
+    "id": "TECHQA_DEV_Q021_1",
+    "score": 0.055360616162390144
+  },
+  {
+    "id": "TECHQA_DEV_Q011_1",
+    "score": 0.040327739694830604
+  },
+  {
+    "id": "TECHQA_DEV_Q029_1",
+    "score": 0.11389168219420535
+  },
+  {
+    "id": "TECHQA_DEV_Q008_1",
+    "score": 0.08736220685336411
+  },
+  {
+    "id": "TECHQA_DEV_Q025_1",
+    "score": 0.27455181794194433
+  },
+  {
+    "id": "TECHQA_DEV_Q016_1",
+    "score": 0.20124984493117684
+  },
+  {
+    "id": "TECHQA_DEV_Q033_1",
+    "score": 0.04667769863298396
+  },
+  {
+    "id": "TECHQA_DEV_Q010_1",
+    "score": 0.061456527645178304
+  },
+  {
+    "id": "TECHQA_DEV_Q030_1",
+    "score": 0.18484506827779867
+  },
+  {
+    "id": "TECHQA_DEV_Q038_1",
+    "score": 0.146102148863724
+  },
+  {
+    "id": "TECHQA_DEV_Q047_1",
+    "score": 0.19435918092447477
+  },
+  {
+    "id": "TECHQA_TRAIN_Q595_1",
+    "score": 0.15022850843833432
+  },
+  {
+    "id": "TECHQA_DEV_Q039_1",
+    "score": 0.09931046732297004
+  },
+  {
+    "id": "TECHQA_DEV_Q027_1",
+    "score": 0.2608749225742897
+  },
+  {
+    "id": "TECHQA_DEV_Q048_1",
+    "score": 0.057949949212109574
+  },
+  {
+    "id": "TECHQA_DEV_Q040_1",
+    "score": 0.08253048156192763
+  },
+  {
+    "id": "TECHQA_DEV_Q063_1",
+    "score": 0.06831170380995287
+  },
+  {
+    "id": "TECHQA_DEV_Q043_1",
+    "score": 0.10363959005554418
+  },
+  {
+    "id": "TECHQA_DEV_Q052_1",
+    "score": 0.13743301938037522
+  },
+  {
+    "id": "TECHQA_DEV_Q051_1",
+    "score": 0.15551890931589576
+  },
+  {
+    "id": "TECHQA_DEV_Q077_1",
+    "score": 0.014934153929197575
+  },
+  {
+    "id": "TECHQA_DEV_Q099_1",
+    "score": 0.6429944530512399
+  },
+  {
+    "id": "TECHQA_DEV_Q067_1",
+    "score": 0.21228138642589875
+  },
+  {
+    "id": "TECHQA_DEV_Q122_1",
+    "score": 0.13578478336648878
+  },
+  {
+    "id": "TECHQA_DEV_Q108_1",
+    "score": 0.06115050881462371
+  },
+  {
+    "id": "TECHQA_DEV_Q072_1",
+    "score": 0.0870071639474444
+  },
+  {
+    "id": "TECHQA_DEV_Q071_1",
+    "score": 0.06932036475400079
+  },
+  {
+    "id": "TECHQA_DEV_Q106_1",
+    "score": 0.08276381271759828
+  },
+  {
+    "id": "TECHQA_DEV_Q141_1",
+    "score": 0.029900996947380364
+  },
+  {
+    "id": "TECHQA_DEV_Q053_1",
+    "score": 0.38814547243709413
+  },
+  {
+    "id": "TECHQA_DEV_Q090_1",
+    "score": 0.3399703633792114
+  },
+  {
+    "id": "TECHQA_DEV_Q112_1",
+    "score": 0.057897386993153166
+  },
+  {
+    "id": "TECHQA_DEV_Q153_1",
+    "score": 0.019014083027567043
+  },
+  {
+    "id": "TECHQA_DEV_Q055_1",
+    "score": 0.05567483034028248
+  },
+  {
+    "id": "TECHQA_DEV_Q181_1",
+    "score": 0.09582328512425135
+  },
+  {
+    "id": "TECHQA_DEV_Q132_1",
+    "score": 0.07135851647423137
+  },
+  {
+    "id": "TECHQA_DEV_Q186_1",
+    "score": 0.13283693985168157
+  },
+  {
+    "id": "TECHQA_DEV_Q162_1",
+    "score": 0.06983039858166198
+  },
+  {
+    "id": "TECHQA_DEV_Q161_1",
+    "score": 0.07335735379484312
+  },
+  {
+    "id": "TECHQA_DEV_Q171_1",
+    "score": 0.1011610222799164
+  },
+  {
+    "id": "TECHQA_DEV_Q110_1",
+    "score": 0.14690104037789917
+  },
+  {
+    "id": "TECHQA_DEV_Q145_1",
+    "score": 0.1470363937202303
+  },
+  {
+    "id": "TECHQA_DEV_Q216_1",
+    "score": 0.14800462718107554
+  },
+  {
+    "id": "TECHQA_DEV_Q202_1",
+    "score": 0.029273474859266
+  },
+  {
+    "id": "TECHQA_DEV_Q201_1",
+    "score": 0.018736525572500867
+  },
+  {
+    "id": "TECHQA_DEV_Q209_1",
+    "score": 0.5576900077675341
+  },
+  {
+    "id": "TECHQA_DEV_Q239_1",
+    "score": 0.23491945740631429
+  },
+  {
+    "id": "TECHQA_DEV_Q154_1",
+    "score": 0.21637267442533306
+  },
+  {
+    "id": "TECHQA_DEV_Q221_1",
+    "score": 0.25002978126662184
+  },
+  {
+    "id": "TECHQA_DEV_Q229_1",
+    "score": 0.04747776154796743
+  },
+  {
+    "id": "TECHQA_DEV_Q196_1",
+    "score": 0.013605651896920017
+  },
+  {
+    "id": "TECHQA_DEV_Q257_1",
+    "score": 0.16603050639054653
+  },
+  {
+    "id": "TECHQA_DEV_Q240_1",
+    "score": 0.0028437235815312423
+  },
+  {
+    "id": "TECHQA_DEV_Q244_1",
+    "score": 0.10299993196143471
+  },
+  {
+    "id": "TECHQA_DEV_Q224_1",
+    "score": 0.5175689963604642
+  },
+  {
+    "id": "TECHQA_DEV_Q245_1",
+    "score": 0.15256953197807294
+  },
+  {
+    "id": "TECHQA_DEV_Q260_1",
+    "score": 0.04735306342093095
+  },
+  {
+    "id": "TECHQA_DEV_Q298_1",
+    "score": 0.43893635750212767
+  },
+  {
+    "id": "TECHQA_DEV_Q167_1",
+    "score": 0.6965334984235615
+  },
+  {
+    "id": "TECHQA_DEV_Q234_1",
+    "score": 0.08708686146081304
+  },
+  {
+    "id": "TECHQA_DEV_Q299_1",
+    "score": 0.12658800877302467
+  },
+  {
+    "id": "TECHQA_DEV_Q296_1",
+    "score": 0.05103152524488854
+  },
+  {
+    "id": "TECHQA_DEV_Q271_1",
+    "score": 0.09090440214975601
+  },
+  {
+    "id": "TECHQA_DEV_Q254_1",
+    "score": 0.04354738514940381
+  },
+  {
+    "id": "TECHQA_DEV_Q283_1",
+    "score": 0.017931839469322405
+  },
+  {
+    "id": "TECHQA_DEV_Q263_1",
+    "score": 0.10390630425646066
+  },
+  {
+    "id": "TECHQA_DEV_Q275_1",
+    "score": 0.14936423164772233
+  },
+  {
+    "id": "TECHQA_DEV_Q300_1",
+    "score": 0.05836773180606752
+  },
+  {
+    "id": "TECHQA_DEV_Q292_1",
+    "score": 0.3513670080280785
+  },
+  {
+    "id": "TECHQA_DEV_Q266_1",
+    "score": 0.04207571792742078
+  },
+  {
+    "id": "TECHQA_DEV_Q303_1",
+    "score": 0.2919329036102354
+  },
+  {
+    "id": "TECHQA_DEV_Q306_1",
+    "score": 0.17686324516165638
+  },
+  {
+    "id": "TECHQA_DEV_Q305_1",
+    "score": 0.278657930146547
+  }
+]

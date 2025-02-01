@@ -1,0 +1,14 @@
+method,dataset,llm,auc,mean,gt_mean,err_rate,pearsonr
+bert_score,techqa1,none,0.6584,0.609,0.844,0.235,0.2243
+bleu,techqa1,none,0.6061,0.1633,0.844,0.6807,0.1138
+g_eval,techqa1,gpt-4o-mini-2024-07-18,0.8233,0.7789,0.844,0.0651,0.5192
+langchain_evaluation,techqa1,gpt-4o-mini-2024-07-18,0.6608,0.9078,0.844,0.0638,0.4034
+llama_index_evaluation,techqa1,gpt-4o-mini-2024-07-18,0.6651,0.9034,0.844,0.0594,0.3061
+no_fact_check,techqa1,gpt-4o-mini-2024-07-18,0.8486,0.547,0.844,0.297,0.4641
+no_step_check,techqa1,gpt-4o-mini-2024-07-18,0.9129,0.589,0.844,0.2549,0.5669
+quest_eval,techqa1,gpt-4o-mini-2024-07-18,0.7416,0.6112,0.844,0.2328,0.3546
+ragas,techqa1,gpt-4o-mini-2024-07-18,0.6728,0.3838,0.844,0.4602,0.1934
+ref_checker,techqa1,gpt-4o-mini-2024-07-18,0.8348,0.6293,0.844,0.2147,0.4627
+rouge1,techqa1,none,0.5321,0.3157,0.844,0.5282,0.0311
+rougeL,techqa1,none,0.5631,0.2738,0.844,0.5701,0.0872
+tseval,techqa1,gpt-4o-mini-2024-07-18,0.9109,0.7163,0.844,0.1277,0.6616
