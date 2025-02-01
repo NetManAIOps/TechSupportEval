@@ -8,7 +8,7 @@ from scipy.stats import pearsonr
 from sklearn.metrics import roc_auc_score
 
 
-def calc_metric(dataset_path, result_path):
+def calc_metric(dataset_path: Path, result_path: Path):
     with open(dataset_path, 'r') as f:
         gt_df = pd.DataFrame(json.load(f))
         gt_df = gt_df[['id', 'label']]
@@ -43,6 +43,12 @@ def calc_metric(dataset_path, result_path):
             'err_rate': round(err_rate, 4),
             'pearsonr': round(pearsonr_value, 4),
         }
+
+    stats_path = result_path.parent / 'stats.json'
+    if os.path.exists(stats_path):
+        with open(stats_path, 'r') as f:
+            stats = json.load(f)
+            report.update(stats)
         
     return report
 

@@ -1,4 +1,5 @@
 import os
+import dotenv
 import json
 import argparse
 import importlib
@@ -7,7 +8,7 @@ from pathlib import Path
 from pebble import ProcessPool
 from concurrent.futures import as_completed
 
-MODEL_VARIANTS = ["temperature"]
+MODEL_VARIANTS = ["temperature", "stat"]
 
 def init_worker(module_name, llm, args):
     global module, evaluate
@@ -22,20 +23,43 @@ def init_worker(module_name, llm, args):
     except:
         pass
 
+def get_current_time(): # ms
+    from datetime import datetime
+    return int(datetime.now().timestamp() * 1e6)
+
+
+def get_current_quota():
+    import requests
+    dotenv.load_dotenv()
+    ONEAPI_URL = os.environ["OPENAI_API_BASE"]
+    ONEAPI_TOKEN = os.environ["ONEAPI_TOKEN"]
+    r = requests.get(ONEAPI_URL.rstrip('/').rstrip('/v1') + '/api/user/self', headers={'Authorization': ONEAPI_TOKEN})
+    return r.json()['data']['quota'] * 2
+
 def run_evaluation(task):
     global evaluate
 
     id, question, ground_truth, answer = task
+    res = {"id": id, "error": None}
     try:
+        start_time = get_current_time()
         result = evaluate(question, ground_truth, answer)
+        end_time = get_current_time()
+        elapsed_time = end_time - start_time
+        res["elapsed_time"] = elapsed_time
         if isinstance(result, (float, int)):
-            return {"id": id, "score": float(result), "error": None}
+            res["score"] = float(result)
+            return res
         elif isinstance(result, (list, tuple)) and len(result) == 2:
-            return {"id": id, "score": float(result[0]), "extra": result[1], "error": None}
+            res["score"] = float(result[0])
+            res["extra"] = result[1]
+            return res
         else:
-            return {"id": id, "error": "Invalid return format from evaluate function"}
+            res["error"] = "Invalid return format from evaluate function"
+            return res
     except Exception as e:
-        return {"id": id, "error": str(e)}
+        res["error"] = str(e)
+        return res
     
 def load_existing_data(file_path):
     if file_path.exists():
@@ -82,6 +106,10 @@ def run_experiment(module, dataset, llm, args):
     new_results = {}
     errors = []
 
+    if args.stat:
+        start_quota = get_current_quota()
+        total_elapsed_time = 0
+
     with ProcessPool(
         max_workers=args.parallel, 
         initializer=init_worker, 
@@ -104,11 +132,17 @@ def run_experiment(module, dataset, llm, args):
                         errors.append(result)
                     else:
                         new_results[task_id] = result
+
+                    if args.stat:
+                        total_elapsed_time += result.get("elapsed_time", 0)
                 except TimeoutError:
                     errors.append({"id": task_id, "error": "Task timed out"})
                 except Exception as e:
                     errors.append({"id": task_id, "error": f"Unexpected error: {str(e)}"})
                 pbar.update()
+
+    if args.stat:
+        end_quota = get_current_quota()
 
     if new_results:
         scores = {r["id"]: {"id": r["id"], "score": r["score"]} for r in new_results.values()}
@@ -130,6 +164,15 @@ def run_experiment(module, dataset, llm, args):
     else:
         if os.path.exists(error_file):
             os.remove(error_file)
+
+    if args.stat:
+        stats_file = output_dir / "stats.json"
+        ok_num = len(list(new_results.values()))
+        with open(stats_file, "w") as f:
+            json.dump({
+                'time': total_elapsed_time / max(ok_num, 1),
+                'cost': (start_quota - end_quota) / max(ok_num, 1),
+            }, f, indent=2, ensure_ascii=False)
     
 class EnhancedArgumentParser(argparse.ArgumentParser):
     def __init__(self, *args, **kwargs):
@@ -174,6 +217,7 @@ def main():
     parser.add_argument("llm", help="LLM name")
     parser.add_argument("-t", "--temperature", type=float, default=0, help="Temperature")
     parser.add_argument("-j", "--parallel", type=int, default=16, help="Number of parallel workers")
+    parser.add_argument("-s", "--stat", action='store_true', help="Get stat of usage")
     parser.add_argument("--max_retries", type=int, default=3, help="Maximum number of retries")
     parser.add_argument("--timeout", type=float, default=60, help="Timeout for each evaluation in seconds")
     parser.add_argument("--dry_run", action='store_true', help="Print identifier of this experiment")

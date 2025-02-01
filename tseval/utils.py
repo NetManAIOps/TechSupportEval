@@ -104,8 +104,10 @@ async def call_llm(llm: LLMConfig,
 
     end_time = time.time()
     usage = response.usage
-    total_cost = usage.prompt_tokens * llm.input_cost_per_token + usage.completion_tokens * llm.output_cost_per_token
-
+    try:
+        total_cost = usage.prompt_tokens * llm.input_cost_per_token + usage.completion_tokens * llm.output_cost_per_token
+    except:
+        total_cost = 0
     record = LLMCallRecord(
         model=model,
         prompt=prompt,

@@ -1,38 +1,26 @@
-baselines.rouge1 techqa1 none -t
-baselines.rougeL techqa1 none -t
-baselines.bleu techqa1 none -t
-baselines.bert_score techqa1 none -j 2 -t
-baselines.langchain_evaluation techqa1 gpt-4o-mini-2024-07-18 -t
-baselines.llama_index_evaluation techqa1 gpt-4o-mini-2024-07-18 -t
-baselines.quest_eval techqa1 gpt-4o-mini-2024-07-18 -t
-baselines.g_eval techqa1 gpt-4o-mini-2024-07-18 -t
-baselines.ragas techqa1 gpt-4o-mini-2024-07-18 -t
-baselines.ref_checker techqa1 gpt-4o-mini-2024-07-18 -t
-tseval techqa1 gpt-4o-mini-2024-07-18 -t
+baselines.langchain_evaluation techqa1 gpt-4o-mini-2024-07-18 --stat 
+baselines.llama_index_evaluation techqa1 gpt-4o-mini-2024-07-18 --stat 
+baselines.quest_eval techqa1 gpt-4o-mini-2024-07-18 --stat 
+baselines.g_eval techqa1 gpt-4o-mini-2024-07-18 --stat 
+baselines.ragas techqa1 gpt-4o-mini-2024-07-18 --stat 
+baselines.ref_checker techqa1 gpt-4o-mini-2024-07-18 --stat 
+tseval techqa1 gpt-4o-mini-2024-07-18 --stat 
 
-baselines.rouge1 techqa2 none -t
-baselines.rougeL techqa2 none -t
-baselines.bleu techqa2 none -t
-baselines.bert_score techqa2 none -j 2 -t
-baselines.langchain_evaluation techqa2 gpt-4o-mini-2024-07-18 -t
-baselines.llama_index_evaluation techqa2 gpt-4o-mini-2024-07-18 -t
-baselines.quest_eval techqa2 gpt-4o-mini-2024-07-18 -t
-baselines.g_eval techqa2 gpt-4o-mini-2024-07-18 -t 
-baselines.ragas techqa2 gpt-4o-mini-2024-07-18 -t 
-baselines.ref_checker techqa2 gpt-4o-mini-2024-07-18 -t
-tseval techqa2 gpt-4o-mini-2024-07-18 -t
+baselines.langchain_evaluation techqa2 gpt-4o-mini-2024-07-18 --stat 
+baselines.llama_index_evaluation techqa2 gpt-4o-mini-2024-07-18 --stat  
+baselines.quest_eval techqa2 gpt-4o-mini-2024-07-18 --stat 
+baselines.g_eval techqa2 gpt-4o-mini-2024-07-18 --stat 
+baselines.ragas techqa2 gpt-4o-mini-2024-07-18 --stat 
+baselines.ref_checker techqa2 gpt-4o-mini-2024-07-18 --stat 
+tseval techqa2 gpt-4o-mini-2024-07-18 --stat 
 
-baselines.rouge1 techqa3 none -t
-baselines.rougeL techqa3 none -t
-baselines.bleu techqa3 none -t
-baselines.bert_score techqa3 none -j 2 -t
-baselines.langchain_evaluation techqa3 gpt-4o-mini-2024-07-18 -t
-baselines.llama_index_evaluation techqa3 gpt-4o-mini-2024-07-18 -t
-baselines.quest_eval techqa3 gpt-4o-mini-2024-07-18 -t
-baselines.g_eval techqa3 gpt-4o-mini-2024-07-18 -t
-baselines.ragas techqa3 gpt-4o-mini-2024-07-18 -t
-baselines.ref_checker techqa3 gpt-4o-mini-2024-07-18 -t
-tseval techqa3 gpt-4o-mini-2024-07-18 -t
+baselines.langchain_evaluation techqa3 gpt-4o-mini-2024-07-18 --stat 
+baselines.llama_index_evaluation techqa3 gpt-4o-mini-2024-07-18 --stat 
+baselines.quest_eval techqa3 gpt-4o-mini-2024-07-18 --stat 
+baselines.g_eval techqa3 gpt-4o-mini-2024-07-18 --stat 
+baselines.ragas techqa3 gpt-4o-mini-2024-07-18 --stat 
+baselines.ref_checker techqa3 gpt-4o-mini-2024-07-18 --stat 
+tseval techqa3 gpt-4o-mini-2024-07-18 --stat 
 
 
 
