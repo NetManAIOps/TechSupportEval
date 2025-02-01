@@ -71,3 +71,17 @@ If `<output_path>` is specified, a JSON report will be saved to that location.
 The evaluation results for `examples/1.json` and `examples/2.json` are available in:
 - `examples/1_result.json`
 - `examples/2_result.json`
+
+## Datasets
+
+We constructed a benchmark dataset based on TechQA, the most comprehensive publicly available technical support QA dataset. We generated responses using multiple QA systems with varying capability levels and obtained human expert annotations for their true accuracy.
+
+We implemented three RAG-based QA systems using LangChain, each leveraging a different foundation model:
+
+- GPT-4o Mini
+- LLaMA 3 (70B)
+- LLaMA 3 (8B)
+
+Each QA system was used to generate responses for all **282** filtered questions. We then conducted a human evaluation with **5** domain experts, who annotated each response for accuracy.
+
+The implementations of these three models can be found in the `rag` directory. The generated answers and human evaluation data correspond to `data/final/techqa{1,2,3}.json`, which collectively form the dataset used in this work.
