@@ -2,6 +2,8 @@
 
 TechSupportEval is an automated evaluation framework for technical support QA.
 
+[UPD 1] The paper *TechSupportEval: An Automated Evaluation Framework for Technical Support Question Answering* has been accepted by IJCNN 2025.
+
 ## Introduction
 
 TechSupportEval introduces two novel techniques:
